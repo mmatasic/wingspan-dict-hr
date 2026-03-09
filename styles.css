@@ -186,6 +186,7 @@ main.page {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  text-decoration: none;
 }
 
 .card figure img {
@@ -202,10 +203,39 @@ main.page {
   color: var(--text-muted);
   background: rgba(5, 6, 12, 0.75);
   width: 100%;
+  transition: color 0.3s ease;
 }
 
 .card figure.no-image img {
   display: none;
+}
+
+.figure-link {
+    position: relative;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+  display: block;
+}
+
+.figure-link:hover{
+    color: #007bff;
+}
+
+.figure-link:after {
+  content: '';
+  position: relative;
+  width: 20%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #007bff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.figure-link:hover::after {
+  transform: scaleX(1);
 }
 
 .card-body {

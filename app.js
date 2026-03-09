@@ -92,7 +92,7 @@ function renderMatches(matches, requestId) {
         <figure>
           <a class="figure-link" target="_blank" rel="noreferrer noopener">
             <img alt="Slika ${row.latin}" loading="lazy" />
-            <figcaption>${row.latin}</figcaption>
+            <figcaption class="figcaption-link">${row.latin}</figcaption>
           </a>
         </figure>
         <div class="card-body">
