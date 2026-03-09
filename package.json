@@ -1,0 +1,13 @@
+{
+  "name": "wingspan-dict-hr",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install": "node scripts/install.js",
+    "start": "node server.js"
+  }
+}
