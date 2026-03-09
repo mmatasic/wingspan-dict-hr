@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wingspan rječnik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="glow"></div>
+    <main class="page">
+      <section class="hero">
+        <div>
+          <p class="tag">Wingspan rječnik</p>
+          <h1>Pronađi hrvatski naziv ptice</h1>
+          <p class="lede">
+            Pretražuj po latinskim ili engleskim imenima, uključujući djelomični unos (fuzzy search). Prikazuje se najbliži rezultat s prijevodom na hrvatski i slikom s Wikipedije kad je dostupna.
+          </p>
+        </div>
+        <div class="search-panel">
+          <label class="sr-only" for="search-input">Naziv ptice</label>
+          <input
+            id="search-input"
+            placeholder="Pokušaj s &quot;Killdeer&quot; ili &quot;Charadrius vociferus&quot;"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <p class="hint">latinski · engleski · fuzzy</p>
+        </div>
+      </section>
+
+      <section class="results" aria-live="polite">
+        <div class="results-heading" data-results-heading>
+          <p>Upiši ime ptice da vidiš prijevod.</p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
