@@ -19,7 +19,7 @@ async function bootstrap() {
     dictionary = parseCsv(text);
     searchInput.addEventListener("input", handleInput);
   } catch (error) {
-    resultsHeading.innerHTML = `<p>Problem s učitavanjem rječnika. Provjeri je li <strong>wingspan-dict.csv</strong> dostupan.</p>`;
+    resultsHeading.innerHTML = `Error reading dictionary`;
   }
 
   const wingsearchResponse = await fetch(wingsearchCsv);
@@ -36,10 +36,16 @@ function parseCsv(text) {
     .filter(Boolean)
     .slice(1)
     .map((line) => {
-      const [latin, english, croatian] = line.split(",").map((value) => value.trim());
-      return { latin: latin || "", english: english || "", croatian: croatian || "" };
+      const [latin, english, translation] = line
+        .split(",")
+        .map((value) => value.trim());
+      return {
+        latin: latin || "",
+        english: english || "",
+        translation: translation || "",
+      };
     })
-    .filter((row) => row.latin && row.croatian);
+    .filter((row) => row.latin && row.translation);
 }
 
 function parseWingSearchCsv(text) {
@@ -52,6 +58,18 @@ function parseWingSearchCsv(text) {
       const [id, english, latin] = line.split(",").map((value) => value.trim());
       return { id: id || "", english: english || "", latin: latin || "" };
     });
+}
+
+function capitalize(value) {
+  if (!value) {
+    return "";
+  }
+  return (
+    value
+      .toLowerCase()
+      //just first letter of first word
+      .replace(/^\S/, (match) => match.toUpperCase())
+  );
 }
 
 function handleInput() {
@@ -82,12 +100,12 @@ function handleInput() {
     .slice(0, 3);
 
   if (!matches.length) {
-    resultsHeading.innerHTML = `<p>Za "${query}" nema rezultata. Pokušaj s drugim zapisom.</p>`;
+    resultsHeading.innerHTML = `<p>No results found for "${query}". Try a different entry.</p>`;
     clearResults();
     return;
   }
 
-  resultsHeading.innerHTML = "Najbolja podudaranja";
+  resultsHeading.innerHTML = "Best matches";
   renderMatches(matches, currentSearchId);
 }
 
@@ -105,6 +123,7 @@ function renderMatches(matches, requestId) {
 
   matches.forEach(({ row }, index) => {
     const rank = index + 1;
+    const translationCapitalized = capitalize(row.translation);
     const card = document.createElement("article");
     card.className = "card";
 
@@ -117,8 +136,8 @@ function renderMatches(matches, requestId) {
           </a>
         </figure>
         <div class="card-body">
-          <h2>${row.croatian}</h2>
-          <p class="meta">${row.english ? `Engleski: ${row.english}` : "Englesko ime nedostaje"}</p>
+          <h2>${translationCapitalized}</h2>
+          <p class="meta">${row.english ? `English: ${row.english}` : "English name missing"}</p>
         </div>
           <!--add link to wingsearch if english or latin name matches-->
           ${wingsearchData
