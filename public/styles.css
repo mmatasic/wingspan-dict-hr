@@ -90,6 +90,8 @@ main.page {
 }
 
 .hero .tag {
+  font-family: "CardenioRegular", sans-serif;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   color: var(--accent);
@@ -171,7 +173,7 @@ main.page {
 
 .card h2 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .card .meta {
@@ -187,7 +189,7 @@ main.page {
 
 .card .translation {
   margin-top: 0.8rem;
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   font-weight: 600;
   letter-spacing: 0.03em;
 }
@@ -236,7 +238,7 @@ main.page {
 .card figure figcaption {
   margin: 0;
   padding: 0.5rem 0.75rem;
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--text-muted);
   background: rgba(5, 6, 12, 0.75);
   width: 100%;
@@ -270,7 +272,7 @@ main.page {
   right: 0px;
   top: 0px;
   height: 2px;
-  background-color: #4d8dff;
+  background-color: rgba(114, 241, 225, 0.65);;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
@@ -294,7 +296,7 @@ main.page {
   right: 1.25rem;
   bottom: 1.25rem;
   font-family: "CardenioRegular", "CardenioModernBold", serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   padding: 0.4rem 0.85rem;
