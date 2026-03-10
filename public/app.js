@@ -1,9 +1,12 @@
 const csvUrl = "assets/wingspan-dict.csv";
+const wingsearchUrl = "https://navarog.github.io/wingsearch/card/";
+const wingsearchCsv = "assets/wingsearch.csv";
 const searchInput = document.getElementById("search-input");
 const resultsSection = document.querySelector(".results");
 const resultsHeading = document.querySelector("[data-results-heading]");
 
 let dictionary = [];
+let wingsearchData = [];
 let searchId = 0;
 
 async function bootstrap() {
@@ -18,6 +21,12 @@ async function bootstrap() {
   } catch (error) {
     resultsHeading.innerHTML = `<p>Problem s učitavanjem rječnika. Provjeri je li <strong>wingspan-dict.csv</strong> dostupan.</p>`;
   }
+
+  const wingsearchResponse = await fetch(wingsearchCsv);
+  if (wingsearchResponse.ok) {
+    const wingsearchText = await wingsearchResponse.text();
+    wingsearchData = parseWingSearchCsv(wingsearchText);
+  }
 }
 
 function parseCsv(text) {
@@ -31,6 +40,18 @@ function parseCsv(text) {
       return { latin: latin || "", english: english || "", croatian: croatian || "" };
     })
     .filter((row) => row.latin && row.croatian);
+}
+
+function parseWingSearchCsv(text) {
+  return text
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .slice(1)
+    .map((line) => {
+      const [id, english, latin] = line.split(",").map((value) => value.trim());
+      return { id: id || "", english: english || "", latin: latin || "" };
+    });
 }
 
 function handleInput() {
@@ -98,6 +119,18 @@ function renderMatches(matches, requestId) {
         <div class="card-body">
           <h2>${row.croatian}</h2>
           <p class="meta">${row.english ? `Engleski: ${row.english}` : "Englesko ime nedostaje"}</p>
+          <!--add link to wingsearch if english or latin name matches-->
+          ${wingsearchData
+            .filter(
+              (entry) =>
+                entry.latin === row.latin || entry.english === row.english,
+            )
+            .map(
+              (entry) =>
+                `<a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link">${entry.english} na WingSearchu</a>`,
+            )
+            .join("<br>")}
+
         </div>
       `;
 
