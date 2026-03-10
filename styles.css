@@ -187,6 +187,7 @@ main.page {
   flex-direction: column;
   text-align: center;
   text-decoration: none;
+  position: relative;
 }
 
 .card figure img {
@@ -204,6 +205,8 @@ main.page {
   background: rgba(5, 6, 12, 0.75);
   width: 100%;
   transition: color 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .card figure.no-image img {
@@ -211,30 +214,34 @@ main.page {
 }
 
 .figure-link {
-    position: relative;
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s ease;
-  display: block;
-}
-
-.figure-link:hover{
-    color: #007bff;
-}
-
-.figure-link:after {
-  content: '';
   position: relative;
-  width: 20%;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.figure-link:hover figcaption,
+.figure-link:focus-visible figcaption {
+  color: #f7fbff;
+}
+
+.figure-link figcaption::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
   height: 2px;
-  bottom: -2px;
-  left: 0;
-  background-color: #007bff;
+  background-color: #4d8dff;
   transform: scaleX(0);
+  transform-origin: center;
   transition: transform 0.3s ease;
 }
 
-.figure-link:hover::after {
+.figure-link:hover figcaption::after,
+.figure-link:focus-visible figcaption::after {
   transform: scaleX(1);
 }
 
