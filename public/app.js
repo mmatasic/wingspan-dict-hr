@@ -119,6 +119,7 @@ function renderMatches(matches, requestId) {
         <div class="card-body">
           <h2>${row.croatian}</h2>
           <p class="meta">${row.english ? `Engleski: ${row.english}` : "Englesko ime nedostaje"}</p>
+        </div>
           <!--add link to wingsearch if english or latin name matches-->
           ${wingsearchData
             .filter(
@@ -127,11 +128,10 @@ function renderMatches(matches, requestId) {
             )
             .map(
               (entry) =>
-                `<a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link">${entry.english} na WingSearchu</a>`,
+                `<a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link">Wingsearch ${entry.english} </a>`,
             )
             .join("<br>")}
 
-        </div>
       `;
 
     fragment.appendChild(card);
