@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "CardenioRegular";
+  font-family: "CardenioModern";
   src: url("assets/fonts/cardenio_modern/CardenioModern-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
@@ -189,13 +189,14 @@ main.page {
 .card .meta {
   margin-top: 0.3rem;
   color: var(--text-muted);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   margin-bottom: 0px;
 }
 
 .card-body h2,
 .card-body .meta {
-  font-family: "CardenioModernBold", "SiliciStrong", sans-serif;
+  font-family: "CardenioModern", sans-serif;
 }
 
 .card .extract {
@@ -207,7 +208,8 @@ main.page {
 .card h3 {
   margin: 0;
   font-family: "ThirstyRoughLt", Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;;
+  font-weight: 200;
+  font-size: 1.3rem;;
 }
 
 .card .translation {
@@ -344,7 +346,7 @@ main.page {
   text-align: center;
   padding: 2rem 0 3rem;
   color: var(--text-muted);
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
