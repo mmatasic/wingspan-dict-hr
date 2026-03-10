@@ -1,23 +1,43 @@
-const csvUrl = "assets/wingspan-dict-hr.csv";
 const wingsearchUrl = "https://navarog.github.io/wingsearch/card/";
 const wingsearchCsv = "assets/wingsearch.csv";
 const searchInput = document.getElementById("search-input");
 const resultsSection = document.querySelector(".results");
 const resultsHeading = document.querySelector("[data-results-heading]");
+const languagePickerElement = document.querySelector("[data-language-picker]");
+
+const languages = [
+  {
+    id: "hr",
+    label: "Croatian",
+    nativeLabel: "Hrvatski",
+    code: "HR",
+    flag: "🇭🇷",
+    csvUrl: "assets/i18n/wingspan-dict-hr.csv",
+    translationIndex: 2,
+  },
+  {
+    id: "pt",
+    label: "Portugese",
+    nativeLabel: "Português",
+    code: "PT",
+    flag: "🇵🇹",
+    csvUrl: "assets/i18n/wingspan-dict-pt.csv",
+    translationIndex: 2,
+  },
+  // Add new dictionary entries here with their CSV path and translation column index.
+];
 
 let dictionary = [];
+let dictionariesCache = {};
 let wingsearchData = [];
 let searchId = 0;
 let inputDebounce = null;
+let currentLanguage = languages[0];
 
 async function bootstrap() {
+  renderLanguagePicker();
   try {
-    const response = await fetch(csvUrl);
-    if (!response.ok) {
-      throw new Error("Failed to load dictionary");
-    }
-    const text = await response.text();
-    dictionary = parseCsv(text);
+    await changeLanguage(currentLanguage.id, { force: true });
     searchInput.addEventListener("input", () => {
       clearTimeout(inputDebounce);
       inputDebounce = setTimeout(handleInput, 450);
@@ -33,20 +53,25 @@ async function bootstrap() {
   }
 }
 
-function parseCsv(text) {
+function parseCsv(text, language) {
+  const translationIndex =
+    typeof language.translationIndex === "number"
+      ? language.translationIndex
+      : 2;
   return text
     .split(/\r?\n/)
     .map((line) => line.trim())
     .filter(Boolean)
     .slice(1)
     .map((line) => {
-      const [latin, english, translation] = line
-        .split(",")
-        .map((value) => value.trim());
+      const columns = line.split(",").map((value) => value.trim());
+      const latin = columns[0] || "";
+      const english = columns[1] || "";
+      const translation = columns[translationIndex] || "";
       return {
-        latin: latin || "",
-        english: english || "",
-        translation: translation || "",
+        latin,
+        english,
+        translation,
       };
     })
     .filter((row) => row.latin && row.translation);
@@ -62,6 +87,74 @@ function parseWingSearchCsv(text) {
       const [id, english, latin] = line.split(",").map((value) => value.trim());
       return { id: id || "", english: english || "", latin: latin || "" };
     });
+}
+
+async function loadDictionary(language) {
+  if (dictionariesCache[language.id]) {
+    return dictionariesCache[language.id];
+  }
+  const response = await fetch(language.csvUrl);
+  if (!response.ok) {
+    throw new Error(`Failed to load ${language.label} dictionary`);
+  }
+  const text = await response.text();
+  const parsed = parseCsv(text, language);
+  dictionariesCache[language.id] = parsed;
+  return parsed;
+}
+
+async function changeLanguage(langId, { force = false } = {}) {
+  const targetLanguage = languages.find((language) => language.id === langId);
+  if (!targetLanguage) {
+    return;
+  }
+  if (!force && currentLanguage.id === targetLanguage.id) {
+    renderLanguagePicker();
+    return;
+  }
+  resultsHeading.innerHTML = `<p>Loading ${targetLanguage.label} dictionary...</p>`;
+  clearResults();
+  try {
+    const rows = await loadDictionary(targetLanguage);
+    dictionary = rows;
+    currentLanguage = targetLanguage;
+    renderLanguagePicker();
+    searchInput.value = "";
+    resetResults();
+  } catch (error) {
+    resultsHeading.innerHTML = `<p>Error loading ${targetLanguage.label} dictionary.</p>`;
+  }
+}
+
+function renderLanguagePicker() {
+  if (!languagePickerElement) {
+    return;
+  }
+  languagePickerElement.innerHTML = languages
+    .map(
+      (language) => `
+        <button
+          type="button"
+          class="language-option ${language.id === currentLanguage.id ? "is-active" : ""}"
+          data-language="${language.id}"
+          aria-label="${language.nativeLabel} dictionary"
+        >
+          <span class="language-flag" aria-hidden="true">${language.flag}</span>
+          <span class="language-code">${language.code}</span>
+        </button>
+      `,
+    )
+    .join("");
+  languagePickerElement.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () =>
+      changeLanguage(button.dataset.language),
+    );
+  });
+}
+
+function renderEmptyState() {
+  const translationLabel = currentLanguage?.label?.toLowerCase() ?? "local";
+  resultsHeading.innerHTML = `<p>Enter a bird name to see the ${translationLabel} translation.</p>`;
 }
 
 function capitalize(value) {
@@ -118,6 +211,7 @@ function handleInput() {
 
 function resetResults() {
   clearResults();
+  renderEmptyState();
 }
 
 function clearResults() {

@@ -12,9 +12,17 @@ engleskih naziva.
 Pretraživanje je tolerantno na djelomične unose i manje razlike u pisanju, a pri prvom rezultatu pokušava prikazati
 sliku s Wikipedije ako je dostupna.
 
-## Fonts
+## Footer i fontovi
 
 - Stranica prikazuje statični podnožje s tekstom © 2026 mmatasic i navođenjem autora fontova izvezena iz
 	`public/index.html`.
 - Fontovi koji se koriste: **Cardenio Modern** (Font by Nils Cordes, nilscordes.com) i **ThirstyRoughLt** putem
 	<a href="http://www.onlinewebfonts.com">Web Fonts</a>.
+
+## Language picker
+
+- The hero now exposes a language picker that renders the flag + ISO code for each entry defined in the
+	`languages` array at the top of `public/app.js`.
+- To add another dictionary, drop the new CSV into `public/assets`, register it in the array with its `csvUrl`,
+	`translationIndex`, `code`, and `flag`, and the picker will automatically load that language and re-run the
+	search logic without touching the rest of the app.
