@@ -1,4 +1,4 @@
-const csvUrl = "assets/wingspan-dict.csv";
+const csvUrl = "assets/wingspan-dict-hr.csv";
 const wingsearchUrl = "https://navarog.github.io/wingsearch/card/";
 const wingsearchCsv = "assets/wingsearch.csv";
 const searchInput = document.getElementById("search-input");
@@ -92,10 +92,13 @@ function handleInput() {
       const normalizedLatin = row.latin.toLowerCase();
       const normalizedEnglish = row.english.toLowerCase();
       const latinDistance = closestDistance(normalizedLatin, normalizedQuery);
-      const englishDistance = row.english ? closestDistance(normalizedEnglish, normalizedQuery) : Infinity;
+      const englishDistance = row.english
+        ? closestDistance(normalizedEnglish, normalizedQuery)
+        : Infinity;
       const bestDistance = Math.min(latinDistance, englishDistance);
       const hasSubstring =
-        normalizedLatin.includes(normalizedQuery) || normalizedEnglish.includes(normalizedQuery);
+        normalizedLatin.includes(normalizedQuery) ||
+        normalizedEnglish.includes(normalizedQuery);
       const score = hasSubstring ? bestDistance * 0.5 : bestDistance;
       return { row, score };
     })
@@ -131,7 +134,7 @@ function renderMatches(matches, requestId) {
     const card = document.createElement("article");
     card.className = "card";
 
-      card.innerHTML = `
+    card.innerHTML = `
         <div class="card-rank">#${rank}</div>
         <figure>
           <a class="figure-link" target="_blank" rel="noreferrer noopener">
@@ -219,8 +222,12 @@ async function fetchBirdImage(title) {
       return null;
     }
     const data = await response.json();
-    const thumbnail = data.thumbnail?.source || data.originalimage?.source || null;
-    const page = data.content_urls?.desktop?.page || data.content_urls?.mobile?.page || null;
+    const thumbnail =
+      data.thumbnail?.source || data.originalimage?.source || null;
+    const page =
+      data.content_urls?.desktop?.page ||
+      data.content_urls?.mobile?.page ||
+      null;
     const extract = data.extract || null;
     return { thumbnail, page, extract };
   } catch (error) {
@@ -253,7 +260,7 @@ function levenshtein(a, b) {
       matrix[row][col] = Math.min(
         matrix[row - 1][col] + 1,
         matrix[row][col - 1] + 1,
-        matrix[row - 1][col - 1] + cost
+        matrix[row - 1][col - 1] + cost,
       );
     }
   }
