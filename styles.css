@@ -6,6 +6,15 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "CardenioRegular";
+  src: url("assets/fonts/cardenio_modern/CardenioModern-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 @font-face{
     font-family: "ThirstyRoughLt";
     src: url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.eot");
@@ -276,6 +285,34 @@ main.page {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.wingsearch-link {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  font-family: "CardenioRegular", "CardenioModernBold", serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding: 0.4rem 0.85rem;
+  border-radius: 14px;
+  background: rgba(114, 241, 225, 0.2);
+  color: #f7fbff;
+  border: 1px solid rgba(114, 241, 225, 0.5);
+  text-decoration: none;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 30px rgba(114, 241, 225, 0.35);
+}
+
+.wingsearch-link:hover,
+.wingsearch-link:focus-visible {
+  background: rgba(114, 241, 225, 0.65);
+  color: #05060c;
+  transform: translateY(-1px);
+  box-shadow: 0 16px 40px rgba(114, 241, 225, 0.55);
 }
 
 .sr-only {
