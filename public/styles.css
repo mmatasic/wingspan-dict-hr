@@ -14,7 +14,6 @@
   font-display: swap;
 }
 
-
 @font-face{
     font-family: "ThirstyRoughLt";
     src: url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.eot");
@@ -36,6 +35,38 @@
   font-display: swap;
 }
 
+.language-picker {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.language-picker select {
+  width: 6rem;
+  padding: 0.8rem 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.05);
+  color: #e7ebef;
+  font-size: 0.9rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  appearance: none;
+  transition: border 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.language-picker select:focus {
+  border-color: rgba(255, 255, 255, 0.95);
+  background: rgba(114, 241, 225, 0.05);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.language-picker select option {
+  background:  #1d1f22;
+  color: #e7ebef;
+}
+ 
 :root {
   font-family: "Space Grotesk", system-ui, sans-serif;
   color: #0b1220;
@@ -133,40 +164,6 @@ main.page {
   overflow: hidden;
 }
 
-.language-picker {
-}
-
-.language-option {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.35rem 0.85rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  background: rgba(255, 255, 255, 0.05);
-  color: #e7ebef;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  letter-spacing: 0.4em;
-  transition: transform 0.2s ease, background 0.2s ease;
-}
-
-.language-option .language-flag {
-  font-size: 1.2rem;
-}
-
-.language-option.is-active {
-  background: rgba(114, 241, 225, 0.25);
-  border-color: rgba(114, 241, 225, 0.6);
-  color: #05060c;
-}
-
-.language-option:hover,
-.language-option:focus-visible {
-  background: rgba(114, 241, 225, 0.35);
-  border-color: rgba(114, 241, 225, 0.7);
-  transform: translateY(-1px);
-}
 
 .search-panel input {
   width: 100%;

@@ -6,7 +6,7 @@
 //   nativeLabel: "Native Name",
 //   code: "XX",
 //   flag: "🇽🇽",
-//   csvUrl: "assets/i18n/wingspan-dict-xx.csv",
+//   csvUrl: "i18n/wingspan-dict-xx.csv",
 //   translationIndex: 2,
 // },
 
@@ -17,7 +17,7 @@ export const languages = [
     nativeLabel: "Hrvatski",
     code: "HR",
     flag: "🇭🇷",
-    csvUrl: "assets/i18n/wingspan-dict-hr.csv",
+    csvUrl: "i18n/wingspan-dict-hr.csv",
     translationIndex: 2,
   },
   {
@@ -26,7 +26,7 @@ export const languages = [
     nativeLabel: "Português",
     code: "PT",
     flag: "🇵🇹",
-    csvUrl: "assets/i18n/wingspan-dict-pt.csv",
+    csvUrl: "i18n/wingspan-dict-pt.csv",
     translationIndex: 2,
   },
 ];

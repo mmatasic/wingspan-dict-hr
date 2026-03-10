@@ -24,6 +24,10 @@
           </p>
         </div>
         <div class="hero-actions">
+          <div class="language-picker">
+            <label class="sr-only" for="language-select">Language picker</label>
+            <select id="language-select" aria-label="Language picker"></select>
+          </div>
           <div class="search-panel">
             <label class="sr-only" for="search-input">English or latin bird name</label>
             <input
@@ -34,7 +38,6 @@
             />
             <p class="hint">latin · english · fuzzy</p>
           </div>
-          <div class="language-picker" data-language-picker aria-label="Language picker"></div>
         </div>
       </section>
 
@@ -56,6 +59,6 @@
         Croatian bird name data: HAZU <a href="https://www.info.hazu.hr/jedinice/zavod-za-ornitologiju-u-zagrebu/rjecnik-standardnih-hrvatskih-pticjih-naziva/" target="_blank" rel="noreferrer">Rječnik standardnih hrvatskih ptičjih naziva</a>
       </p>
     </footer>
-    <script type="module" src="app.js"></script>
+    <script type="module" src="src/app.js"></script>
   </body>
 </html>

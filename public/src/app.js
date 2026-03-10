@@ -1,11 +1,11 @@
-import { languages } from "./languages.js";
+import { languages } from "../i18n/languages.js";
 
 const wingsearchUrl = "https://navarog.github.io/wingsearch/card/";
 const wingsearchCsv = "assets/wingsearch.csv";
 const searchInput = document.getElementById("search-input");
 const resultsSection = document.querySelector(".results");
 const resultsHeading = document.querySelector("[data-results-heading]");
-const languagePickerElement = document.querySelector("[data-language-picker]");
+const languagePickerElement = document.getElementById("language-select");
 
 let dictionary = [];
 let dictionariesCache = {};
@@ -111,25 +111,18 @@ function renderLanguagePicker() {
     return;
   }
   languagePickerElement.innerHTML = languages
-    .map(
-      (language) => `
-        <button
-          type="button"
-          class="language-option ${language.id === currentLanguage.id ? "is-active" : ""}"
-          data-language="${language.id}"
-          aria-label="${language.nativeLabel} dictionary"
-        >
-          <span class="language-flag" aria-hidden="true">${language.flag}</span>
-          <span class="language-code">${language.code}</span>
-        </button>
-      `,
-    )
+    .map((language) => {
+      const selected = language.id === currentLanguage.id ? "selected" : "";
+      return `
+        <option value="${language.id}" ${selected}>
+          ${language.flag} ${language.code} 
+        </option>
+      `;
+    })
     .join("");
-  languagePickerElement.querySelectorAll("button").forEach((button) => {
-    button.addEventListener("click", () =>
-      changeLanguage(button.dataset.language),
-    );
-  });
+  languagePickerElement.value = currentLanguage.id;
+  languagePickerElement.onchange = () =>
+    changeLanguage(languagePickerElement.value);
 }
 
 function renderEmptyState() {
