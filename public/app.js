@@ -8,6 +8,7 @@ const resultsHeading = document.querySelector("[data-results-heading]");
 let dictionary = [];
 let wingsearchData = [];
 let searchId = 0;
+let inputDebounce = null;
 
 async function bootstrap() {
   try {
@@ -17,7 +18,10 @@ async function bootstrap() {
     }
     const text = await response.text();
     dictionary = parseCsv(text);
-    searchInput.addEventListener("input", handleInput);
+    searchInput.addEventListener("input", () => {
+      clearTimeout(inputDebounce);
+      inputDebounce = setTimeout(handleInput, 450);
+    });
   } catch (error) {
     resultsHeading.innerHTML = `Error reading dictionary`;
   }
@@ -137,7 +141,9 @@ function renderMatches(matches, requestId) {
         </figure>
         <div class="card-body">
           <h2>${translationCapitalized}</h2>
-          <p class="meta">${row.english ? `English: ${row.english}` : "English name missing"}</p>
+          <h3>${row.latin}</h3>
+          <p class="meta">${row.english ? `${row.english}` : "English name missing"}</p>
+          <p class="extract"><\p>
         </div>
           <!--add link to wingsearch if english or latin name matches-->
           ${wingsearchData
@@ -156,13 +162,28 @@ function renderMatches(matches, requestId) {
     fragment.appendChild(card);
     const imageElement = card.querySelector("img");
     const linkElement = card.querySelector(".figure-link");
-    attachImage(imageElement, linkElement, row.latin, row.english, requestId);
+    const extractElement = card.querySelector(".extract");
+    queryWikipedia(
+      imageElement,
+      linkElement,
+      extractElement,
+      row.latin,
+      row.english,
+      requestId,
+    );
   });
 
   resultsSection.appendChild(fragment);
 }
 
-async function attachImage(imgElement, linkElement, title, titleEnglish, requestId) {
+async function queryWikipedia(
+  imgElement,
+  linkElement,
+  extractElement,
+  title,
+  titleEnglish,
+  requestId,
+) {
   let summary = await fetchBirdImage(title.toLowerCase());
   if (!summary) {
     summary = await fetchBirdImage(titleEnglish.toLowerCase());
@@ -182,6 +203,12 @@ async function attachImage(imgElement, linkElement, title, titleEnglish, request
   } else {
     linkElement.removeAttribute("href");
   }
+
+  if (summary?.extract) {
+    extractElement.textContent = summary.extract;
+  } else {
+    extractElement.textContent = "No summary available.";
+  }
 }
 
 async function fetchBirdImage(title) {
@@ -194,7 +221,8 @@ async function fetchBirdImage(title) {
     const data = await response.json();
     const thumbnail = data.thumbnail?.source || data.originalimage?.source || null;
     const page = data.content_urls?.desktop?.page || data.content_urls?.mobile?.page || null;
-    return { thumbnail, page };
+    const extract = data.extract || null;
+    return { thumbnail, page, extract };
   } catch (error) {
     return null;
   }

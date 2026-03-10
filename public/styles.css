@@ -28,6 +28,14 @@
     font-display:swap;
 }
 
+@font-face {
+  font-family: "OpenSans";
+  src: url("assets/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   font-family: "Space Grotesk", system-ui, sans-serif;
   color: #0b1220;
@@ -84,20 +92,22 @@ main.page {
 }
 
 .hero h1 {
+  font-family: "OpenSans", sans-serif;
   margin: 0.5rem 0;
-  font-size: clamp(1.1rem, 3vw, 2.25rem);
+  font-size: clamp(1.1rem, 2vw, 2.25rem);
   letter-spacing: -0.03em;
 }
 
 .hero .tag {
   font-family: "CardenioRegular", sans-serif;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   color: var(--accent);
-  font-size: 0.85rem;
+  font-weight: bold;
   margin: 0;
 }
+
 
 .hero .lede {
   margin: 0;
@@ -179,12 +189,25 @@ main.page {
 .card .meta {
   margin-top: 0.3rem;
   color: var(--text-muted);
-  font-size: 0.95rem;
+  font-size: 1.2rem;
+  margin-bottom: 0px;
 }
 
 .card-body h2,
 .card-body .meta {
   font-family: "CardenioModernBold", "SiliciStrong", sans-serif;
+}
+
+.card .extract {
+  margin-top: 0px;
+  font-size: 0.9rem;
+  font-family: "OpenSans", sans-serif;
+}
+
+.card h3 {
+  margin: 0;
+  font-family: "ThirstyRoughLt", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;;
 }
 
 .card .translation {
@@ -272,7 +295,7 @@ main.page {
   right: 0px;
   top: 0px;
   height: 2px;
-  background-color: rgba(114, 241, 225, 0.65);;
+  background-color: var(--accent);
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
