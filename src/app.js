@@ -301,14 +301,15 @@ function togglePinnedBird(row) {
 
 function updateCardPinState(card, row) {
   const pinButton = card.querySelector("[data-pin-toggle]");
-  const binButton = card.querySelector("[data-pin-bin]");
   const pinned = isBirdPinned(row.latin);
   if (pinButton) {
-    pinButton.textContent = pinned ? "Pinned" : "Pin";
+    pinButton.textContent = pinned ? "Unpin" : "Pin";
     pinButton.classList.toggle("is-pinned", pinned);
-  }
-  if (binButton) {
-    binButton.hidden = !pinned;
+    pinButton.setAttribute("aria-pressed", pinned ? "true" : "false");
+    pinButton.setAttribute(
+      "aria-label",
+      pinned ? "Unpin this bird" : "Pin this bird",
+    );
   }
 }
 
@@ -321,46 +322,38 @@ function renderMatches(matches, requestId) {
     const translationCapitalized = capitalize(row.translation);
     const card = document.createElement("article");
     card.className = "card";
+    const wingsearchLinks = wingsearchData
+      .filter(
+        (entry) => entry.latin === row.latin || entry.english === row.english,
+      )
+      .map(
+        (entry) =>
+          `<a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link card-action-control">Wingsearch ${entry.english || entry.latin}</a>`,
+      )
+      .join("");
 
     card.innerHTML = `
         <div class="card-rank">#${rank}</div>
+        <div class="figure-wrapper">
         <figure>
           <a class="figure-link" target="_blank" rel="noreferrer noopener">
             <img alt="Slika ${row.latin}" loading="lazy" />
             <figcaption class="figcaption-link">${row.latin}</figcaption>
           </a>
         </figure>
+        </div>
         <div class="card-body">
           <h2>${translationCapitalized}</h2>
           <h3>${row.latin}</h3>
           <p class="meta">${row.english ? `${row.english}` : "English name missing"}</p>
           <p class="extract"></p>
+          <div class="card-actions">
+            <button class="pin-button card-action-control" type="button" data-pin-toggle>
+              Pin
+            </button>
+            ${wingsearchLinks}
+          </div>
         </div>
-        <div class="card-actions">
-          <button class="pin-button" type="button" data-pin-toggle>
-            Pin
-          </button>
-          <button
-            class="bin-button"
-            type="button"
-            aria-label="Remove pinned bird"
-            data-pin-bin
-          >
-            🗑️
-          </button>
-          <!--add link to wingsearch if english or latin name matches-->
-          ${wingsearchData
-            .filter(
-              (entry) =>
-                entry.latin === row.latin || entry.english === row.english,
-            )
-            .map(
-              (entry) =>
-                `<div><a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link">Wingsearch ${entry.english} </a></div>`,
-            )
-            .join("<br>")}
-        </div>
-        
       `;
 
     fragment.appendChild(card);
@@ -376,16 +369,9 @@ function renderMatches(matches, requestId) {
       requestId,
     );
     const pinButton = card.querySelector("[data-pin-toggle]");
-    const binButton = card.querySelector("[data-pin-bin]");
     if (pinButton) {
       pinButton.addEventListener("click", () => {
         togglePinnedBird(row);
-        updateCardPinState(card, row);
-      });
-    }
-    if (binButton) {
-      binButton.addEventListener("click", () => {
-        removePinnedBird(row.latin);
         updateCardPinState(card, row);
       });
     }
