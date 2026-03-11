@@ -14,17 +14,18 @@
   font-display: swap;
 }
 
-@font-face{
-    font-family: "ThirstyRoughLt";
-    src: url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.eot");
-    src: url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.eot?#iefix")format("embedded-opentype"),
-        url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.woff")format("woff"),
-        url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.woff2")format("woff2"),
-        url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.ttf")format("truetype"),
-        url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.svg#ThirstyRoughLt")format("svg");
-    font-weight:normal;
-    font-style:normal;
-    font-display:swap;
+@font-face {
+  font-family: "ThirstyRoughLt";
+  src: url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.eot");
+  src:
+    url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.eot?#iefix") format("embedded-opentype"),
+    url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.woff") format("woff"),
+    url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.woff2") format("woff2"),
+    url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.ttf") format("truetype"),
+    url("/assets/fonts/ThirstyRoughLt/WebFonts/579fb640d75e2ef6483f0fddb2dcf915.svg#ThirstyRoughLt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -35,38 +36,6 @@
   font-display: swap;
 }
 
-.language-picker {
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.language-picker select {
-  width: 6rem;
-  padding: 0.8rem 1rem;
-  border-radius: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  background: rgba(255, 255, 255, 0.05);
-  color: #e7ebef;
-  font-size: 0.9rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  appearance: none;
-  transition: border 0.2s ease, background 0.2s ease, transform 0.2s ease;
-}
-
-.language-picker select:focus {
-  border-color: rgba(255, 255, 255, 0.95);
-  background: rgba(114, 241, 225, 0.05);
-  outline: none;
-  transform: translateY(-1px);
-}
-
-.language-picker select option {
-  background:  #1d1f22;
-  color: #e7ebef;
-}
- 
 :root {
   font-family: "Space Grotesk", system-ui, sans-serif;
   color: #0b1220;
@@ -100,6 +69,38 @@ body {
   z-index: -1;
 }
 
+.language-picker {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: self-start;
+}
+
+.language-picker select {
+  width: 6rem;
+  padding: 0.8rem 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.05);
+  color: #e7ebef;
+  font-size: 0.9rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  appearance: none;
+  transition: border 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.language-picker select:focus {
+  border-color: rgba(255, 255, 255, 0.95);
+  background: rgba(114, 241, 225, 0.05);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.language-picker select option {
+  background: #1d1f22;
+  color: #e7ebef;
+}
+
 main.page {
   width: min(1100px, 94vw);
   margin: 0 auto;
@@ -110,22 +111,91 @@ main.page {
 }
 
 .hero {
+  font-family: "OpenSans", sans-serif;
   backdrop-filter: blur(18px);
   background: var(--panel);
   border: 1px solid var(--border);
-  padding: 2.5rem;
+  padding: 1.75rem; 
   border-radius: 26px;
   box-shadow: var(--shadow);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
   align-items: center;
 }
 
-.hero-actions {
-  flex: 1 1 320px;
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  gap: 0.75rem;
+  justify-content: space-between;
+  padding-bottom: 1.75rem
+}
+
+.pinned-section {
+  backdrop-filter: blur(18px);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  padding: 1.75rem;
+  box-shadow: var(--shadow);
+}
+
+.pinned-section h2 {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.pin-row {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.pin-empty {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.pin-chip {
+  border: 1px solid rgba(114, 241, 225, 0.35);
+  background: rgba(114, 241, 225, 0.08);
+  border-radius: 18px;
+  padding: 0.6rem 0.85rem;
   display: flex;
   flex-direction: column;
+  gap: 0.2rem;
+  text-align: left;
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.pin-chip:focus-visible,
+.pin-chip:hover {
+  transform: translateY(-2px);
+  border-color: rgba(114, 241, 225, 0.8);
+}
+
+.pin-chip-label {
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+.pin-chip-english {
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  color: var(--text-muted);
+}
+
+.hero-actions {
   gap: 1rem;
 }
 
@@ -154,8 +224,9 @@ main.page {
 }
 
 .search-panel {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  flex: 1 1 100px;
   padding: 1.5rem;
   border-radius: 20px;
   border: 1px solid var(--border);
@@ -352,7 +423,48 @@ main.page {
   flex-direction: column;
   gap: 0.5rem;
   position: relative;
-  padding-bottom: 3rem;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0;
+  grid-column: 1 / -1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pin-button,
+.bin-button {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  color: #e7ebef;
+  border-radius: 16px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease, border 0.2s ease;
+}
+
+.pin-button.is-pinned {
+  background: rgba(114, 241, 225, 0.6);
+  color: #05060c;
+  border-color: rgba(114, 241, 225, 0.8);
+}
+
+.pin-button:hover,
+.bin-button:hover,
+.pin-button:focus-visible,
+.bin-button:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.bin-button {
+  font-size: 1rem;
+  padding: 0.35rem 0.7rem;
 }
 
 .wingsearch-link {

@@ -6,6 +6,7 @@ const searchInput = document.getElementById("search-input");
 const resultsSection = document.querySelector(".results");
 const resultsHeading = document.querySelector("[data-results-heading]");
 const languagePickerElement = document.getElementById("language-select");
+const pinnedRowElement = document.querySelector("[data-pinned-row]");
 
 let dictionary = [];
 let dictionariesCache = {};
@@ -14,8 +15,13 @@ let searchId = 0;
 let inputDebounce = null;
 let currentLanguage = languages[0];
 
+const pinnedStorageKey = "wingspanPinnedBirds";
+let pinnedBirds = [];
+
 async function bootstrap() {
   renderLanguagePicker();
+  loadPinnedBirds();
+  renderPinnedBirds();
   try {
     await changeLanguage(currentLanguage.id, { force: true });
     searchInput.addEventListener("input", () => {
@@ -115,7 +121,7 @@ function renderLanguagePicker() {
       const selected = language.id === currentLanguage.id ? "selected" : "";
       return `
         <option value="${language.id}" ${selected}>
-          ${language.flag} ${language.code} 
+          ${language.flag} ${language.code} — ${language.label}
         </option>
       `;
     })
@@ -191,6 +197,121 @@ function clearResults() {
   resultsSection.querySelectorAll(".card").forEach((card) => card.remove());
 }
 
+function loadPinnedBirds() {
+  if (!pinnedRowElement) {
+    pinnedBirds = [];
+    return;
+  }
+  try {
+    const stored = localStorage.getItem(pinnedStorageKey);
+    if (stored) {
+      pinnedBirds =
+        JSON.parse(stored)?.filter(
+          (entry) => entry?.latin && entry?.translation,
+        ) ?? [];
+    } else {
+      pinnedBirds = [];
+    }
+  } catch (error) {
+    pinnedBirds = [];
+  }
+}
+
+function savePinnedBirds() {
+  try {
+    localStorage.setItem(pinnedStorageKey, JSON.stringify(pinnedBirds));
+  } catch (error) {
+    // Fail quietly when storage is unavailable.
+  }
+}
+
+function renderPinnedBirds() {
+  if (!pinnedRowElement) {
+    return;
+  }
+  pinnedRowElement.innerHTML = "";
+  if (!pinnedBirds.length) {
+    const message = document.createElement("p");
+    message.className = "pin-empty";
+    message.textContent = "Pin birds to keep them within reach.";
+    pinnedRowElement.appendChild(message);
+    return;
+  }
+  pinnedBirds.forEach((bird) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "pin-chip";
+    const translation = capitalize(bird.translation || bird.latin);
+    button.innerHTML = `
+      <span class="pin-chip-label">${translation}</span>
+      <span class="pin-chip-english">${bird.english || bird.latin}</span>
+    `;
+    button.addEventListener("click", () => {
+      const query = bird.english || bird.translation || bird.latin;
+      if (!query) {
+        return;
+      }
+      searchInput.value = query;
+      handleInput();
+      searchInput.focus();
+    });
+    pinnedRowElement.appendChild(button);
+  });
+}
+
+function isBirdPinned(latinName) {
+  return pinnedBirds.some((entry) => entry.latin === latinName);
+}
+
+function addPinnedBird(row) {
+  if (!row?.latin) {
+    return false;
+  }
+  if (isBirdPinned(row.latin)) {
+    return false;
+  }
+  pinnedBirds.push({
+    latin: row.latin,
+    english: row.english || "",
+    translation: row.translation || row.english || row.latin,
+  });
+  savePinnedBirds();
+  renderPinnedBirds();
+  return true;
+}
+
+function removePinnedBird(latinName) {
+  const index = pinnedBirds.findIndex((entry) => entry.latin === latinName);
+  if (index === -1) {
+    return false;
+  }
+  pinnedBirds.splice(index, 1);
+  savePinnedBirds();
+  renderPinnedBirds();
+  return true;
+}
+
+function togglePinnedBird(row) {
+  if (isBirdPinned(row.latin)) {
+    removePinnedBird(row.latin);
+    return false;
+  }
+  return addPinnedBird(row);
+}
+
+function updateCardPinState(card, row) {
+  const pinButton = card.querySelector("[data-pin-toggle]");
+  const binButton = card.querySelector("[data-pin-bin]");
+  const pinned = isBirdPinned(row.latin);
+  if (pinButton) {
+    pinButton.textContent = pinned ? "Pinned" : "Pin";
+    pinButton.classList.toggle("is-pinned", pinned);
+  }
+  if (binButton) {
+    binButton.hidden = !pinned;
+  }
+}
+
 function renderMatches(matches, requestId) {
   clearResults();
   const fragment = document.createDocumentFragment();
@@ -213,8 +334,20 @@ function renderMatches(matches, requestId) {
           <h2>${translationCapitalized}</h2>
           <h3>${row.latin}</h3>
           <p class="meta">${row.english ? `${row.english}` : "English name missing"}</p>
-          <p class="extract"><\p>
+          <p class="extract"></p>
         </div>
+        <div class="card-actions">
+          <button class="pin-button" type="button" data-pin-toggle>
+            Pin
+          </button>
+          <button
+            class="bin-button"
+            type="button"
+            aria-label="Remove pinned bird"
+            data-pin-bin
+          >
+            🗑️
+          </button>
           <!--add link to wingsearch if english or latin name matches-->
           ${wingsearchData
             .filter(
@@ -223,10 +356,11 @@ function renderMatches(matches, requestId) {
             )
             .map(
               (entry) =>
-                `<a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link">Wingsearch ${entry.english} </a>`,
+                `<div><a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link">Wingsearch ${entry.english} </a></div>`,
             )
             .join("<br>")}
-
+        </div>
+        
       `;
 
     fragment.appendChild(card);
@@ -241,6 +375,21 @@ function renderMatches(matches, requestId) {
       row.english,
       requestId,
     );
+    const pinButton = card.querySelector("[data-pin-toggle]");
+    const binButton = card.querySelector("[data-pin-bin]");
+    if (pinButton) {
+      pinButton.addEventListener("click", () => {
+        togglePinnedBird(row);
+        updateCardPinState(card, row);
+      });
+    }
+    if (binButton) {
+      binButton.addEventListener("click", () => {
+        removePinnedBird(row.latin);
+        updateCardPinState(card, row);
+      });
+    }
+    updateCardPinState(card, row);
   });
 
   resultsSection.appendChild(fragment);
