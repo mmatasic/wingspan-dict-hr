@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mmatasic.github.io/wingspan-dict/sitemap.xml

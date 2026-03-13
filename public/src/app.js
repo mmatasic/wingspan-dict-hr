@@ -41,6 +41,7 @@ let wingsearchData = [];
 let searchId = 0;
 let inputDebounce = null;
 let currentLanguage = loadStoredLanguage() ?? languages[0];
+let shouldScrollOnResults = false;
 
 const pinnedStorageKey = "wingspanPinnedBirds";
 let pinnedBirds = [];
@@ -55,6 +56,7 @@ async function bootstrap() {
       clearTimeout(inputDebounce);
       inputDebounce = setTimeout(handleInput, 450);
     });
+    searchInput.addEventListener("keydown", handleSearchKeydown);
   } catch (error) {
     resultsHeading.innerHTML = `Error reading dictionary`;
   }
@@ -64,6 +66,22 @@ async function bootstrap() {
     const wingsearchText = await wingsearchResponse.text();
     wingsearchData = parseWingSearchCsv(wingsearchText);
   }
+}
+
+function handleSearchKeydown(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    clearTimeout(inputDebounce);
+    shouldScrollOnResults = true;
+    handleInput();
+  }
+}
+
+function scrollToResultsSection() {
+  if (!resultsSection) {
+    return;
+  }
+  resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function parseCsv(text, language) {
@@ -227,6 +245,10 @@ function handleInput() {
   if (!matches.length) {
     resultsHeading.innerHTML = `<p>No results found for "${query}". Try a different entry.</p>`;
     clearResults();
+    if (shouldScrollOnResults) {
+      scrollToResultsSection();
+      shouldScrollOnResults = false;
+    }
     return;
   }
 
@@ -437,6 +459,10 @@ function renderMatches(matches, requestId) {
   });
 
   resultsSection.appendChild(fragment);
+  if (shouldScrollOnResults) {
+    scrollToResultsSection();
+    shouldScrollOnResults = false;
+  }
 }
 
 async function queryWikipedia(
