@@ -1,4 +1,4 @@
-# Wingspan Dictionary HR
+# Wingspan Bird Dictionary
 
 A lightweight static site that helps you look up translation of bird names from Latin or English inputs while showing Wikipedia image and extract when available.
 
