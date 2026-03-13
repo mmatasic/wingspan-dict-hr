@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Wingspan Bird Dictionary</title>
+    <meta
+      name="description"
+      content="Translate bird names from Latin (scientific) and English to dozens of languages with fuzzy search, Wikipedia images and links to Wingspan cards (wingsearch)."
+    />
+    <meta name="keywords" content="Wingspan,dictionary,birds,translations,Latin,English" />
+    <link rel="canonical" href="https://mmatasic.github.io/wingspan-dict/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,6 +17,18 @@
       rel="stylesheet"
     />
     <link rel="icon" href="favicon.ico" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Wingspan Bird Dictionary" />
+    <meta
+      property="og:description"
+      content="Translate bird names from Latin (scientific) and English to dozens of languages with fuzzy search, Wikipedia images and links to Wingspan cards (wingsearch)."
+    />
+    <meta property="og:url" content="https://mmatasic.github.io/wingspan-dict/" />
+    <meta property="og:site_name" content="Wingspan Bird Dictionary" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebSite","name":"Wingspan Bird Dictionary","url":"https://mmatasic.github.io/wingspan-dict/","description":"Lookup Wingspan-themed bird names across Latin, English, and dozens of translated languages with fuzzy search and Wikipedia images.","creator":{"@type":"Person","name":"mmatasic","url":"https://github.com/mmatasic/"}}
+    </script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -29,13 +47,10 @@
               If the bird exists in the Wingspan universe, a link to the corresponding card on wingsearch is provided.
             </p>
           </div>
-         <div class="language-picker">
+        </div>
+        <div class="language-picker">
             <label class="sr-only" for="language-select">Language picker</label>
             <select id="language-select" aria-label="Language picker"></select>
-          </div>
-        </div>
-        <div class="hero-actions">
-          
         </div>
       </section>
       <section class="search">
