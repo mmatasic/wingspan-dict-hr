@@ -237,33 +237,81 @@ main.page {
   max-width: 38ch;
 }
 
+.search {
+  background: var(--panel);
+  border-radius: 26px;
+  
+}
+
 .search-panel {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 1.5rem;
-  border-radius: 20px;
-  border: 1px solid var(--border);
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
-  overflow: hidden;
+  gap: 0.75rem;
+  padding: 1.25rem 1.5rem 1.5rem;
+  border-radius: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(18px);
 }
 
+.search-panel:focus-within {
+}
 
-.search-panel input {
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  transition: border 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.search-field:focus-within {
+  border-color: rgba(114, 241, 225, 0.85);
+  box-shadow: inset 0 0 0 1px rgba(114, 241, 225, 0.45);
+  transform: translateY(-1px);
+}
+
+.search-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8);
+  flex-shrink: 0;
+}
+
+.search-icon svg {
   width: 100%;
+  height: 100%;
+}
+
+.search-field input {
+  flex: 1;
   border: none;
   background: transparent;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
   font-weight: 500;
+  min-width: 0;
+  letter-spacing: -0.01em;
   outline: none;
 }
 
+.search-field input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.05em;
+}
+
 .hint {
-  margin: 0.2rem 0 0;
-  font-size: 0.85rem;
+  font-family: "OpenSans", sans-serif;
+  margin: auto; 
+  font-size: 0.65rem;
   color: var(--text-muted);
+  text-transform: uppercase;
 }
 
 .results {
@@ -307,7 +355,7 @@ main.page {
 
 .card h2 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
 
 .card .meta {
@@ -325,7 +373,7 @@ main.page {
 
 .card .extract {
   margin-top: 0px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-family: "OpenSans", sans-serif;
 }
 
@@ -333,7 +381,7 @@ main.page {
   margin: 0;
   font-family: "ThirstyRoughLt", Arial, Helvetica, sans-serif;
   font-weight: 200;
-  font-size: 1.3rem;;
+  font-size: 1.6rem;;
 }
 
 .card .translation {

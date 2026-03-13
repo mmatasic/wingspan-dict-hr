@@ -1,7 +1,7 @@
-import { languages } from "../i18n/languages.js";
+import { languages } from "./languages.js";
 
 const wingsearchUrl = "https://navarog.github.io/wingsearch/card/";
-const wingsearchCsv = "assets/wingsearch.csv";
+const wingsearchCsv = "data/wingsearch.csv";
 const searchInput = document.getElementById("search-input");
 const resultsSection = document.querySelector(".results");
 const resultsHeading = document.querySelector("[data-results-heading]");
