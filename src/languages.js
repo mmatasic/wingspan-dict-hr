@@ -201,13 +201,22 @@ export const languages = [
     translationIndex: 22,
   },
   {
+    id: "fa",
+    label: "Persian",
+    nativeLabel: "فارسی",
+    code: "IR",
+    flag: "🇮🇷",
+    csvUrl: "data/wingspan-dict.csv",
+    translationIndex: 23,
+  },
+  {
     id: "is",
     label: "Icelandic",
     nativeLabel: "Íslenska",
     code: "IS",
     flag: "🇮🇸",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 23,
+    translationIndex: 24,
   },
   {
     id: "it",
@@ -216,7 +225,7 @@ export const languages = [
     code: "IT",
     flag: "🇮🇹",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 24,
+    translationIndex: 25,
   },
   {
     id: "jp",
@@ -225,7 +234,7 @@ export const languages = [
     code: "JP",
     flag: "🇯🇵",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 25,
+    translationIndex: 26,
   },
   {
     id: "jp_latn",
@@ -234,7 +243,7 @@ export const languages = [
     code: "JP",
     flag: "🇯🇵",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 26,
+    translationIndex: 27,
   },
   {
     id: "ko",
@@ -243,7 +252,7 @@ export const languages = [
     code: "KR",
     flag: "🇰🇷",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 27,
+    translationIndex: 28,
   },
   {
     id: "lt",
@@ -252,7 +261,7 @@ export const languages = [
     code: "LT",
     flag: "🇱🇹",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 28,
+    translationIndex: 29,
   },
   {
     id: "lv",
@@ -261,7 +270,7 @@ export const languages = [
     code: "LV",
     flag: "🇱🇻",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 29,
+    translationIndex: 30,
   },
   {
     id: "ne",
@@ -270,7 +279,7 @@ export const languages = [
     code: "NP",
     flag: "🇳🇵",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 30,
+    translationIndex: 31,
   },
   {
     id: "nl",
@@ -279,7 +288,7 @@ export const languages = [
     code: "NL",
     flag: "🇳🇱",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 31,
+    translationIndex: 32,
   },
   {
     id: "nn",
@@ -288,7 +297,7 @@ export const languages = [
     code: "NO",
     flag: "🇳🇴",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 32,
+    translationIndex: 33,
   },
   {
     id: "no",
@@ -296,15 +305,6 @@ export const languages = [
     nativeLabel: "Norsk",
     code: "NO",
     flag: "🇳🇴",
-    csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 33,
-  },
-  {
-    id: "persian",
-    label: "Persian",
-    nativeLabel: "فارسی",
-    code: "IR",
-    flag: "🇮🇷",
     csvUrl: "data/wingspan-dict.csv",
     translationIndex: 34,
   },
@@ -442,5 +442,5 @@ export const languages = [
     flag: "🇹🇼",
     csvUrl: "data/wingspan-dict.csv",
     translationIndex: 49,
-  }
+  },
 ];
