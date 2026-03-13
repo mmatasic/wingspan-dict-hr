@@ -376,7 +376,7 @@ function renderMatches(matches, requestId) {
       : row.english || formattedLatin;
     const translationNotice = hasTranslation
       ? ""
-      : `<p class="translation-missing">*Translation not currently available for ${currentLanguage.label}; showing the English name instead.</p>`;
+      : `<p class="translation-missing">*Translation not currently available for ${currentLanguage.label} ${currentLanguage.flag}. Showing the English name instead.</p>`;
     const card = document.createElement("article");
     card.className = "card";
     const wingsearchLinks = wingsearchData

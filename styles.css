@@ -154,8 +154,8 @@ main.page {
 .pinned-section h2 {
   font-family: "CardenioModernBold", serif;
   margin: 0;
-  font-size: 0.85rem;
-  letter-spacing: 0.35em;
+  font-size: 1.15rem;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-muted);
 }
@@ -222,8 +222,7 @@ main.page {
 
 .hero .tag {
   font-family: "CardenioModern", sans-serif;
-  font-size: 0.95rem;
-  text-transform: uppercase;
+  font-size: 1.95rem;
   letter-spacing: 0.3em;
   color: var(--accent);
   font-weight: bold;
@@ -234,7 +233,7 @@ main.page {
 .hero .lede {
   margin: 0;
   color: var(--text-muted);
-  max-width: 38ch;
+  max-width: 40rem;
 }
 
 .search {
@@ -552,13 +551,14 @@ main.page {
 
 .page-footer {
   text-align: center;
-  padding: 2rem 0 3rem;
+  padding: 1rem 5rem;
   color: var(--text-muted);
   font-size: 0.75rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-  margin-top: 2rem;
+  margin: 2rem auto 3rem;
+  width: min(980px, 88vw);
 }
 
 .page-footer a {

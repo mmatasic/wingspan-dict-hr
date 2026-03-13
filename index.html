@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="hr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Wingspan rječnik</title>
+    <title>Wingspan Bird Dictionary</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,10 +19,13 @@
         <div class="hero-content">
           
           <div class="title">
-            <p class="tag">Wingspan dictionary</p>
+            <p class="tag">Wingspan Bird Dictionary</p>
             <h1>Find the local name of a bird</h1>
             <p class="lede">
-              Search by Latin or English names, including partial input (fuzzy search). The three closest results (Levenshtein distance) of either latin or english name are displayed with a translation and an image from Wikipedia when available.
+              Search by Latin or English names, including partial input (fuzzy search). 
+              The three closest results (Levenshtein distance) of either latin or english
+              name are displayed with a translation and an image from Wikipedia when available.
+              If the bird exists in the Wingspan universe, a link to the corresponding card on wingsearch is provided.
             </p>
           </div>
          <div class="language-picker">
@@ -70,7 +73,7 @@
         </div>
       </section>
       <section class="pinned-section" aria-label="Pinned birds">
-        <h2>Pinned birds</h2>
+        <h2>Your wildlife preserve (pinned birds)</h2>
         <div class="pin-row" data-pinned-row>
           <p class="pin-empty">Pin birds to keep them within reach.</p>
         </div>
@@ -82,17 +85,22 @@
     </main>
 
     <footer class="page-footer">
-      <p>© 2026 mmatasic</p>
+      <p>© 2026 <a href="https://github.com/mmatasic/" target="_blank" rel="noreferrer">mmatasic</a></p>
       <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#29615b', 'T6T21VUNIY');kofiwidget2.draw();</script> 
       <p>
         Fonts: 
-        Cardenio Modern — Font by <a href="https://nilscordes.com" target="_blank" rel="noreferrer">Nils Cordes</a>
-      </br>
-        ThirstyRoughLt font by <a href="http://www.onlinewebfonts.com" target="_blank" rel="noreferrer">Web Fonts</a> 
+        Cardenio Modern by <a href="https://nilscordes.com" target="_blank" rel="noreferrer">Nils Cordes</a>, 
+        Thirsty Rough by <a href="https://yellowdesignstudio.com/collections/thirsty-rough/" target="_blank" rel="noreferrer">Yellow Design Studio</a>,
+        Open Sans by <a href="https://github.com/googlefonts/opensans" target="_blank" rel="noopener noreferrer">Steve Matteson</a>,
       </br>
         Croatian bird name data: HAZU <a href="https://www.info.hazu.hr/jedinice/zavod-za-ornitologiju-u-zagrebu/rjecnik-standardnih-hrvatskih-pticjih-naziva/" target="_blank" rel="noreferrer">Rječnik standardnih hrvatskih ptičjih naziva</a>
       </br>
         Other bird name data: <a href="https://avibase.bsc-eoc.org" target="_blank" rel="noreferrer">Avibase</a> and <a href="https://github.com/navarog/wingsearch" target="_blank" rel="noreferrer">navarog/wingsearch</a>
+      </br>
+        Images: <a href="https://www.wikipedia.org" target="_blank" rel="noreferrer">Wikipedia</a>
+      </br>
+        This is not an official Stonemaier Games site and has no official connection to Wingspan
+      </p>
     </footer>
     <script type="module" src="src/app.js"></script>
   </body>
