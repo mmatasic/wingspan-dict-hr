@@ -57,6 +57,7 @@ async function bootstrap() {
       inputDebounce = setTimeout(handleInput, 450);
     });
     searchInput.addEventListener("keydown", handleSearchKeydown);
+    runSearchFromUrl();
   } catch (error) {
     resultsHeading.innerHTML = `Error reading dictionary`;
   }
@@ -68,12 +69,27 @@ async function bootstrap() {
   }
 }
 
+function runSearchFromUrl() {
+  if (!window?.location?.search) {
+    return;
+  }
+  const urlParams = new URLSearchParams(window.location.search);
+  const query = urlParams.get("q")?.trim();
+  if (!query) {
+    return;
+  }
+  searchInput.value = query;
+  shouldScrollOnResults = true;
+  handleInput();
+}
+
 function handleSearchKeydown(event) {
   if (event.key === "Enter") {
     event.preventDefault();
     clearTimeout(inputDebounce);
     shouldScrollOnResults = true;
     handleInput();
+    searchInput.blur();
   }
 }
 
@@ -324,7 +340,7 @@ function renderPinnedBirds() {
       }
       searchInput.value = query;
       handleInput();
-      searchInput.focus();
+      searchInput.blur();
     });
     pinnedRowElement.appendChild(button);
   });

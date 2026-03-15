@@ -47,6 +47,7 @@
   --accent: #72f1e1;
   --text-muted: rgb(159, 176, 211);
   --shadow: 0 25px 65px rgba(5, 6, 12, 0.65);
+  --theme-color: #05060c;
 }
 
 /* Base + layout */
