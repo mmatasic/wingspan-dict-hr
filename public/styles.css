@@ -207,6 +207,13 @@ main.page {
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
+.pin-chip--disabled {
+  opacity: 0.4;
+  border-color: rgba(255, 255, 255, 0.08);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .pin-chip:focus-visible,
 .pin-chip:hover {
   transform: translateY(-2px);

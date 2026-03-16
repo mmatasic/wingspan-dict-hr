@@ -87,6 +87,7 @@ async function bootstrap() {
       wingspanOnlyInput.addEventListener("change", () => {
         persistWingspanFilterPreference(Boolean(wingspanOnlyInput.checked));
         shouldScrollOnResults = false;
+        renderPinnedBirds();
         handleInput();
       });
     }
@@ -103,6 +104,7 @@ async function bootstrap() {
     if (wingspanOnlyInput?.checked && searchInput.value.trim()) {
       handleInput();
     }
+    renderPinnedBirds();
   }
 }
 
@@ -411,7 +413,15 @@ function renderPinnedBirds() {
       <span class="pin-chip-label">${translation}</span>
       <span class="pin-chip-english">${bird.english || formattedLatin}</span>
     `;
+    const isCardAvailable = isWingsearchBird(bird);
+    const shouldFilterByWingspan = Boolean(wingspanOnlyInput?.checked);
+    const shouldDisable = shouldFilterByWingspan && !isCardAvailable;
+    button.disabled = shouldDisable;
+    button.classList.toggle("pin-chip--disabled", shouldDisable);
     button.addEventListener("click", () => {
+      if (button.disabled) {
+        return;
+      }
       const query = bird.english || bird.translation || bird.latin;
       if (!query) {
         return;
