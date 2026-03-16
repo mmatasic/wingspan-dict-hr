@@ -154,10 +154,12 @@ function parseCsv(text, language) {
       const latin = columns[0] || "";
       const english = columns[1] || "";
       const translation = columns[translationIndex] || "";
+      const speciesCode = columns[2] || "";
       return {
         latin,
         english,
         translation,
+        speciesCode,
       };
     })
     .filter((row) => row.latin);
@@ -513,9 +515,12 @@ function renderMatches(matches, requestId) {
       )
       .map(
         (entry) =>
-          `<a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link card-action-control">Wingsearch ${entry.english || entry.latin}</a>`,
+          `<a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link card-action-control">Wingsearch</a>`,
       )
       .join("");
+    const bowLink = row.speciesCode
+      ? `<a href="https://birdsoftheworld.org/bow/species/${encodeURIComponent(row.speciesCode)}/cur/introduction" target="_blank" rel="noreferrer noopener" class="card-action-control">BoW</a>`
+      : "";
 
     card.innerHTML = `
         <div class="figure-wrapper">
@@ -537,7 +542,7 @@ function renderMatches(matches, requestId) {
             <button class="pin-button card-action-control" type="button" data-pin-toggle>
               Pin
             </button>
-            ${wingsearchLinks}
+            ${wingsearchLinks}${bowLink}
           </div>
         </div>
       `;
