@@ -265,6 +265,13 @@ main.page {
   max-width: 40rem;
 }
 
+.hero .lede a {
+  color: #72f1e1;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+  transition: border-color 0.2s ease;
+}
+
 .search {
   background: var(--panel);
   border-radius: 26px;
