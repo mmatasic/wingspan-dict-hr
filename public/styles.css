@@ -242,6 +242,14 @@ main.page {
   color: var(--accent);
   font-weight: bold;
   margin: 0;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.tag-icon {
+  height: 2.5rem;
+  width: auto;
+  display: inline-block;
 }
 
 
