@@ -18,7 +18,16 @@ export const languages = [
     code: "HR",
     flag: "🇭🇷",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 3,
+    translationIndex: 4,
+  },
+  {
+    id: "en",
+    label: "English/no translation",
+    nativeLabel: "English/no translation",
+    code: "EN",
+    flag: "🇬🇧",
+    csvUrl: "data/wingspan-dict.csv",
+    translationIndex: 1,
   },
   {
     id: "af",
@@ -27,7 +36,7 @@ export const languages = [
     code: "AF",
     flag: "🇿🇦",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 4,
+    translationIndex: 5,
   },
   {
     id: "ar",
@@ -36,7 +45,7 @@ export const languages = [
     code: "SA",
     flag: "🇸🇦",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 5,
+    translationIndex: 6,
   },
   {
     id: "az",
@@ -45,7 +54,7 @@ export const languages = [
     code: "AZ",
     flag: "🇦🇿",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 6,
+    translationIndex: 7,
   },
   {
     id: "bg",
@@ -54,7 +63,7 @@ export const languages = [
     code: "BG",
     flag: "🇧🇬",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 7,
+    translationIndex: 8,
   },
   {
     id: "bn",
@@ -63,7 +72,7 @@ export const languages = [
     code: "BD",
     flag: "🇧🇩",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 8,
+    translationIndex: 9,
   },
   {
     id: "ca",
@@ -72,7 +81,7 @@ export const languages = [
     code: "ES-CT",
     flag: "🇪🇸",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 9,
+    translationIndex: 10,
   },
   {
     id: "cs",
@@ -81,7 +90,7 @@ export const languages = [
     code: "CZ",
     flag: "🇨🇿",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 10,
+    translationIndex: 11,
   },
   {
     id: "de",
@@ -90,7 +99,7 @@ export const languages = [
     code: "DE",
     flag: "🇩🇪",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 11,
+    translationIndex: 12,
   },
   {
     id: "dk",
@@ -99,7 +108,7 @@ export const languages = [
     code: "DK",
     flag: "🇩🇰",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 12,
+    translationIndex: 13,
   },
   {
     id: "el",
@@ -108,7 +117,7 @@ export const languages = [
     code: "GR",
     flag: "🇬🇷",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 13,
+    translationIndex: 14,
   },
   {
     id: "eo",
@@ -117,7 +126,7 @@ export const languages = [
     code: "EO",
     flag: "🏳️",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 14,
+    translationIndex: 15,
   },
   {
     id: "es",
@@ -126,7 +135,7 @@ export const languages = [
     code: "ES",
     flag: "🇪🇸",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 15,
+    translationIndex: 16,
   },
   {
     id: "es_es",
@@ -135,7 +144,7 @@ export const languages = [
     code: "ES",
     flag: "🇪🇸",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 16,
+    translationIndex: 17,
   },
   {
     id: "et",
@@ -144,7 +153,7 @@ export const languages = [
     code: "EE",
     flag: "🇪🇪",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 17,
+    translationIndex: 18,
   },
   {
     id: "eu",
@@ -153,7 +162,7 @@ export const languages = [
     code: "ES-PV",
     flag: "🇪🇸",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 18,
+    translationIndex: 19,
   },
   {
     id: "fi",
@@ -162,7 +171,7 @@ export const languages = [
     code: "FI",
     flag: "🇫🇮",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 19,
+    translationIndex: 20,
   },
   {
     id: "fr",
@@ -171,7 +180,7 @@ export const languages = [
     code: "FR",
     flag: "🇫🇷",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 20,
+    translationIndex: 21,
   },
   {
     id: "he",
@@ -180,7 +189,7 @@ export const languages = [
     code: "IL",
     flag: "🇮🇱",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 21,
+    translationIndex: 22,
   },
   {
     id: "hu",
@@ -189,7 +198,7 @@ export const languages = [
     code: "HU",
     flag: "🇭🇺",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 22,
+    translationIndex: 23,
   },
   {
     id: "id",
@@ -198,7 +207,7 @@ export const languages = [
     code: "ID",
     flag: "🇮🇩",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 23,
+    translationIndex: 24,
   },
   {
     id: "fa",
@@ -207,7 +216,7 @@ export const languages = [
     code: "IR",
     flag: "🇮🇷",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 24,
+    translationIndex: 25,
   },
   {
     id: "is",
@@ -216,7 +225,7 @@ export const languages = [
     code: "IS",
     flag: "🇮🇸",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 25,
+    translationIndex: 26,
   },
   {
     id: "it",
@@ -225,7 +234,7 @@ export const languages = [
     code: "IT",
     flag: "🇮🇹",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 26,
+    translationIndex: 27,
   },
   {
     id: "jp",
@@ -234,7 +243,7 @@ export const languages = [
     code: "JP",
     flag: "🇯🇵",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 27,
+    translationIndex: 28,
   },
   {
     id: "jp_latn",
@@ -243,7 +252,7 @@ export const languages = [
     code: "JP",
     flag: "🇯🇵",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 28,
+    translationIndex: 29,
   },
   {
     id: "ko",
@@ -252,7 +261,7 @@ export const languages = [
     code: "KR",
     flag: "🇰🇷",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 29,
+    translationIndex: 30,
   },
   {
     id: "lt",
@@ -261,7 +270,7 @@ export const languages = [
     code: "LT",
     flag: "🇱🇹",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 30,
+    translationIndex: 31,
   },
   {
     id: "lv",
@@ -270,7 +279,7 @@ export const languages = [
     code: "LV",
     flag: "🇱🇻",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 31,
+    translationIndex: 32,
   },
   {
     id: "ne",
@@ -279,7 +288,7 @@ export const languages = [
     code: "NP",
     flag: "🇳🇵",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 32,
+    translationIndex: 33,
   },
   {
     id: "nl",
@@ -288,7 +297,7 @@ export const languages = [
     code: "NL",
     flag: "🇳🇱",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 33,
+    translationIndex: 34,
   },
   {
     id: "nn",
@@ -297,7 +306,7 @@ export const languages = [
     code: "NO",
     flag: "🇳🇴",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 34,
+    translationIndex: 35,
   },
   {
     id: "no",
@@ -306,7 +315,7 @@ export const languages = [
     code: "NO",
     flag: "🇳🇴",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 35,
+    translationIndex: 36,
   },
   {
     id: "pl",
@@ -315,7 +324,7 @@ export const languages = [
     code: "PL",
     flag: "🇵🇱",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 36,
+    translationIndex: 37,
   },
   {
     id: "pt",
@@ -324,7 +333,7 @@ export const languages = [
     code: "PT",
     flag: "🇵🇹",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 37,
+    translationIndex: 38,
   },
   {
     id: "pt_br",
@@ -333,7 +342,7 @@ export const languages = [
     code: "BR",
     flag: "🇧🇷",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 38,
+    translationIndex: 39,
   },
   {
     id: "pt_pt",
@@ -342,7 +351,7 @@ export const languages = [
     code: "PT",
     flag: "🇵🇹",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 39,
+    translationIndex: 40,
   },
   {
     id: "ro",
@@ -351,7 +360,7 @@ export const languages = [
     code: "RO",
     flag: "🇷🇴",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 40,
+    translationIndex: 41,
   },
   {
     id: "ru",
@@ -360,7 +369,7 @@ export const languages = [
     code: "RU",
     flag: "🇷🇺",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 41,
+    translationIndex: 42,
   },
   {
     id: "sk",
@@ -369,7 +378,7 @@ export const languages = [
     code: "SK",
     flag: "🇸🇰",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 42,
+    translationIndex: 43,
   },
   {
     id: "sl",
@@ -378,7 +387,7 @@ export const languages = [
     code: "SI",
     flag: "🇸🇮",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 43,
+    translationIndex: 44,
   },
   {
     id: "sr",
@@ -387,7 +396,7 @@ export const languages = [
     code: "RS",
     flag: "🇷🇸",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 44,
+    translationIndex: 45,
   },
   {
     id: "sv",
@@ -396,7 +405,7 @@ export const languages = [
     code: "SE",
     flag: "🇸🇪",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 45,
+    translationIndex: 46,
   },
   {
     id: "th",
@@ -405,7 +414,7 @@ export const languages = [
     code: "TH",
     flag: "🇹🇭",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 46,
+    translationIndex: 47,
   },
   {
     id: "tr",
@@ -414,7 +423,7 @@ export const languages = [
     code: "TR",
     flag: "🇹🇷",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 47,
+    translationIndex: 48,
   },
   {
     id: "uk",
@@ -423,7 +432,7 @@ export const languages = [
     code: "UA",
     flag: "🇺🇦",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 48,
+    translationIndex: 49,
   },
   {
     id: "zh",
@@ -432,7 +441,7 @@ export const languages = [
     code: "CN",
     flag: "🇨🇳",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 49,
+    translationIndex: 50,
   },
   {
     id: "zh_tw",
@@ -441,6 +450,6 @@ export const languages = [
     code: "TW",
     flag: "🇹🇼",
     csvUrl: "data/wingspan-dict.csv",
-    translationIndex: 50,
+    translationIndex: 51,
   },
 ];

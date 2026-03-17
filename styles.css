@@ -80,7 +80,7 @@ body {
 
 .language-picker select {
   font-family: "CardenioModernBold", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   padding: 0.45rem 1.4rem 0.45rem 1rem;
@@ -577,19 +577,46 @@ main.page {
   flex-direction: column;
   gap: 0.5rem;
   position: relative;
-  padding-bottom: 4rem;
+  padding-bottom: 0.1rem;
 }
 
 .card-actions {
-  position: absolute;
   right: 1.25rem;
   bottom: 1.25rem;
   display: flex;
   gap: 0.65rem;
-  justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
   z-index: 1;
+}
+
+.audio-credit {
+  font-size: 0.45rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.audio-credit a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+  transition: border-color 0.2s ease;
+}
+
+.media-credit {
+  padding-top: 2rem;
+  font-size: 0.45rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.media-credit a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+  transition: border-color 0.2s ease;
 }
 
 .card-action-control {
@@ -610,6 +637,8 @@ main.page {
   justify-content: center;
   gap: 0.35rem;
   cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
 }
 
 .card-action-control:hover,
@@ -686,7 +715,7 @@ main.page {
   main.page {
     width: 100%;
     max-width: 960px;
-    padding: 3rem clamp(1rem, 5vw, 1.75rem) 4rem;
+    padding: 3rem clamp(1rem, 5vw, 1.75rem) 2rem;
   }
 
   .hero-content {
@@ -708,10 +737,6 @@ main.page {
     position: static;
     margin-top: 0.75rem;
     justify-content: flex-start;
-  }
-
-  .card-body {
-    padding-bottom: 2.25rem;
   }
 }
 

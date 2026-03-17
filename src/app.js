@@ -10,6 +10,8 @@ const pinnedRowElement = document.querySelector("[data-pinned-row]");
 const wingspanOnlyInput = document.getElementById("wingspan-only");
 const languageStorageKey = "wingspanSelectedLanguage";
 const wingspanFilterStorageKey = "wingspanOnlyFilter";
+const macaulayCdnBase =
+  "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/";
 
 function loadStoredLanguage() {
   if (typeof localStorage === "undefined") {
@@ -56,6 +58,63 @@ function persistWingspanFilterPreference(value) {
     localStorage.setItem(wingspanFilterStorageKey, value ? "true" : "false");
   } catch (error) {
     // Fail quietly when storage is unavailable.
+  }
+}
+
+function buildMacaulayAssetUrl(assetCode) {
+  if (!assetCode) {
+    return null;
+  }
+  const normalizedCode = assetCode.trim();
+  if (!normalizedCode) {
+    return null;
+  }
+  return `${macaulayCdnBase}${encodeURIComponent(normalizedCode)}/mp3`;
+}
+
+let activeMacaulayAudio = null;
+let activeMacaulayButton = null;
+
+function setMacaulayButtonState(button, playing) {
+  if (!button) {
+    return;
+  }
+  button.textContent = playing ? "⏹︎ Stop" : "♪ Listen**";
+  button.classList.toggle("is-playing", playing);
+}
+
+function stopMacaulayAudio() {
+  if (activeMacaulayAudio) {
+    activeMacaulayAudio.pause();
+    activeMacaulayAudio.currentTime = 0;
+  }
+  setMacaulayButtonState(activeMacaulayButton, false);
+  activeMacaulayAudio = null;
+  activeMacaulayButton = null;
+}
+
+function playMacaulayAudio(url, button) {
+  if (!url) {
+    return;
+  }
+  if (activeMacaulayButton === button) {
+    stopMacaulayAudio();
+    return;
+  }
+  stopMacaulayAudio();
+  const audio = new Audio(url);
+  audio.preload = "auto";
+  const playPromise = audio.play();
+  activeMacaulayAudio = audio;
+  activeMacaulayButton = button;
+  setMacaulayButtonState(button, true);
+  audio.addEventListener("ended", () => {
+    if (activeMacaulayAudio === audio) {
+      stopMacaulayAudio();
+    }
+  });
+  if (playPromise && typeof playPromise.catch === "function") {
+    playPromise.catch(() => stopMacaulayAudio());
   }
 }
 
@@ -155,11 +214,13 @@ function parseCsv(text, language) {
       const english = columns[1] || "";
       const translation = columns[translationIndex] || "";
       const speciesCode = columns[2] || "";
+      const macaulayAssetCode = columns[3] || "";
       return {
         latin,
         english,
         translation,
         speciesCode,
+        macaulayAssetCode,
       };
     })
     .filter((row) => row.latin);
@@ -200,6 +261,20 @@ function isWingsearchBird(row) {
   return (
     (latin && wingsearchNameSet.has(latin)) ||
     (english && wingsearchNameSet.has(english))
+  );
+}
+
+function matchesWingsearchEntry(entry, row) {
+  if (!entry || !row) {
+    return false;
+  }
+  const latinEntry = entry.latin?.toLowerCase() ?? "";
+  const englishEntry = entry.english?.toLowerCase() ?? "";
+  const latinRow = row.latin?.toLowerCase() ?? "";
+  const englishRow = row.english?.toLowerCase() ?? "";
+  return (
+    (latinEntry && latinEntry === latinRow) ||
+    (englishEntry && englishEntry === englishRow)
   );
 }
 
@@ -510,9 +585,7 @@ function renderMatches(matches, requestId) {
     const card = document.createElement("article");
     card.className = "card";
     const wingsearchLinks = wingsearchData
-      .filter(
-        (entry) => entry.latin === row.latin || entry.english === row.english,
-      )
+      .filter((entry) => matchesWingsearchEntry(entry, row))
       .map(
         (entry) =>
           `<a href="${wingsearchUrl}${encodeURIComponent(entry.id)}" target="_blank" rel="noreferrer noopener" class="wingsearch-link card-action-control">Wingsearch</a>`,
@@ -521,6 +594,13 @@ function renderMatches(matches, requestId) {
     const bowLink = row.speciesCode
       ? `<a href="https://birdsoftheworld.org/bow/species/${encodeURIComponent(row.speciesCode)}/cur/introduction" target="_blank" rel="noreferrer noopener" class="card-action-control">BoW</a>`
       : "";
+    const macaulayAudioButton = row.macaulayAssetCode
+      ? `<button class="card-action-control" type="button" data-macaulay-asset="${row.macaulayAssetCode}">♪ Listen**</button>`
+      : "";
+    const audioCredit = row.macaulayAssetCode
+      ? `<div class="audio-credit">**Sound src: <a href="https://www.macaulaylibrary.org/" target="_blank" rel="noreferrer noopener">Macaulay Library</a></div>`
+      : "";
+    const mediaCredit = `<div class="media-credit" hidden>*Image & extract src: <a href="https://www.wikipedia.org/" target="_blank" rel="noreferrer noopener">Wikipedia</a></div>`;
 
     card.innerHTML = `
         <div class="figure-wrapper">
@@ -542,8 +622,10 @@ function renderMatches(matches, requestId) {
             <button class="pin-button card-action-control" type="button" data-pin-toggle>
               Pin
             </button>
-            ${wingsearchLinks}${bowLink}
+            ${wingsearchLinks}${bowLink}${macaulayAudioButton}
           </div>
+          ${mediaCredit}
+          ${audioCredit}
         </div>
       `;
 
@@ -551,12 +633,14 @@ function renderMatches(matches, requestId) {
     const imageElement = card.querySelector("img");
     const linkElement = card.querySelector(".figure-link");
     const extractElement = card.querySelector(".extract");
+    const mediaCreditElement = card.querySelector(".media-credit");
     queryWikipedia(
       imageElement,
       linkElement,
       extractElement,
       formattedLatin,
       row.english,
+      mediaCreditElement,
       requestId,
     );
     const pinButton = card.querySelector("[data-pin-toggle]");
@@ -564,6 +648,17 @@ function renderMatches(matches, requestId) {
       pinButton.addEventListener("click", () => {
         togglePinnedBird(row);
         updateCardPinState(card, row);
+      });
+    }
+    const macaulayButton = card.querySelector("[data-macaulay-asset]");
+    if (macaulayButton) {
+      macaulayButton.addEventListener("click", () => {
+        const assetUrl = buildMacaulayAssetUrl(
+          macaulayButton.dataset.macaulayAsset,
+        );
+        if (assetUrl) {
+          playMacaulayAudio(assetUrl, macaulayButton);
+        }
       });
     }
     updateCardPinState(card, row);
@@ -582,6 +677,7 @@ async function queryWikipedia(
   extractElement,
   title,
   titleEnglish,
+  mediaCreditElement,
   requestId,
 ) {
   let summary = await fetchBirdImage(title.toLowerCase());
@@ -605,9 +701,12 @@ async function queryWikipedia(
   }
 
   if (summary?.extract) {
-    extractElement.textContent = summary.extract;
+    extractElement.textContent = summary.extract + "*";
   } else {
     extractElement.textContent = "No summary available.";
+  }
+  if (summary?.thumbnail || summary?.extract) {
+    mediaCreditElement?.removeAttribute("hidden");
   }
 }
 
