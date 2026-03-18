@@ -598,9 +598,9 @@ function renderMatches(matches, requestId) {
       ? `<button class="card-action-control" type="button" data-macaulay-asset="${row.macaulayAssetCode}">♪ Listen**</button>`
       : "";
     const audioCredit = row.macaulayAssetCode
-      ? `<div class="audio-credit">**Sound src: <a href="https://www.macaulaylibrary.org/" target="_blank" rel="noreferrer noopener">Macaulay Library</a></div>`
+      ? `<div class="audio-credit">**Sound source: <a href="https://www.macaulaylibrary.org/" target="_blank" rel="noreferrer noopener">Macaulay Library</a></div>`
       : "";
-    const mediaCredit = `<div class="media-credit" hidden>*Image & extract src: <a href="https://www.wikipedia.org/" target="_blank" rel="noreferrer noopener">Wikipedia</a></div>`;
+    const mediaCredit = `<div class="media-credit" hidden>*Image & extract source: <a href="https://www.wikipedia.org/" target="_blank" rel="noreferrer noopener">Wikipedia</a></div>`;
 
     card.innerHTML = `
         <div class="figure-wrapper">
