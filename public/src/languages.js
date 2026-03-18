@@ -27,7 +27,7 @@ export const languages = [
     code: "EN",
     flag: "🇬🇧",
     csvUrl: "data/wingspan-dict-hr.csv",
-    translationIndex: 2,
+    translationIndex: 1,
   },
 
   {

@@ -134,7 +134,7 @@ Dromaius novaehollandiae,Emu,emu1,623096519,TRUE,emu
 APTERYGIDAE,Kiwis,,,FALSE,
 Apteryx haastii,Great Spotted Kiwi,grskiw1,617700522,TRUE,större fläckkivi
 Apteryx owenii,Little Spotted Kiwi,liskiw1,596188651,FALSE,mindre fläckkivi
-Apteryx mantelli,Northern Brown Kiwi,nibkiw1,623165890,TRUE,brun kivi
+Apteryx mantelli,North Island Brown Kiwi,nibkiw1,623165890,TRUE,brun kivi
 Apteryx australis,Southern Brown Kiwi,sobkiw1,85614831,FALSE,sydkivi
 Ortalis superciliaris,Buff-browed Chachalaca,bubcha1,349286621,FALSE,beigebrynad chachalaca
 Nothocrax urumutum,Nocturnal Curassow,noccur1,34378,FALSE,natthocko
@@ -336,7 +336,7 @@ Lophophorus lhuysii,Chinese Monal,chimon1,30554891,FALSE,kinesisk monal
 Tragopan melanocephalus,Western Tragopan,westra1,618952577,FALSE,västlig tragopan
 Tragopan satyra,Satyr Tragopan,sattra1,633595716,TRUE,satyrtragopan
 Tragopan blythii,Blyth's Tragopan,blytra1,650866542,FALSE,gråbukig tragopan
-Tragopan temminckii,Temminck's Tragopan,temtra1,483733661,TRUE,Temmincks tragopan
+Tragopan temminckii,Crimson-Bellied Tragopan,temtra1,483733661,TRUE,Temmincks tragopan
 Tragopan caboti,Cabot's Tragopan,cabtra1,203899881,FALSE,cabottragopan
 Ithaginis cruentus,Blood Pheasant,blophe1,30554841,TRUE,blodfasan
 Pucrasia macrolopha,Koklass Pheasant,kokphe1,252246071,FALSE,koklassfasan
@@ -430,7 +430,7 @@ Cygnus cygnus,Whooper Swan,whoswa,203932741,TRUE,sångsvan
 Cygnus columbianus,Tundra Swan,tunswa,406700341,TRUE,mindre sångsvan
 C. c. bewickii,Bewick's Swan,,,FALSE,
 C. c. columbianus,Tundra Swan,tunswa,406700341,TRUE,
-Branta bernicla,Brent Goose,brant,65344051,TRUE,prutgås
+Branta bernicla,Brant,brant,65344051,TRUE,prutgås
 B. b. hrota,Pale-bellied Brent Goose,,,FALSE,
 B. b. nigricans,Black bellied Brent Goose,,,FALSE,
 Branta leucopsis,Barnacle Goose,bargoo,235525,FALSE,vitkindad gås
@@ -467,7 +467,7 @@ Bucephala clangula,Common Goldeneye,comgol,304684,TRUE,knipa
 Bucephala islandica,Barrow's Goldeneye,bargol,626998827,TRUE,islandsknipa
 Mergellus albellus,Smew,smew,,TRUE,salskrake
 Lophodytes cucullatus,Hooded Merganser,hoomer,582897021,TRUE,kamskrake
-Mergus merganser,Goosander,commer,208071711,TRUE,storskrake
+Mergus merganser,Common Merganser,commer,208071711,TRUE,storskrake
 Mergus squamatus,Scaly-sided Merganser,scsmer1,,FALSE,amurskrake
 Mergus serrator,Red-breasted Merganser,rebmer,3786,TRUE,småskrake
 †Mergus australis,Auckland Merganser,,,FALSE,
@@ -592,7 +592,7 @@ Podilymbus podiceps,Pied-billed Grebe,pibgre,131025131,TRUE,tjocknäbbad dopping
 Rollandia rolland,White-tufted Grebe,whtgre3,477283851,FALSE,vittofsad dopping
 Rollandia microptera,Titicaca Grebe,titgre1,647134154,TRUE,titicacadopping
 Poliocephalus poliocephalus,Hoary-headed Grebe,hohgre1,99561861,FALSE,gråhuvad dopping
-Poliocephalus rufopectus,New Zealand Grebe,nezgre1,286680201,TRUE,maoridopping
+Poliocephalus rufopectus,New Zealand Dabchick,nezgre1,286680201,TRUE,maoridopping
 Podiceps major,Great Grebe,gregre1,440914901,FALSE,stordopping
 Podiceps grisegena,Red-necked Grebe,rengre,345214271,FALSE,gråhakedopping
 Podiceps cristatus,Great Crested Grebe,grcgre1,304794,TRUE,skäggdopping
@@ -697,7 +697,6 @@ Phaethon lepturus,White-tailed Tropicbird,whttro,167439,FALSE,vitstjärtad tropi
 EURYPYGIFORMES,,,,FALSE,
 RHYNOCHETIDAE,Kagu,kagu1,203910461,FALSE,
 Rhynochetos jubatus,Kagu,kagu1,203910461,FALSE,kagu
-EURYPYGIDAE,Sunbittern,sunbit1,389200681,TRUE,
 Eurypyga helias,Sunbittern,sunbit1,389200681,TRUE,solrall
 MESITORNITHIFORMES,,,,FALSE,
 MESITORNITHIDAE,Mesites,,,FALSE,
@@ -833,7 +832,7 @@ Caloenas nicobarica,Nicobar Pigeon,nicpig1,609070986,TRUE,nikobarduva
 †Raphus cucullatus,Dodo,dodo1,,FALSE,
 †Pezophaps solitaria,Rodriguez Solitaire,,,FALSE,
 Didunculus strigirostris,Tooth-billed Pigeon,tobpig1,139881,FALSE,tandduva
-Chalcophaps indica,Grey-capped Emerald Dove,emedov2,231248421,TRUE,asiatisk/australisk smaragdduva
+Chalcophaps indica,Asian Emerald Dove,emedov2,231248421,TRUE,asiatisk/australisk smaragdduva
 Chalcophaps longirostris,Brown-capped Emerald Dove,emedov3,203995331,FALSE,australisk smaragdduva
 Chalcophaps stephani,Stephan's Dove,stedov1,141715181,FALSE,brunryggig smaragdduva
 Turtur chalcospilos,Emerald-spotted Wood-dove,eswdov1,203935301,FALSE,smaragdfläckduva
@@ -990,7 +989,7 @@ Ptilinopus coralensis,Atoll Fruit-dove,atfdov1,203895741,FALSE,atollfruktduva
 Ptilinopus chrysogaster,Raiatea Fruit-dove,gygfrd2,203895731,FALSE,raiateafruktduva
 Ptilinopus rarotongensis,Rarotonga Fruit-dove,cifdov1,64543,FALSE,rarotongafruktduva
 Ptilinopus purpuratus,Grey-green Fruit-dove,gygfrd1,94994,FALSE,tahitifruktduva
-Hemiphaga novaeseelandiae,New Zealand Pigeon,nezpig2,363058921,TRUE,nyazeelandduva
+Hemiphaga novaeseelandiae,Kererū,nezpig2,363058921,TRUE,nyazeelandduva
 Hemiphaga chathamensis,Chatham Pigeon,nezpig3,,FALSE,chathamduva
 Cryptophaps poecilorrhoa,Sombre Pigeon,sompig2,642839894,FALSE,sulawesiduva
 Gymnophaps albertisii,Papuan Mountain-pigeon,pampig2,285735251,FALSE,papuabergduva
@@ -1017,7 +1016,6 @@ Pterocles quadricinctus,Four-banded Sandgrouse,fobsan1,204022371,FALSE,fyrbandad
 Pterocles lichtensteinii,Lichtenstein's Sandgrouse,licsan1,204005001,FALSE,strimflyghöna
 Pterocles indicus,Painted Sandgrouse,paisan1,623697473,FALSE,indisk flyghöna
 CAPRIMULGIFORMES,,,,FALSE,
-STEATORNITHIDAE,Oilbird,oilbir1,599958121,TRUE,
 Steatornis caripensis,Oilbird,oilbir1,599958121,TRUE,oljefågel
 PODARGIDAE,Frogmouths,,,FALSE,
 Rigidipenna inexpectata,Solomons Frogmouth,soifro1,203932761,FALSE,salomongrodmun
@@ -1482,7 +1480,7 @@ Klais guimeti,Violet-headed Hummingbird,vihhum1,136301011,FALSE,violetthuvad kol
 Abeillia abeillei,Emerald-chinned Hummingbird,emchum1,86679,FALSE,smaragdstrupe
 Orthorhyncus cristatus,Antillean Crested Hummingbird,anchum1,204013441,FALSE,blåtofsad kolibri
 Stephanoxis lalandi,Green-crowned Plovercrest,plover3,640929511,FALSE,gröntofsad vipkolibri
-Stephanoxis loddigesii,Violet-crowned Plovercrest,plover4,203700671,TRUE,purpurtofsad vipkolibri
+Stephanoxis loddigesii,Purple-Crowned Plovercrest,plover4,203700671,TRUE,purpurtofsad vipkolibri
 Aphantochroa cirrochloris,Sombre Hummingbird,somhum1,24648421,FALSE,sorgkolibri
 Anthocephala floriceps,Blossomcrown,samblo1,632679875,FALSE,santamartablomhätta
 Campylopterus cuvierii,Scaly-breasted Hummingbird,scbhum1,207693221,FALSE,fjällig kolibri
@@ -1620,7 +1618,6 @@ Selasphorus ardens,Glow-throated Hummingbird,glthum1,616224105,FALSE,glödhakeko
 Atthis heloisa,Bumblebee Hummingbird,bumhum,203996491,FALSE,humlekolibri
 Atthis ellioti,Wine-throated Hummingbird,withum1,20352,FALSE,vinstrupekolibri
 OPISTHOCOMIFORMES,,,,FALSE,
-OPISTHOCOMIDAE,Hoatzin,hoatzi1,325134081,TRUE,
 Opisthocomus hoazin,Hoatzin,hoatzi1,325134081,TRUE,hoatzin
 Clamator jacobinus,Jacobin Cuckoo,piecuc1,8204,FALSE,jakobinskatgök
 Clamator levaillantii,Levaillant's Cuckoo,levcuc1,8206,FALSE,strimmig skatgök
@@ -1630,7 +1627,7 @@ Coccycua minuta,Little Cuckoo,litcuc2,303630481,FALSE,pygmégök
 Coccycua pumila,Dwarf Cuckoo,dwacuc1,71989,FALSE,dvärggök
 Coccycua cinerea,Ash-colored Cuckoo,asccuc1,613645477,FALSE,grågök
 Piaya mexicana,Mexican Squirrel-cuckoo,squcuc2,109209,FALSE,västmexikansk gök
-Piaya cayana,Common Squirrel-cuckoo,squcuc1,373492111,TRUE,ekorrgök/svartbukig gök
+Piaya cayana,Squirrel Cuckoo,squcuc1,373492111,TRUE,ekorrgök/svartbukig gök
 Piaya melanogaster,Black-bellied Cuckoo,blbcuc1,203919001,FALSE,svartbukig gök
 Coccyzus americanus,Yellow-billed Cuckoo,yebcuc,634354421,TRUE,gulnäbbad regngök
 Coccyzus euleri,Pearly-breasted Cuckoo,pebcuc1,318062371,FALSE,pärlbröstad regngök
@@ -1649,7 +1646,7 @@ Coccyzus vieilloti,Puerto Rican Lizard-cuckoo,purlic1,204011811,FALSE,puertorico
 †Nannococcyx psix,St Helena Cuckoo,,,FALSE,
 Pachycoccyx audeberti,Thick-billed Cuckoo,thbcuc1,586937891,FALSE,tjocknäbbad gök
 Microdynamis parva,Dwarf Koel,dwakoe1,166190461,FALSE,dvärgkoel
-Eudynamys scolopaceus,Western Koel,asikoe2,85461311,TRUE,asiatisk koel
+Eudynamys scolopaceus,Asian Koel,asikoe2,85461311,TRUE,asiatisk koel
 Eudynamys orientalis,Eastern Koel,asikoe3,44253641,FALSE,australisk koel
 Urodynamys taitensis,Long-tailed Koel,lotkoe1,203924211,FALSE,långstjärtad koel
 Scythrops novaehollandiae,Channel-billed Cuckoo,chbcuc2,191800241,FALSE,jättegök
@@ -1954,7 +1951,7 @@ Tribonyx ventralis,Black-tailed Native-hen,btnhen1,499295501,FALSE,svartstjärta
 Tribonyx mortierii,Tasmanian Native-hen,tanhen1,2902,FALSE,tasmansk rörhöna
 Fulica cristata,Red-knobbed Coot,rekcoo1,386806321,FALSE,kamsothöna
 †Fulica newtonii,Mascarene Coot,mascoo1,,FALSE,
-Fulica atra,Common Coot,eurcoo,217023251,TRUE,sothöna
+Fulica atra,Eurasian Coot,eurcoo,217023251,TRUE,sothöna
 Fulica alai,Hawaiian Coot,hawcoo,39455421,FALSE,hawaiisothöna
 Fulica americana,American Coot,y00475,41572901,TRUE,amerikansk sothöna
 Fulica leucoptera,White-winged Coot,whwcoo1,615044193,FALSE,vitvingad sothöna
@@ -1996,7 +1993,6 @@ Psophia leucoptera,White-winged Trumpeter,pawtru2,110697,FALSE,vitvingad trumpet
 Psophia viridis,Green-winged Trumpeter,dawtru1,203983181,FALSE,mörkvingad trumpetare
 Psophia dextralis,Olive-winged Trumpeter,,,FALSE,
 Psophia obscura,Black-winged Trumpeter,,,FALSE,mörkvingad trumpetare (obscura)
-ARAMIDAE,Limpkin,limpki,73922,TRUE,
 Aramus guarauna,Limpkin,limpki,73922,TRUE,ralltrana
 GAVIIFORMES,,,,FALSE,
 GAVIIDAE,Loons/Divers,,,FALSE,
@@ -2031,7 +2027,7 @@ Pygoscelis antarcticus,Chinstrap Penguin,chipen2,51673,FALSE,hakremspingvin
 Eudyptes schlegeli,Royal Penguin,roypen1,31642031,FALSE,vitkindad pingvin
 Eudyptes chrysolophus,Macaroni Penguin,macpen1,204017071,FALSE,macaronipingvin
 Eudyptes moseleyi,Northern Rockhopper Penguin,rocpen4,,FALSE,atlantpingvin
-Eudyptes chrysocome,Southern Rockhopper Penguin,rocpen2,203972091,TRUE,västlig klipphopparpingvin
+Eudyptes chrysocome,Western Rockhopper Penguin,rocpen2,203972091,TRUE,västlig klipphopparpingvin
 Eudyptes sclateri,Erect-crested Penguin,bicpen1,364966691,FALSE,tofspingvin
 Eudyptes pachyrhynchus,Fiordland Penguin,fiopen1,373472291,FALSE,fjordpingvin
 Eudyptes robustus,Snares Penguin,snapen1,141401,FALSE,snarespingvin
@@ -2126,7 +2122,7 @@ Puffinus bailloni,Tropical Shearwater,troshe5,566340151,FALSE,tropiklira
 Puffinus persicus,Persian Shearwater,pershe1,,FALSE,arablira
 Puffinus bannermani,Bannerman's Shearwater,troshe4,,FALSE,boninlira
 Puffinus puffinus,Manx Shearwater,manshe,540155541,TRUE,mindre lira
-Puffinus yelkouan,Yelkouan Shearwater,levshe1,310771,TRUE,medelhavslira
+Puffinus yelkouan,Mediterranean Shearwater,levshe1,310771,TRUE,medelhavslira
 Puffinus mauretanicus,Balearic Shearwater,balshe1,513102161,FALSE,balearisk lira
 Puffinus elegans,Subantarctic Shearwater,litshe4,647560772,FALSE,subantarktisk lira
 Puffinus assimilis,Little Shearwater,litshe8,364541351,FALSE,dvärglira
@@ -2165,7 +2161,7 @@ Hydrobates hornbyi,Ringed Storm-petrel,rispet1,622065252,FALSE,halsbandsstormsva
 DIOMEDEIDAE,Albatrosses,,,FALSE,
 Diomedea sanfordi,Northern Royal Albatross,royalb3,9232,FALSE,nordlig kungsalbatross
 Diomedea epomophora,Southern Royal Albatross,royalb2,204018211,FALSE,sydlig/nordlig kungsalbatross
-Diomedea exulans,Wandering Albatross,wanalb1,42306,TRUE,vandringsalbatross
+Diomedea exulans,Snowy Albatross,wanalb1,42306,TRUE,vandringsalbatross
 Diomedea antipodensis,Antipodean Albatross,antalb1,203922111,FALSE,antipodalbatross
 Diomedea amsterdamensis,Amsterdam Albatross,wanalb5,,FALSE,amsterdamalbatross
 Diomedea dabbenena,Tristan Albatross,wanalb3,,FALSE,tristanalbatross
@@ -2225,7 +2221,7 @@ Pseudibis davisoni,White-shouldered Ibis,whsibi1,202950961,FALSE,davisonibis
 Pseudibis gigantea,Giant Ibis,giaibi1,203912241,FALSE,jätteibis
 Geronticus eremita,Northern Bald Ibis,waldra1,592841121,FALSE,eremitibis
 Geronticus calvus,Southern Bald Ibis,balibi1,618896969,FALSE,skallig ibis
-Nipponia nippon,Japanese Crested Ibis,creibi1,204009261,TRUE,tofsibis
+Nipponia nippon,Crested Ibis,creibi1,204009261,TRUE,tofsibis
 Bostrychia olivacea,Olive Ibis,oliibi2,24699,FALSE,olivibis
 Bostrychia bocagei,Dwarf Ibis,oliibi3,642874134,FALSE,Dvärgolivibis
 Bostrychia rara,Spot-breasted Ibis,spbibi1,203909981,FALSE,fläckbröstad ibis
@@ -2285,7 +2281,7 @@ Ardea sumatrana,Great-billed Heron,grbher2,203887551,FALSE,stornäbbad häger
 Ardea goliath,Goliath Heron,golher1,2028,FALSE,goliathäger
 Ardea purpurea,Purple Heron,purher1,239512061,TRUE,purpurhäger
 A. p. bournei,Cape Verde Heron,,,FALSE,
-Ardea alba,Great White Egret,greegr,23692051,TRUE,ägretthäger
+Ardea alba,Great Egret,greegr,23692051,TRUE,ägretthäger
 Ardea brachyrhyncha,Yellow-billed Egret,integr3,588972951,FALSE,gulnäbbad häger
 Ardea intermedia,Intermediate Egret,integr1,451056611,FALSE,mellanhäger
 Ardea plumifera,Plumed Egret,integr2,616099067,FALSE,plymhäger
@@ -2432,7 +2428,6 @@ Phalacrocorax fuscescens,Black-faced Cormorant,blfcor1,349736791,FALSE,svartmask
 Phalacrocorax varius,Great Pied Cormorant,piecor1,203936851,FALSE,australisk skarv
 Phalacrocorax punctatus,Spotted Shag,sposha1,487535711,TRUE,fläckskarv
 Phalacrocorax featherstoni,Pitt Shag,piisha1,,FALSE,grönmaskad skarv
-IBIDORHYNCHIDAE,Ibisbill,ibisbi1,285398,TRUE,
 Ibidorhyncha struthersii,Ibisbill,ibisbi1,285398,TRUE,ibisnäbb
 RECURVIROSTRIDAE,Avocets Stilts,,,FALSE,
 Cladorhynchus leucocephalus,Banded Stilt,bansti1,99434191,FALSE,australisk styltlöpare
@@ -2448,7 +2443,7 @@ H. h. melanurus,White-backed Stilt,,,FALSE,
 Himantopus novaezelandiae,Black Stilt,blasti1,622956127,FALSE,svart styltlöpare
 CHARADRIIDAE,Plovers,,,FALSE,
 Pluvialis squatarola,Grey Plover,bkbplo,167886311,FALSE,kustpipare
-Pluvialis apricaria,Eurasian Golden Plover,eugplo,103332581,TRUE,ljungpipare
+Pluvialis apricaria,European Golden Plover,eugplo,103332581,TRUE,ljungpipare
 Pluvialis fulva,Pacific Golden Plover,pagplo,516983,FALSE,sibirisk tundrapipare
 Pluvialis dominica,American Golden Plover,amgplo,31731481,TRUE,amerikansk tundrapipare/sibirisk tundrapipare
 Oreopholus ruficollis,Tawny-throared Dotterel,tatdot1,470069241,FALSE,rosthalspipare
@@ -2601,7 +2596,6 @@ Gallinago hardwickii,Latham's Snipe,latsni1,593752771,FALSE,japansk beckasin
 Gallinago nemoricola,Wood Snipe,woosni1,338905451,FALSE,skogsbeckasin
 Gallinago stenura,Pintail Snipe,pitsni,412194641,FALSE,sibirisk beckasin
 Gallinago megala,Swinhoe's Snipe,swisni1,448249421,FALSE,tajgabeckasin
-PEDIONOMIDAE,Plains-wanderer,plawan1,496959781,TRUE,
 Pedionomus torquatus,Plains-wanderer,plawan1,496959781,TRUE,stäpplöpare
 THINOCORIDAE,Seedsnipes,,,FALSE,
 Attagis gayi,Rufous-bellied Seedsnipe,rubsee2,615679654,FALSE,rostbukig frösnäppa
@@ -2809,7 +2803,7 @@ Tyto nigrobrunnea,Taliabu Masked-owl,talowl1,609069999,FALSE,taliabutornuggla
 Tyto inexspectata,Minahassa Masked-owl,minowl1,175978,FALSE,minahasatornuggla
 Tyto rosenbergii,Sulawesi Owl,sulowl1,203990191,FALSE,sulawesitornuggla
 Tyto soumagnei,Madagascar Red Owl,marowl1,,FALSE,madagaskartornuggla
-Tyto alba,Common Barn-owl,webowl1,435736051,TRUE,tornuggla
+Tyto alba,Barn Owl,webowl1,435736051,TRUE,tornuggla
 T. a. detorta,Cape Verde Barn-owl,,,FALSE,
 T. a. schmitzi,Madeira Barn-owl,,,FALSE,
 T. a. gracilirostris,Gran Canaria Barn-owl,,,FALSE,
@@ -2901,7 +2895,7 @@ Synthliboramphus hypoleucus,Guadalupe Murrelet,xanmur1,588795931,FALSE,Scripps c
 Synthliboramphus craveri,Craveri's Murrelet,cramur,297757331,FALSE,sotvingad californiaalka
 Alca torda,Razorbill,razorb,621601678,FALSE,tordmule
 †Pinguinus impennis,Great Auk,greauk,,FALSE,
-Alle alle,Little Auk,doveki,629733713,TRUE,alkekung
+Alle alle,Dovekie,doveki,629733713,TRUE,alkekung
 Uria lomvia,Thick-billed Murre,thbmur,278950301,FALSE,spetsbergsgrissla
 Uria aalge,Common Murre,commur,245917551,TRUE,sillgrissla/spetsbergsgrissla
 STRIGIFORMES,owl sp.,owl1,45172511,FALSE,
@@ -3093,7 +3087,7 @@ Spilornis rufipectus,Sulawesi Serpent-eagle,suseag1,640793010,FALSE,sulawesihjä
 Spilornis elgini,Andaman Serpent-eagle,anseag1,290061431,FALSE,andamanhjälmörn
 Dryotriorchis spectabilis,Congo Serpent-eagle,,,FALSE,kongoormörn
 Terathopius ecaudatus,Bateleur,batele1,135449,FALSE,gycklarörn
-Pithecophaga jefferyi,Great Philippine Eagle,grpeag1,183492,TRUE,apörn
+Pithecophaga jefferyi,Philippine Eagle,grpeag1,183492,TRUE,apörn
 Circaetus gallicus,Short-toed Snake-eagle,shteag1,203921371,FALSE,ormörn
 Circaetus beaudouini,Beaudouin's Snake-eagle,beasne1,310001,FALSE,Beaudouins ormörn
 Circaetus pectoralis,Black-breasted Snake-eagle,bkbsne1,,FALSE,svartbröstad ormörn
@@ -3167,14 +3161,13 @@ CATHARTIDAE,New World Vultures,,,FALSE,rödskallig kråktrast
 Cathartes aura,Turkey Vulture,turvul,317760061,TRUE,kalkongam
 Cathartes burrovianus,Lesser Yellow-headed Vulture,lyhvul1,437900471,FALSE,savanngam
 Cathartes melambrotus,Greater Yellow-headed Vulture,gyhvul1,482548071,FALSE,skogsgam
-Coragyps atratus,American Black Vulture,blkvul,458200071,TRUE,korpgam
+Coragyps atratus,Black Vulture,blkvul,458200071,TRUE,korpgam
 Sarcorhamphus papa,King Vulture,kinvul1,166695961,TRUE,kungsgam
 Gymnogyps californianus,California Condor,calcon,163900,TRUE,kalifornisk kondor
 Vultur gryphus,Andean Condor,andcon1,220146481,TRUE,kondor
 ACCIPITRIFORMES,Diurnal raptor sp.,diurap1,87390,FALSE,
 SAGITTARIIDAE,Secretarybird,secret2,348379561,FALSE,
 Sagittarius serpentarius,Secretarybird,secret2,348379561,FALSE,sekreterarfågel
-PANDIONIDAE,Osprey,osprey,34075051,TRUE,
 Pandion haliaetus,Osprey,osprey,34075051,TRUE,fiskgjuse/australisk fiskgjuse
 ACCIPITRIDAE,Hawks Eagles,,,FALSE,Accipitridae sp. (old world vulture sp.)
 Elanus caeruleus,Black-winged Kite,bkskit1,465025481,FALSE,svartvingad glada
@@ -3207,7 +3200,7 @@ Polyboroides radiatus,Madagascar Harrier-hawk,mahhaw1,93905,FALSE,madagaskarklä
 Gypohierax angolensis,Palm-nut Vulture,panvul1,310236,FALSE,palmgam
 Gypaetus barbatus,Bearded Vulture,lammer1,353604881,FALSE,lammgam
 Neophron percnopterus,Egyptian Vulture,egyvul1,354072661,FALSE,smutsgam
-Circus aeruginosus,Western Marsh-harrier,wemhar1,613407946,TRUE,brun kärrhök
+Circus aeruginosus,Eurasian Marsh-Harrier,wemhar1,613407946,TRUE,brun kärrhök
 Circus spilonotus,Eastern Marsh-harrier,easmah1,549698611,FALSE,brokig kärrhök
 Circus approximans,Swamp Harrier,swahar1,259809771,FALSE,australisk kärrhök
 Circus ranivorus,African Marsh-harrier,afmhar1,4318,FALSE,grodkärrhök
@@ -3286,7 +3279,7 @@ Haliaeetus vociferoides,Madagascar Fish-eagle,mafeag1,609067051,FALSE,madagaskar
 Haliaeetus leucoryphus,Pallas's Fish-eagle,pafeag1,516134901,FALSE,bandhavsörn
 Haliaeetus albicilla,White-tailed Sea-eagle,whteag,59245071,FALSE,havsörn
 Haliaeetus leucocephalus,Bald Eagle,baleag,200943,TRUE,vithövdad havsörn
-Haliaeetus pelagicus,Steller's Sea-eagle,stseag,21723301,TRUE,jättehavsörn
+Haliaeetus pelagicus,Pacific Sea-Eagle,stseag,21723301,TRUE,jättehavsörn
 Ichthyophaga humilis,Lesser Fishing-eagle,,,FALSE,mindre fiskörn
 Ichthyophaga ichthyaetus,Grey-headed Fishing-eagle,,,FALSE,gråhuvad fiskörn
 Haliastur sphenurus,Whistling Kite,whikit1,352796781,FALSE,visselglada
@@ -3351,7 +3344,7 @@ Buteo regalis,Ferruginous Hawk,ferhaw,505924511,TRUE,kungsvråk
 Buteo auguralis,Red-necked Buzzard,renbuz1,641551236,FALSE,rödnackad vråk
 Buteo augur,Augur Buzzard,augbuz2,31365371,FALSE,Augurvråk
 Buteo rufofuscus,Jackal Buzzard,jacbuz1,275748,FALSE,schakalvråk
-Buteo buteo,Eurasian Buzzard,combuz1,207612071,TRUE,ormvråk
+Buteo buteo,Common Buzzard,combuz1,207612071,TRUE,ormvråk
 B. b. vulpinus,Steppe Buzzard,,,FALSE,
 B. b. menetriesi,Eastern Steppe Buzzard,,,FALSE,
 Buteo japonicus,Japanese Buzzard,combuz6,626281008,FALSE,orientvråk
@@ -3414,7 +3407,7 @@ Rhyticeros everetti,Sumba Hornbill,sumhor1,199793421,FALSE,sumbanäshornsfågel
 Rhyticeros undulatus,Wreathed Hornbill,wrehor1,609065063,FALSE,skårnäbbad näshornsfågel
 Rhyticeros subruficollis,Plain-pouched Hornbill,plphor1,638940368,FALSE,vitstrupig näshornsfågel
 Rhyticeros narcondami,Narcondam Hornbill,narhor1,151625211,FALSE,narcondamnäshornsfågel
-Rhyticeros plicatus,Papuan Hornbill,blyhor1,21222,TRUE,papuanäshornsfågel
+Rhyticeros plicatus,Blyth's Hornbill,blyhor1,21222,TRUE,papuanäshornsfågel
 COLIIFORMES,,,,FALSE,
 COLIIDAE,Mousebirds,,,FALSE,
 Colius striatus,Speckled Mousebird,spemou2,253840331,FALSE,vitkindad musfågel
@@ -3471,8 +3464,7 @@ Trogon ambiguus,Coppery-tailed Trogon,eletro1,255097111,FALSE,kopparstjärtad tr
 Trogon mexicanus,Mountain Trogon,moutro1,612575312,FALSE,bergtrogon
 Trogon collaris,Collared Trogon,coltro1,389248371,FALSE,halsbandstrogon (collaris Group/puella/extimus)
 Trogon personatus,Masked Trogon,mastro1,382920941,FALSE,svartmaskad trogon
-UPUPIDAE,Hoopoe,,,FALSE,
-Upupa epops,Hoopoe,hoopoe,203693781,TRUE,härfågel
+Upupa epops,Eurasian Hoopoe,hoopoe,203693781,TRUE,härfågel
 Upupa marginata,Madagascar Hoopoe,madhoo1,501787911,FALSE,madagaskarhärfågel
 †Upupa antaios,St Helena Hoopoe,,,FALSE,
 PHOENICULIDAE,Woodhoopoes,,,FALSE,
@@ -3510,7 +3502,7 @@ Merops nubicus,Northern Carmine Bee-eater,ncbeat1,21612541,FALSE,nordlig karminb
 Merops nubicoides,Southern Carmine Bee-eater,scbeat1,609054295,FALSE,sydlig karminbiätare
 Merops viridissimus,African Green Bee-eater,grnbee1,628196764,FALSE,sahelbiätare
 Merops cyanophrys,Arabian Green Bee-eater,grnbee2,439853401,FALSE,arabisk biätare
-Merops orientalis,Asian Green Bee-eater,grnbee3,122658941,TRUE,orientbiätare
+Merops orientalis,Green Bee-eater,grnbee3,122658941,TRUE,orientbiätare
 Merops leschenaulti,Chestnut-headed Bee-eater,chbeat1,290862201,FALSE,rosthuvad biätare
 Merops viridis,Blue-throated Bee-eater,btbeat2,282877,FALSE,blåstrupig biätare
 Merops americanus,Rufous-crowned Bee-eater,rucbee1,203997741,FALSE,blåstrupig biätare (americanus)
@@ -3584,8 +3576,8 @@ Pelargopsis capensis,Stork-billed Kingfisher,stbkin1,613592670,TRUE,storknäbbsk
 Pelargopsis melanorhyncha,Black-billed Kingfisher,blbkin1,203909221,FALSE,stornäbbad kungsfiskare
 Pelargopsis amauroptera,Brown-winged Kingfisher,bnwkin1,70212,FALSE,brunvingad kungsfiskare
 Halcyon coromanda,Ruddy Kingfisher,rudkin1,203905261,FALSE,rostkungsfiskare
-Halcyon smyrnensis,White-breasted Kingfisher,whtkin2,242693721,TRUE,smyrnakungsfiskare
-Halcyon gularis,White-throated Kingfisher,bnbkin1,369087511,TRUE,smyrnakungsfiskare (gularis)
+Halcyon smyrnensis,White-Throated Kingfisher,whtkin2,242693721,TRUE,smyrnakungsfiskare
+Halcyon gularis,Brown-breasted Kingfisher,bnbkin1,369087511,TRUE,smyrnakungsfiskare (gularis)
 Halcyon cyanoventris,Javan Kingfisher,javkin1,524297621,FALSE,javakungsfiskare
 Halcyon badia,Chocolate-backed Kingfisher,chbkin2,1067,FALSE,kakaokungsfiskare
 Halcyon pileata,Black-capped Kingfisher,blckin1,383052321,FALSE,svarthuvad kungsfiskare
@@ -4048,7 +4040,7 @@ Colaptes fernandinae,Fernandina's Flicker,ferfli1,133239,FALSE,zapataspett
 †Colaptes oceanicus,Bermuda Flicker,berfli1,,FALSE,
 Colaptes cafer,Red-shafted Flicker,,,FALSE,
 Colaptes mexicanoides,Guatemalan Flicker,norfli1,110805131,FALSE,guatemalaspett
-Colaptes auratus,Yellow-shafted Flicker,norfli,84808,TRUE,guldspett/saguarospett
+Colaptes auratus,Northern Flicker,norfli,84808,TRUE,guldspett/saguarospett
 Colaptes chrysoides,Gilded Flicker,gilfli,417072341,FALSE,saguarospett
 Colaptes melanochloros,Green-barred Woodpecker,grbwoo3,201634,FALSE,grönbandad hackspett
 Colaptes melanolaimus,Golden-breasted Woodpecker,,,FALSE,
@@ -4222,7 +4214,7 @@ Microhierax melanoleucus,Pied Falconet,piefal2,189842,FALSE,svartvit pygméfalk
 Polihierax semitorquatus,African Pygmy-falcon,pygfal1,214791391,FALSE,afrikansk pygméfalk
 Polihierax insignis,White-rumped Pygmy-falcon,,,FALSE,orientalisk pygméfalk
 Falco naumanni,Lesser Kestrel,leskes1,446309971,FALSE,rödfalk
-Falco tinnunculus,Common Kestrel,eurkes,203695721,TRUE,tornfalk/klippfalk
+Falco tinnunculus,Eurasian Kestrel,eurkes,203695721,TRUE,tornfalk/klippfalk
 Falco newtoni,Madagascar Kestrel,madkes1,502038461,FALSE,madagaskarfalk
 Falco puncatus,Mauritius Kestrel,maukes1,72267,FALSE,
 Falco araeus,Seychelles Kestrel,seykes1,622734370,FALSE,seychellfalk
@@ -4520,7 +4512,7 @@ Cyanoramphus unicolor,Antipodes Parakeet,antpar1,631093126,FALSE,större antipod
 Cyanoramphus forbesi,Chatham Parakeet,chipar1,298236221,FALSE,chathamparakit
 Cyanoramphus auriceps,Yellow-fronted Parakeet,yefpar3,364301331,FALSE,gulpannad parakit
 Cyanoramphus malherbi,Malherbe's Parakeet,malpar2,200487611,FALSE,orangepannad parakit
-Cyanoramphus novaezelandiae,Red-fronted Parakeet,refpar4,203926571,TRUE,rödpannad parakit
+Cyanoramphus novaezelandiae,Red-Crowned Parakeet,refpar4,203926571,TRUE,rödpannad parakit
 Pezoporus wallicus,Ground Parrot,gropar1,75186481,FALSE,västlig/östlig markpapegoja
 Pezoporus occidentalis,Night Parrot,nigpar2,63433741,FALSE,nattpapegoja
 Neopsephotus bourkii,Bourke's Parrot,boupar2,177712591,FALSE,bourkeparakit
@@ -6001,7 +5993,7 @@ Ochthoeca salvini,Tumbes Tyrant,tumtyr2,13262,FALSE,tumbestyrann
 Sublegatus arenarum,Northern Scrub-flycatcher,nosfly1,51867481,FALSE,nordlig snårtyrann
 Sublegatus obscurior,Amazonian Scrub-flycatcher,amsfly1,203934221,FALSE,amazonsnårtyrann
 Sublegatus modestus,Southern Scrub-flycatcher,sosfly1,174997,FALSE,sydlig snårtyrann
-Pyrocephalus rubinus,Common Vermilion Flycatcher,verfly,188210,TRUE,rubintyrann
+Pyrocephalus rubinus,Vermilion Flycatcher,verfly,188210,TRUE,rubintyrann
 Pyrocephalus nanus,Little Vermilion Flycatcher,brufly1,352838631,FALSE,darwintyrann
 †Pyrocephalus dubius,Least Vermilion Flycatcher,,,FALSE,
 Fluvicola pica,Pied Water-tyrant,piwtyr1,69691,FALSE,svartvit vattentyrann
@@ -6220,7 +6212,7 @@ Acanthorhynchus superciliosus,Western Spinebill,wesspi1,14935,FALSE,västlig syl
 Acanthorhynchus tenuirostris,Eastern Spinebill,easspi1,97435051,FALSE,östlig sylnäbb
 Certhionyx variegatus,Pied Honeyeater,piehon1,176318211,FALSE,vitvingad honungsfågel
 Prosthemadera novaeseelandiae,Tui,tui1,136121,TRUE,tui
-Anthornis melanura,New Zealand Bellbird,nezbel1,203921991,TRUE,korimako
+Anthornis melanura,Korimako,nezbel1,203921991,TRUE,korimako
 †Anthornis melanura,Chatham Bellbird,,,FALSE,
 Pycnopygius ixoides,Plain Honeyeater,plahon1,100491,FALSE,bulbylhonungsfågel
 Pycnopygius cinereus,Marbled Honeyeater,marhon1,641974249,FALSE,gråbrun honungsfågel
@@ -6377,7 +6369,7 @@ Gerygone citrina,Rennell Gerygone,fatger3,203934761,FALSE,rennellsångsmyg
 Gerygone flavolateralis,Fan-tailed Gerygone,fatger1,628121705,FALSE,solfjäderssångsmyg
 Gerygone modesta,Norfolk Gerygone,noiger1,203968451,FALSE,norfolksångsmyg
 †Gerygone insularis,Lord Howe Gerygone,lohger1,,FALSE,
-Gerygone igata,Grey Gerygone,gryger1,613180644,TRUE,grå sångsmyg
+Gerygone igata,Grey Warbler,gryger1,613180644,TRUE,grå sångsmyg
 Gerygone albofrontata,Chatham Gerygone,chiger2,384306621,FALSE,chathamsångsmyg
 Gerygone ruficollis,Brown-breasted Gerygone,brbger1,203988131,FALSE,brunbröstad sångsmyg
 Gerygone levigaster,Mangrove Gerygone,manger1,101313331,FALSE,mangrovesångsmyg
@@ -7172,7 +7164,7 @@ Cissa jefferyi,Bornean Green Magpie,borgrm1,36749,FALSE,borneogrönskata
 Perisoreus canadensis,Grey Jay,gryjay,13510,TRUE,grå lavskrika
 Perisoreus infaustus,Siberian Jay,sibjay1,463894631,FALSE,lavskrika
 Perisoreus internigrans,Sichuan Jay,sicjay1,239274011,FALSE,sotlavskrika
-Cyanopica cooki,Iberian Azure-winged Magpie,azwmag3,360047611,TRUE,iberisk blåskata
+Cyanopica cooki,Iberian Magpie,azwmag3,360047611,TRUE,iberisk blåskata
 Cyanopica cyanus,Asian Azure-winged Magpie,azwmag2,172726111,FALSE,östlig blåskata
 Garrulus glandarius,Eurasian Jay,eurjay1,365480321,TRUE,nötskrika
 Garrulus bispecularis,Plain-crowned Jay,,,FALSE,
@@ -7185,13 +7177,13 @@ Podoces hendersoni,Mongolian Ground-jay,mogjay1,203942241,FALSE,Hendersons öken
 Podoces biddulphi,Xinjiang Ground-jay,xigjay1,285480,FALSE,Biddulphs ökenskrika
 Podoces panderi,Turkestan Ground-jay,tugjay1,591877821,FALSE,Panders ökenskrika
 Podoces pleskei,Iranian Ground-jay,irgjay1,637265769,FALSE,Pleskes ökenskrika
-Pica pica,Common Magpie,eurmag1,261809051,TRUE,skata
+Pica pica,Eurasian Magpie,eurmag1,261809051,TRUE,skata
 Pica mauretanica,Maghreb Magpie,eurmag3,139521181,FALSE,maghrebskata
 Pica asirensis,Asir Magpie,eurmag5,426792181,FALSE,asirskata
 Pica hudsonia,Black-billed Magpie,bkbmag1,514902,TRUE,amerikansk skata
 Pica nuttalli,Yellow-billed Magpie,yebmag,22945,TRUE,gulnäbbad skata
 Nucifraga columbiana,Clark's Nutcracker,clanut,344810091,TRUE,grå nötkråka
-Nucifraga caryocatactes,Northern Nutcracker,eurnut3,457886481,TRUE,nötkråka
+Nucifraga caryocatactes,Eurasian Nutcracker,eurnut3,457886481,TRUE,nötkråka
 Nucifraga hemispila,Southern Nutcracker,eurnut4,577831951,FALSE,kinesisk nötkråka
 Nucifraga multipunctata,Large-spotted Nutcracker,sponut1,619935297,FALSE,kashmirnötkråka
 Corvus dauuricus,Daurian Jackdaw,daujac1,602255121,TRUE,klippkaja
@@ -7316,7 +7308,7 @@ Paradigalla brevicauda,Short-tailed Paradigalla,shtpar1,640054044,FALSE,kortstj�
 Astrapia nigra,Arfak Astrapia,arfast1,42751931,FALSE,arfakastrapia
 Astrapia splendidissima,Splendid Astrapia,splast1,163654,FALSE,praktastrapia
 Astrapia rothschildi,Huon Astrapia,huoast1,147993,FALSE,huonastrapia
-Astrapia stephaniae,Stephanie's Astrapia,prsast1,203972681,TRUE,prinsessastrapia
+Astrapia stephaniae,Princess Stephanie's Astrapia,prsast1,203972681,TRUE,prinsessastrapia
 Astrapia mayeri,Ribbon-tailed Astrapia,ritast1,203972211,FALSE,girlandastrapia
 Cicinnurus regius,King Bird-of-paradise,kbopar1,42747501,FALSE,kungsparadisfågel
 Cicinnurus magnificus,Magnificent Bird-of-paradise,mbopar2,166618511,FALSE,praktparadisfågel
@@ -7327,7 +7319,7 @@ Paradisaea rubra,Red Bird-of-paradise,rbopar2,203898461,FALSE,rödstjärtad para
 Paradisaea decora,Goldie's Bird-of-paradise,gbopar1,163679,FALSE,lavendelbröstad paradisfågel
 Paradisaea minor,Lesser Bird-of-paradise,lbopar1,203489781,FALSE,mindre paradisfågel
 Paradisaea apoda,Greater Bird-of-paradise,gbopar2,163707,FALSE,större paradisfågel
-Paradisaea raggiana,Raggiana Bird-of-paradise,rbopar1,168347,TRUE,raggiparadisfågel
+Paradisaea raggiana,Count Raggi's Bird-of-Paradise,rbopar1,168347,TRUE,raggiparadisfågel
 Melanocharis arfakiana,Obscure Berrypecker,obsber1,203994611,FALSE,gulnäbbad bärpickare
 Melanocharis nigra,Black Berrypecker,blaber1,650848852,FALSE,svart bärpickare
 Melanocharis longicauda,Mid-mountain Berrypecker,lebber1,114446261,FALSE,gulsidig bärpickare
@@ -7351,7 +7343,7 @@ Petroica boodang,Scarlet Robin,scarob2,99575701,FALSE,scharlakansröd sydhake
 Petroica pusilla,Pacific Robin,pacrob1,203911001,FALSE,melanesisk sydhake
 Petroica multicolor,Norfolk Robin,pacrob2,640733447,FALSE,norfolksydhake
 Petroica goodenovii,Red-capped Robin,recrob1,643731345,TRUE,rödpannad sydhake
-Petroica macrocephala,New Zealand Tomtit,tomtit1,203922011,TRUE,messydhake
+Petroica macrocephala,Tomtit,tomtit1,203922011,TRUE,messydhake
 Petroica dannefaerdi,Snares Tomtit,,,FALSE,messydhake (dannefaerdi)
 Petroica traversi,Black Robin,charob1,298239191,TRUE,chathamsydhake
 Petroica longipes,North Island Robin,nezrob2,622059469,FALSE,nordösydhake
@@ -7411,7 +7403,6 @@ Callaeas cinereus,South Island Kokako,kokako4,,FALSE,sydökokako
 Philesturnus rufusater,North Island Saddleback,saddle2,594748631,FALSE,nordövårtkråka
 Philesturnus carunculatus,South Island Saddleback,saddle3,203919831,TRUE,sydövårtkråka
 †Heteralocha acutirostris,Huia,huia1,,FALSE,
-NOTIOMYSTIDAE,Stitchbird,stitch1,203926611,TRUE,
 Notiomystis cincta,Stitchbird,stitch1,203926611,TRUE,hihi
 MELANOCHARITIDAE,Berrypeckers and Longbills,,,FALSE,
 EUPETIDAE,Rail-babbler,,,FALSE,
@@ -7678,7 +7669,6 @@ Cisticola nigriloris,Black-lored Cisticola,bllcis1,203964781,FALSE,svarttyglad c
 Cisticola aberrans,Lazy Cisticola,rolcis2,434968661,FALSE,långstjärtad cistikola
 Cisticola bailunduensis,Huambo Cisticola,rolcis4,509509751,FALSE,huambocistikola
 Cisticola chiniana,Rattling Cisticola,ratcis1,58463,FALSE,akaciacistikola
-PANURIDAE,Bearded Reedling,bearee1,63563531,TRUE,
 Panurus biarmicus,Bearded Reedling,bearee1,63563531,TRUE,skäggmes
 NICATORIDAE,Nicators,,,FALSE,
 Nicator chloris,Western Nicator,yesnic1,140954,FALSE,västlig nikator
@@ -7836,7 +7826,7 @@ Acrocephalus arundinaceus,Great Reed-warbler,grrwar1,203891051,FALSE,trastsånga
 Acrocephalus orientalis,Oriental Reed-warbler,orrwar1,48591671,FALSE,kinesisk trastsångare
 Acrocephalus stentoreus,Clamorous Reed-warbler,clrwar1,356800021,FALSE,papyrussångare
 A. s. brunnescens,Indian Reed-warbler,,,FALSE,
-Acrocephalus australis,Australian Reed-warbler,aurwar1,62823981,TRUE,australisk rörsångare
+Acrocephalus australis,Australian Reed Warbler,aurwar1,62823981,TRUE,australisk rörsångare
 †Acrocephalus luscinius,Guam Reed-warbler,,,FALSE,
 Acrocephalus hiwae,Saipan Reed-warbler,sairew1,5417,FALSE,saipansångare
 †Acrocephalus nijoi,Aguijan Reed-warbler,,,FALSE,
@@ -7917,7 +7907,7 @@ Cincloramphus mathewsi,Rufous Songlark,rufson1,14347,FALSE,rostlärksångare
 Cincloramphus timoriensis,Tawny Grassbird,tawgra3,233640,FALSE,rostgräsfågel/papuagräsfågel
 Cincloramphus macrurus,Papuan Grassbird,tawgra2,203692281,FALSE,papuagräsfågel
 Poodytes gramineus,Little Grassbird,litgra1,273100551,FALSE,mindre gräsfågel
-Poodytes punctatus,New Zealand Fernbird,fernbi1,199786461,TRUE,nyazeelandgräsfågel
+Poodytes punctatus,Fernbird,fernbi1,199786461,TRUE,nyazeelandgräsfågel
 Poodytes caudatus,Snares Fernbird,,,FALSE,nyzeeländsk gräsfågel (caudatus)
 †Poodytes rufescens,Chatham Fernbird,,,FALSE,
 Poodytes carteri,Spinifexbird,spibir1,428433941,FALSE,spinifexgräsfågel
@@ -7947,7 +7937,7 @@ Psalidoprocne fuliginosa,Mountain Saw-wing,mousaw1,24156861,FALSE,bergsvala
 Psalidoprocne albiceps,White-headed Saw-wing,whhsaw1,,FALSE,vithuvad svala
 Psalidoprocne pristoptera,Black Saw-wing,blksaw1,278675,FALSE,svartsvala
 Psalidoprocne obscura,Fanti Saw-wing,fansaw1,279262,FALSE,fantisvala
-Delichon urbicum,Northern House Martin,comhom1,600797311,TRUE,hussvala/orienthussvala
+Delichon urbicum,Western House Martin,comhom1,600797311,TRUE,hussvala/orienthussvala
 Delichon lagopodum,Eastern House Martin,comhom2,637402267,FALSE,sibirisk hussvala
 Delichon dasypus,Asian House Martin,ashmar1,146378371,FALSE,orienthussvala
 Delichon nipalense,Nepal House Martin,nephom1,203925211,FALSE,himalayahussvala
@@ -7959,7 +7949,7 @@ Petrochelidon fuliginosa,Forest Swallow,forswa2,24163421,FALSE,skogssvala
 Petrochelidon fluvicola,Steak-throated Swallow,sttswa2,624895144,FALSE,indisk svala
 Petrochelidon ariel,Fairy Martin,faimar2,612087720,FALSE,arielsvala
 Petrochelidon nigricans,Tree Martin,tremar2,291335281,FALSE,eukalyptussvala
-Petrochelidon pyrrhonota,Cliff Swallow,cliswa,92053871,TRUE,stensvala
+Petrochelidon pyrrhonota,American Cliff Swallow,cliswa,92053871,TRUE,stensvala
 Petrochelidon fulva,Cave Swallow,cavswa,482238641,FALSE,grottsvala
 P. f. pallida,Northern Cave Swallow,,,FALSE,
 Petrochelidon rufocollaris,Chestnut-collared Swallow,chcswa2,617642019,FALSE,rostnackad svala
@@ -7999,7 +7989,7 @@ Riparia paludicola,African Plain Martin,plamar1,276848,FALSE,brunstrupig backsva
 Riparia cowani,Madagascar Plain Martin,plamar3,95388,FALSE,madagaskarbacksvala
 Riparia chinensis,Asian Plain Martin,gytmar1,204027051,FALSE,orientbacksvala
 Riparia congica,Congo Sand Martin,conmar1,,FALSE,kongobacksvala
-Riparia riparia,Collared Sand Martin,banswa,333574871,TRUE,backsvala/blek backsvala
+Riparia riparia,Sand Martin,banswa,333574871,TRUE,backsvala/blek backsvala
 Riparia diluta,Pale Sand Martin,pasmar1,633252752,FALSE,backsvala/blek backsvala
 Tachycineta bicolor,Tree Swallow,treswa,159694261,TRUE,trädsvala
 DONACOBIDAE -Donacobius,,,,FALSE,
@@ -8340,7 +8330,7 @@ Sinosuthora przewalskii,Rusty-throated Parrotbill,rutpar2,204009051,FALSE,rostst
 AEGITHALIDAE,Long-tailed Tits,,,FALSE,
 Leptopoecile sophiae,White-browed Tit-warbler,wbtwar1,584325691,TRUE,violsångare
 Leptopoecile elegans,Crested Tit-warbler,crtwar1,356737231,FALSE,tofsviolsångare
-Psaltriparus minimus,American Bushtit,bushti,619034949,TRUE,buskmes
+Psaltriparus minimus,Bushtit,bushti,619034949,TRUE,buskmes
 Aegithalos iredalei,Red-headed Tit,,,FALSE,rödhättad stjärtmes (iredalei)
 Aegithalos concinnus,Black-throated Tit,blttit2,84878051,FALSE,rödhättad stjärtmes
 Aegithalos annamensis,Grey-crowned Tit,,,FALSE,
@@ -8350,7 +8340,7 @@ Aegithalos bonvaloti,Black-browed Tit,bkbtit3,624782015,FALSE,
 A. b. sharpei,Burmanese Tit,,,FALSE,
 Aegithalos iouschistos,Rufous-fronted Tit,bkbtit3,624782015,FALSE,svartbrynad stjärtmes
 Aegithalos fuliginosus,Sooty Tit,sootit1,204009171,FALSE,sotstjärtmes
-Aegithalos caudatus,Northern Long-tailed Tit,lottit1,82639391,TRUE,stjärtmes
+Aegithalos caudatus,Long-Tailed Tit,lottit1,82639391,TRUE,stjärtmes
 Aegithalos glaucogularis,Silver-throated Tit,lottit5,211849501,FALSE,gråstrupig stjärtmes
 Psaltria exilis,Pygmy Tit,pygtit1,524398701,FALSE,javames
 ZOSTEROPIDAE,White Eyes and Yuhinas,,,FALSE,
@@ -8406,7 +8396,7 @@ Zosterops japonicus,Japanese White-eye,warwhe1,6059,FALSE,sångglasögonfågel
 Zosterops meyeni,Lowland White-eye,loweye2,204000061,FALSE,luzonglasögonfågel
 Zosterops palpebrosus,Oriental White-eye,indwhe1,613039064,FALSE,indisk glasögonfågel
 Zosterops ceylonensis,Sri Lanka White-eye,ceywhe1,251418701,FALSE,ceylonglasögonfågel
-Sylvia atricapilla,Blackcap,blackc1,347686161,TRUE,svarthätta
+Sylvia atricapilla,Eurasian Blackcap,blackc1,347686161,TRUE,svarthätta
 Sylvia borin,Garden Warbler,garwar1,173200001,TRUE,trädgårdssångare
 Sylvia dohrni,Dohrn's Warbler,dohthb1,203963291,FALSE,príncipesångare
 Sylvia atriceps,Ruwenzori Hill-babbler,afhbab3,1265,FALSE,ruwenzorinunnesångare
@@ -8875,7 +8865,7 @@ Odontorchilus cinereus,Tooth-billed Wren,tobwre1,203699401,FALSE,amazontandgärd
 Ferminia cercerai,Zapata Wren,zapwre1,631019667,FALSE,
 Troglodytes pacificus,Pacific Wren,pacwre1,637983669,FALSE,stillahavsgärdsmyg
 Troglodytes hiemalis,Winter Wren,winwre3,43989871,FALSE,vintergärdsmyg
-Troglodytes troglodytes,Northern Wren,winwre4,473327281,TRUE,gärdsmyg
+Troglodytes troglodytes,Eurasian Wren,winwre4,473327281,TRUE,gärdsmyg
 Troglodytes tanneri,Clarion Wren,clawre1,214355,FALSE,clarióngärdsmyg
 Troglodytes aedon,House Wren,houwre,612093353,TRUE,husgärdsmyg
 T. a. aedon,Northern House Wren,houwre,612093353,FALSE,
@@ -8893,7 +8883,7 @@ Certhia discolor,Sikkin Treecreeper,bnttre1,315311921,FALSE,sikkimträdkrypare
 Certhia manipurensis,Manipur Treecreeper,bnttre2,53421671,FALSE,manipurträdkrypare
 Certhia himalayana,Bar-tailed Treecreeper,battre1,391046471,FALSE,himalayaträdkrypare
 Certhia brachydactyla,Short-toed Treecreeper,shttre1,288094351,TRUE,trädgårdsträdkrypare
-Certhia americana,American Treecreeper,brncre,223492001,TRUE,amerikansk trädkrypare
+Certhia americana,Brown Creeper,brncre,223492001,TRUE,amerikansk trädkrypare
 Certhia hodgsoni,Hodgson's Treecreeper,eurtre3,614186368,FALSE,hodgsonträdkrypare
 Certhia familiaris,Eurasian Treecreeper,eurtre1,632557884,TRUE,trädkrypare
 SITTIDAE,Nuthatches,,,FALSE,
@@ -8989,7 +8979,7 @@ Gracupica contra,Asian Pied Starling,aspsta2,634158339,FALSE,svartvit stare
 Gracupica jalla,Javan Pied Starling,aspsta3,640634224,FALSE,jallastare
 Gracupica nigricollis,Black-collared Starling,bkcsta1,396593261,FALSE,svarthalsad stare
 Sturnornis albofrontatus,White-faced Starling,whfsta2,482,FALSE,ceylonstare
-Leucopsar rothschildi,Bali Myna,balmyn1,640634236,TRUE,balistare
+Leucopsar rothschildi,Bali Starling,balmyn1,640634236,TRUE,balistare
 †Fregilupus varius,Reunion Starling,reusta1,,FALSE,
 †Necropsar rodericanus,Rodrigues Starling,rodsta2,,FALSE,
 Sturnia sinensis,White-shouldered Starling,whssta2,610786616,FALSE,mandarinstare
@@ -9190,7 +9180,7 @@ MIMIDAE,Mockingbirds and Thrashers,,,FALSE,
 Melanotis caerulescens,Blue Mockingbird,blumoc,292873171,FALSE,blå härmtrast
 Melanotis hypoleucos,Blue-and-white Mockingbird,bawmoc1,177596,FALSE,
 Melanoptila glabrirostris,Black Catbird,blacat1,208192991,FALSE,svart kattfågel
-Dumetella carolinensis,Grey Catbird,grycat,163135121,TRUE,grå kattfågel
+Dumetella carolinensis,Gray Catbird,grycat,163135121,TRUE,grå kattfågel
 Ramphocinclus brachyurus,White-breasted Thrasher,whbthr3,173419701,FALSE,martiniquehärmtrast
 Allenia fusca,Scaly-breasted Thrasher,scbthr,175533091,FALSE,vattrad härmtrast
 Margarops fuscatus,Pearly-eyed Thrasher,peethr1,188051,FALSE,vitögd härmtrast
@@ -9247,7 +9237,7 @@ Turdus helleri,Taita Thrush,taithr1,625945069,FALSE,taitatrast
 Turdus roehli,Usambara Thrush,usathr1,280446,FALSE,usambaratrast
 Turdus iliacus,Redwing,redwin,73458141,FALSE,rödvingetrast
 Turdus plebejus,Mountain Thrush,mourob1,449448091,FALSE,molntrast
-Turdus merula,Eurasian Blackbird,eurbla,102741151,TRUE,koltrast
+Turdus merula,Common Blackbird,eurbla,102741151,TRUE,koltrast
 Turdus leucomelas,Pale-breasred Thrush,pabthr1,69487,FALSE,blekbröstad trast
 Turdus fumigatus,Cocoa Thrush,cocthr1,203930981,FALSE,kakaotrast
 Turdus hauxwelly,Hauxwell's Thrush,hauthr1,136650,FALSE,
@@ -10032,8 +10022,7 @@ Prunella ocularis,Radde's Accentor,radacc2,396100241,FALSE,Svartkronad järnspar
 P. o. fagani,Yemen Accentor,,,FALSE,
 PEUCEDRAMIDAE,Olive Warbler,oliwar,21120,FALSE,
 Peucedramus taeniatus,Olive Warbler,oliwar,21120,FALSE,granlöpare
-UROCYNCHRAMIDAE,Przevalski's Rosefinch,,,FALSE,
-Urocynchramus pylzowi,Przevalski's Rosefinch,przros1,30289001,TRUE,Przjevalskijs rosenstjärt
+Urocynchramus pylzowi,Pinktail,przros1,30289001,TRUE,Przjevalskijs rosenstjärt
 PLOCEIDAE,Weavers,,,FALSE,
 Bubalornis albirostris,White-billed Buffalo-weaver,wbbwea1,14419,FALSE,vitnäbbad buffelvävare
 Bubalornis niger,Red-billed Buffalo-weaver,rbbwea1,21726541,FALSE,rödnäbbad buffelvävare
@@ -10149,7 +10138,7 @@ Erythrura psittacea,Red-throated Parrotfinch,retpar3,173400741,FALSE,nyakaledoni
 Erythrura cyaneovirens,Red-headed Parrotfinch,roypar1,139944,FALSE,kungsamadin
 Erythrura pealii,Fiji Parrotfinch,fijpar1,633943464,FALSE,fijiamadin
 Erythrura kleinschmidti,Pink-billed Parrotfinch,pibpar1,,FALSE,rosennäbbsamadin
-Erythrura gouldiae,Gouldian Finch,goufin3,614381559,TRUE,gouldamadin
+Erythrura gouldiae,Gould’s Finch,goufin3,614381559,TRUE,gouldamadin
 ESTRILDIDAE,Waxbills,,,FALSE,
 Lagonosticta rara,Black-bellied Firefinch,blbfir1,403768141,FALSE,svartbukig amarant
 Lagonosticta rufopicta,Bar-breasted Firefinch,babfir1,203943551,FALSE,rosenamarant
@@ -10497,7 +10486,7 @@ Pyrrhula aurantiaca,Orange Bullfinch,orabul1,173165901,FALSE,orange domherre
 Pyrrhula erythrocephala,Red-headed Bullfinch,rehbul1,178301201,FALSE,rödhuvad domherre
 Pyrrhula erythaca,Grey-headed Bullfinch,gyhbul2,568727551,FALSE,taiwandomherre/gråhuvad domherre
 Pyrrhula murina,Azores Bullfinch,eurbul1,203974821,FALSE,azordomherre
-Pyrrhula pyrrhula,Eurasian Bullfinch,eurbul,310479711,TRUE,domherre
+Pyrrhula pyrrhula,Bullfinch,eurbul,310479711,TRUE,domherre
 P. p. cineracea,Grey Bullfinch,,,FALSE,
 P. p. griseiventris,Grey-bellied Bullfinch,,,FALSE,
 Rhodopechys alienus,African Crimson-winged Finch,,,FALSE,afrikansk bergsökenfink
@@ -10587,7 +10576,7 @@ Carduelis corsicana,Corsican Finch,corfin1,624941503,FALSE,korsikansk siska
 Serinus serinus,European Serin,eurser1,203981951,TRUE,gulhämpling
 Serinus canaria,Island Canary,comcan,95820321,FALSE,kanariesiska
 Serinus syriacus,Syrian Serin,syrser1,444880381,FALSE,levantsiska
-Serinus pusillus,Red-fronted Serin,fifser1,463303591,TRUE,rödpannad gulhämpling
+Serinus pusillus,Fire-fronted Serin,fifser1,463303591,TRUE,rödpannad gulhämpling
 Serinus alario,Black-headed Canary,bkhcan2,278432,FALSE,karroosiska
 Serinus canicollis,Cape Canary,capcan1,394293651,FALSE,grånackad siska
 Serinus flavivertex,Yellow-crowned Canary,yeccan1,1587,FALSE,gulkronad siska
@@ -10789,7 +10778,7 @@ Junco insularis,Guadalupe Junco,daejun2,203962791,FALSE,guadalupejunco
 Junco phaeonotus,Yellow-eyed Junco,yeejun,109103,FALSE,gulögd junco
 Junco bairdi,Baird's Junco,yeejun2,417293391,FALSE,bairdjunco
 Zonotrichia capensis,Rufous-collared Sparrow,rucspa1,410550641,TRUE,morgonsparv
-Zonotrichia querula,Harris's Sparrow,harspa,105763,TRUE,kanadasparv
+Zonotrichia querula,Qupanuaq,harspa,105763,TRUE,kanadasparv
 Zonotrichia albicollis,White-throated Sparrow,whtspa,227599,FALSE,vitstrupig sparv
 Zonotrichia leucophrys,White-crowned Sparrow,whcspa,629468141,TRUE,vitkronad sparv
 Zonotrichia atricapilla,Golden-crowned Sparrow,gocspa,49976,FALSE,gulkronad sparv
@@ -10828,7 +10817,7 @@ Dolichonyx oryzivorus,Bobolink,boboli,527283,TRUE,bobolink
 Sturnella neglecta,Western Meadowlark,wesmea,516839,TRUE,västlig ängstrupial
 Sturnella magna,Eastern Meadowlark,easmea,94367,TRUE,västlig ängstrupial/östlig ängstrupial
 S.m. liliane,Lilian's Meadowlark,,,FALSE,
-Leistes militaris,Red-breasted Blackbird,rebbla1,535716881,TRUE,rödbröstad ängstrupial
+Leistes militaris,Red-Breasted Meadowlark,rebbla1,535716881,TRUE,rödbröstad ängstrupial
 Leistes superciliaris,White-browed Blackbird,whbbla2,439569821,FALSE,vitbrynad ängstrupial
 Leistes bellicosus,Peruvian Meadowlark,permea1,391929721,FALSE,peruängstrupial
 Leistes defilippii,Pampas Meadowlark,pammea1,174297091,FALSE,pampasängstrupial
@@ -10990,7 +10979,7 @@ Setophaga graysoni,Socorro Parula,,,FALSE,tropisk messångare (graysoni)
 Setophaga magnolia,Magnolia Warbler,magwar,228996,FALSE,magnoliaskogssångare
 Setophaga castanea,Bay-breasted Warbler,babwar,249809,FALSE,brunbröstad skogssångare
 Setophaga fusca,Blackburnian Warbler,bkbwar,9576,FALSE,orangestrupig skogssångare
-Setophaga petechia,American Yellow Warbler,manwar1,203907381,TRUE,gul skogssångare/mangroveskogssångare
+Setophaga petechia,Yellow Warbler,manwar1,203907381,TRUE,gul skogssångare/mangroveskogssångare
 S. p. petechia,Golden Warbler,,,FALSE,
 S. p. erithachorides,Mangrove Warbler,,,FALSE,
 Setophaga pensylvanica,Chestnut-sided Warbler,chswar,98242481,FALSE,brunsidig skogssångare
@@ -11000,7 +10989,7 @@ Setophaga palmarum,Palm Warbler,palwar,229598,FALSE,brunhättad skogssångare
 Setophaga pityophila,Olive-capped Warbler,olcwar1,33096880,FALSE,olivkronad skogssångare
 Setophaga pinus,Pine Warbler,pinwar,9871,FALSE,tallskogssångare
 Setophaga auduboni,Audubon's Warbler,,,FALSE,
-Setophaga coronata,Myrtle Warbler,yerwar,85245,TRUE,gulgumpad skogssångare/audubonskogssångare
+Setophaga coronata,Yellow-Rumped Warbler,yerwar,85245,TRUE,gulgumpad skogssångare/audubonskogssångare
 Setophaga dominica,Yellow-throated Warbler,yetwar,191290,FALSE,gulstrupig skogssångare
 Setophaga flavescens,Bahama Warbler,yetwar3,32872521,FALSE,bahamaskogssångare
 Setophaga vitellina,Vitelline Warbler,vitwar1,598294261,FALSE,caymanskogssångare
@@ -11275,7 +11264,7 @@ Saltator coerulescens,Amazonian Grey Saltator,grasal3,212907,FALSE,blågrå salt
 Saltator striatipectus,Streaked Saltator,strsal1,63306,FALSE,strimsaltator
 Sporophila torqueola,Cinnamon-rumped Seedeater,whcsee2,249734301,FALSE,vithalsad/kanelgumpad frötangara
 Sporophila morelleti,White-collared Seedeater,whcsee1,113267301,FALSE,vithalsad/kanelgumpad frötangara
-Sporophila corvina,Black Seedeater,varsee3,422673721,TRUE,variabel frötangara
+Sporophila corvina,Variable Seedeater,varsee3,422673721,TRUE,variabel frötangara
 Sporophila ophthalmica,Black-breasted Seedeater,,,FALSE,variabel frötangara [gruppen ophthalmica]
 Sporophila intermedia,Grey Seedeater,grysee1,201113,FALSE,grå frötangara
 Sporophila americana,Wing-barred Seedeater,wibsee1,186390411,FALSE,bandvingad frötangara

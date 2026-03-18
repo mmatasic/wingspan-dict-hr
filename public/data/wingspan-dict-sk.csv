@@ -134,7 +134,7 @@ Dromaius novaehollandiae,Emu,emu1,623096519,TRUE,emu hnedý
 APTERYGIDAE,Kiwis,,,FALSE,
 Apteryx haastii,Great Spotted Kiwi,grskiw1,617700522,TRUE,kivi kráľovský
 Apteryx owenii,Little Spotted Kiwi,liskiw1,596188651,FALSE,kivi pásikavý
-Apteryx mantelli,Northern Brown Kiwi,nibkiw1,623165890,TRUE,kivi hnedý
+Apteryx mantelli,North Island Brown Kiwi,nibkiw1,623165890,TRUE,kivi hnedý
 Apteryx australis,Southern Brown Kiwi,sobkiw1,85614831,FALSE,kivi južný
 Ortalis superciliaris,Buff-browed Chachalaca,bubcha1,349286621,FALSE,čačalaka obočnatá
 Nothocrax urumutum,Nocturnal Curassow,noccur1,34378,FALSE,hoko malý
@@ -336,7 +336,7 @@ Lophophorus lhuysii,Chinese Monal,chimon1,30554891,FALSE,monal zelenochvostý
 Tragopan melanocephalus,Western Tragopan,westra1,618952577,FALSE,tragopan čiernohlavý
 Tragopan satyra,Satyr Tragopan,sattra1,633595716,TRUE,tragopan rožkatý
 Tragopan blythii,Blyth's Tragopan,blytra1,650866542,FALSE,tragopan žltolíci
-Tragopan temminckii,Temminck's Tragopan,temtra1,483733661,TRUE,tragopan modrolíci
+Tragopan temminckii,Crimson-Bellied Tragopan,temtra1,483733661,TRUE,tragopan modrolíci
 Tragopan caboti,Cabot's Tragopan,cabtra1,203899881,FALSE,tragopan perlavý
 Ithaginis cruentus,Blood Pheasant,blophe1,30554841,TRUE,vrchár krvavý
 Pucrasia macrolopha,Koklass Pheasant,kokphe1,252246071,FALSE,koklas chochlatý
@@ -430,7 +430,7 @@ Cygnus cygnus,Whooper Swan,whoswa,203932741,TRUE,labuť spevavá
 Cygnus columbianus,Tundra Swan,tunswa,406700341,TRUE,labuť malá
 C. c. bewickii,Bewick's Swan,,,FALSE,
 C. c. columbianus,Tundra Swan,tunswa,406700341,TRUE,
-Branta bernicla,Brent Goose,brant,65344051,TRUE,bernikla tmavá
+Branta bernicla,Brant,brant,65344051,TRUE,bernikla tmavá
 B. b. hrota,Pale-bellied Brent Goose,,,FALSE,
 B. b. nigricans,Black bellied Brent Goose,,,FALSE,
 Branta leucopsis,Barnacle Goose,bargoo,235525,FALSE,bernikla bielolíca
@@ -467,7 +467,7 @@ Bucephala clangula,Common Goldeneye,comgol,304684,TRUE,hlaholka severská
 Bucephala islandica,Barrow's Goldeneye,bargol,626998827,TRUE,hlaholka veľká
 Mergellus albellus,Smew,smew,,TRUE,potápač malý
 Lophodytes cucullatus,Hooded Merganser,hoomer,582897021,TRUE,potápač prilbatý
-Mergus merganser,Goosander,commer,208071711,TRUE,potápač veľký
+Mergus merganser,Common Merganser,commer,208071711,TRUE,potápač veľký
 Mergus squamatus,Scaly-sided Merganser,scsmer1,,FALSE,potápač šupinatý
 Mergus serrator,Red-breasted Merganser,rebmer,3786,TRUE,potápač prostredný
 †Mergus australis,Auckland Merganser,,,FALSE,
@@ -592,7 +592,7 @@ Podilymbus podiceps,Pied-billed Grebe,pibgre,131025131,TRUE,potápka škvrnitozo
 Rollandia rolland,White-tufted Grebe,whtgre3,477283851,FALSE,potápka bielosluchá
 Rollandia microptera,Titicaca Grebe,titgre1,647134154,TRUE,potápka krátkokrídla
 Poliocephalus poliocephalus,Hoary-headed Grebe,hohgre1,99561861,FALSE,potápka sivohlavá
-Poliocephalus rufopectus,New Zealand Grebe,nezgre1,286680201,TRUE,potápka maorská
+Poliocephalus rufopectus,New Zealand Dabchick,nezgre1,286680201,TRUE,potápka maorská
 Podiceps major,Great Grebe,gregre1,440914901,FALSE,potápka dlhozobá
 Podiceps grisegena,Red-necked Grebe,rengre,345214271,FALSE,potápka červenokrká
 Podiceps cristatus,Great Crested Grebe,grcgre1,304794,TRUE,potápka chochlatá
@@ -697,7 +697,6 @@ Phaethon lepturus,White-tailed Tropicbird,whttro,167439,FALSE,faeton bielochvost
 EURYPYGIFORMES,,,,FALSE,
 RHYNOCHETIDAE,Kagu,kagu1,203910461,FALSE,
 Rhynochetos jubatus,Kagu,kagu1,203910461,FALSE,kagu vlasatý
-EURYPYGIDAE,Sunbittern,sunbit1,389200681,TRUE,
 Eurypyga helias,Sunbittern,sunbit1,389200681,TRUE,pachriašteľ nádherný
 MESITORNITHIFORMES,,,,FALSE,
 MESITORNITHIDAE,Mesites,,,FALSE,
@@ -833,7 +832,7 @@ Caloenas nicobarica,Nicobar Pigeon,nicpig1,609070986,TRUE,veľkohrivec bradavič
 †Raphus cucullatus,Dodo,dodo1,,FALSE,
 †Pezophaps solitaria,Rodriguez Solitaire,,,FALSE,
 Didunculus strigirostris,Tooth-billed Pigeon,tobpig1,139881,FALSE,drontík zúbkatý
-Chalcophaps indica,Grey-capped Emerald Dove,emedov2,231248421,TRUE,lesklica zelenokrídla/tichomorská
+Chalcophaps indica,Asian Emerald Dove,emedov2,231248421,TRUE,lesklica zelenokrídla/tichomorská
 Chalcophaps longirostris,Brown-capped Emerald Dove,emedov3,203995331,FALSE,lesklica tichomorská
 Chalcophaps stephani,Stephan's Dove,stedov1,141715181,FALSE,lesklica bledočelá
 Turtur chalcospilos,Emerald-spotted Wood-dove,eswdov1,203935301,FALSE,bronzovka lesná
@@ -990,7 +989,7 @@ Ptilinopus coralensis,Atoll Fruit-dove,atfdov1,203895741,FALSE,pestroš atolový
 Ptilinopus chrysogaster,Raiatea Fruit-dove,gygfrd2,203895731,FALSE,pestroš pustovnícky
 Ptilinopus rarotongensis,Rarotonga Fruit-dove,cifdov1,64543,FALSE,pestroš ružovočelý
 Ptilinopus purpuratus,Grey-green Fruit-dove,gygfrd1,94994,FALSE,pestroš svetlohlavý
-Hemiphaga novaeseelandiae,New Zealand Pigeon,nezpig2,363058921,TRUE,plodožer maorský
+Hemiphaga novaeseelandiae,Kererū,nezpig2,363058921,TRUE,plodožer maorský
 Hemiphaga chathamensis,Chatham Pigeon,nezpig3,,FALSE,plodožer chathamský
 Cryptophaps poecilorrhoa,Sombre Pigeon,sompig2,642839894,FALSE,plodožer škvrnitý
 Gymnophaps albertisii,Papuan Mountain-pigeon,pampig2,285735251,FALSE,plodožer horský
@@ -1017,7 +1016,6 @@ Pterocles quadricinctus,Four-banded Sandgrouse,fobsan1,204022371,FALSE,stepiar �
 Pterocles lichtensteinii,Lichtenstein's Sandgrouse,licsan1,204005001,FALSE,stepiar vlnkovaný
 Pterocles indicus,Painted Sandgrouse,paisan1,623697473,FALSE,stepiar ozdobný
 CAPRIMULGIFORMES,,,,FALSE,
-STEATORNITHIDAE,Oilbird,oilbir1,599958121,TRUE,
 Steatornis caripensis,Oilbird,oilbir1,599958121,TRUE,guačaro jaskynný
 PODARGIDAE,Frogmouths,,,FALSE,
 Rigidipenna inexpectata,Solomons Frogmouth,soifro1,203932761,FALSE,krátkonôžka šalamúnska
@@ -1482,7 +1480,7 @@ Klais guimeti,Violet-headed Hummingbird,vihhum1,136301011,FALSE,kolibrík fialoh
 Abeillia abeillei,Emerald-chinned Hummingbird,emchum1,86679,FALSE,kolibrík zelenobradý
 Orthorhyncus cristatus,Antillean Crested Hummingbird,anchum1,204013441,FALSE,kolibrík chochlatý
 Stephanoxis lalandi,Green-crowned Plovercrest,plover3,640929511,FALSE,kolibrík tmavoprsý
-Stephanoxis loddigesii,Violet-crowned Plovercrest,plover4,203700671,TRUE,kolibrík paraguajský
+Stephanoxis loddigesii,Purple-Crowned Plovercrest,plover4,203700671,TRUE,kolibrík paraguajský
 Aphantochroa cirrochloris,Sombre Hummingbird,somhum1,24648421,FALSE,kolibrík tmavý
 Anthocephala floriceps,Blossomcrown,samblo1,632679875,FALSE,kolibrík kvetohlavý
 Campylopterus cuvierii,Scaly-breasted Hummingbird,scbhum1,207693221,FALSE,kolibrík šupinatý
@@ -1620,7 +1618,6 @@ Selasphorus ardens,Glow-throated Hummingbird,glthum1,616224105,FALSE,čmeľovec 
 Atthis heloisa,Bumblebee Hummingbird,bumhum,203996491,FALSE,čmeľovec elf
 Atthis ellioti,Wine-throated Hummingbird,withum1,20352,FALSE,čmeľovec vínovohrdlý
 OPISTHOCOMIFORMES,,,,FALSE,
-OPISTHOCOMIDAE,Hoatzin,hoatzi1,325134081,TRUE,
 Opisthocomus hoazin,Hoatzin,hoatzi1,325134081,TRUE,hoacin chochlatý
 Clamator jacobinus,Jacobin Cuckoo,piecuc1,8204,FALSE,kukavica stračia
 Clamator levaillantii,Levaillant's Cuckoo,levcuc1,8206,FALSE,kukavica stromová
@@ -1630,7 +1627,7 @@ Coccycua minuta,Little Cuckoo,litcuc2,303630481,FALSE,kukavka malá
 Coccycua pumila,Dwarf Cuckoo,dwacuc1,71989,FALSE,kukavka trpasličia
 Coccycua cinerea,Ash-colored Cuckoo,asccuc1,613645477,FALSE,kukavka popolavá
 Piaya mexicana,Mexican Squirrel-cuckoo,squcuc2,109209,FALSE,kukavka mexická
-Piaya cayana,Common Squirrel-cuckoo,squcuc1,373492111,TRUE,kukavka krovinová/čiernobruchá
+Piaya cayana,Squirrel Cuckoo,squcuc1,373492111,TRUE,kukavka krovinová/čiernobruchá
 Piaya melanogaster,Black-bellied Cuckoo,blbcuc1,203919001,FALSE,kukavka čiernobruchá
 Coccyzus americanus,Yellow-billed Cuckoo,yebcuc,634354421,TRUE,kukavka dažďová
 Coccyzus euleri,Pearly-breasted Cuckoo,pebcuc1,318062371,FALSE,kukavka svetlobruchá
@@ -1649,7 +1646,7 @@ Coccyzus vieilloti,Puerto Rican Lizard-cuckoo,purlic1,204011811,FALSE,kukavka po
 †Nannococcyx psix,St Helena Cuckoo,,,FALSE,
 Pachycoccyx audeberti,Thick-billed Cuckoo,thbcuc1,586937891,FALSE,kukučka hrubozobá
 Microdynamis parva,Dwarf Koel,dwakoe1,166190461,FALSE,koel trpasličí
-Eudynamys scolopaceus,Western Koel,asikoe2,85461311,TRUE,koel vraní
+Eudynamys scolopaceus,Asian Koel,asikoe2,85461311,TRUE,koel vraní
 Eudynamys orientalis,Eastern Koel,asikoe3,44253641,FALSE,koel tichomorský
 Urodynamys taitensis,Long-tailed Koel,lotkoe1,203924211,FALSE,kukučka koelia
 Scythrops novaehollandiae,Channel-billed Cuckoo,chbcuc2,191800241,FALSE,kukučka obrovská
@@ -1954,7 +1951,7 @@ Tribonyx ventralis,Black-tailed Native-hen,btnhen1,499295501,FALSE,sliepočka č
 Tribonyx mortierii,Tasmanian Native-hen,tanhen1,2902,FALSE,sliepočka tasmánska
 Fulica cristata,Red-knobbed Coot,rekcoo1,386806321,FALSE,lyska hrebenatá
 †Fulica newtonii,Mascarene Coot,mascoo1,,FALSE,
-Fulica atra,Common Coot,eurcoo,217023251,TRUE,lyska čierna
+Fulica atra,Eurasian Coot,eurcoo,217023251,TRUE,lyska čierna
 Fulica alai,Hawaiian Coot,hawcoo,39455421,FALSE,lyska bridlicová
 Fulica americana,American Coot,y00475,41572901,TRUE,lyska popolavá
 Fulica leucoptera,White-winged Coot,whwcoo1,615044193,FALSE,lyska zlatočelá
@@ -1996,7 +1993,6 @@ Psophia leucoptera,White-winged Trumpeter,pawtru2,110697,FALSE,trubač bielokrí
 Psophia viridis,Green-winged Trumpeter,dawtru1,203983181,FALSE,trubač zelenokrídly
 Psophia dextralis,Olive-winged Trumpeter,,,FALSE,
 Psophia obscura,Black-winged Trumpeter,,,FALSE,trubač belémsky (skup.)
-ARAMIDAE,Limpkin,limpki,73922,TRUE,
 Aramus guarauna,Limpkin,limpki,73922,TRUE,kurlan chriaštelí
 GAVIIFORMES,,,,FALSE,
 GAVIIDAE,Loons/Divers,,,FALSE,
@@ -2031,7 +2027,7 @@ Pygoscelis antarcticus,Chinstrap Penguin,chipen2,51673,FALSE,tučniak čiapočka
 Eudyptes schlegeli,Royal Penguin,roypen1,31642031,FALSE,tučniak bielolíci
 Eudyptes chrysolophus,Macaroni Penguin,macpen1,204017071,FALSE,tučniak vlasatý
 Eudyptes moseleyi,Northern Rockhopper Penguin,rocpen4,,FALSE,tučniak parochňový
-Eudyptes chrysocome,Southern Rockhopper Penguin,rocpen2,203972091,TRUE,tučniak skalný
+Eudyptes chrysocome,Western Rockhopper Penguin,rocpen2,203972091,TRUE,tučniak skalný
 Eudyptes sclateri,Erect-crested Penguin,bicpen1,364966691,FALSE,tučniak štetinatý
 Eudyptes pachyrhynchus,Fiordland Penguin,fiopen1,373472291,FALSE,tučniak hrubozobý
 Eudyptes robustus,Snares Penguin,snapen1,141401,FALSE,tučniak žltobrvý
@@ -2126,7 +2122,7 @@ Puffinus bailloni,Tropical Shearwater,troshe5,566340151,FALSE,víchrovník tropi
 Puffinus persicus,Persian Shearwater,pershe1,,FALSE,víchrovník perzský
 Puffinus bannermani,Bannerman's Shearwater,troshe4,,FALSE,víchrovník Bannermanov
 Puffinus puffinus,Manx Shearwater,manshe,540155541,TRUE,víchrovník malý
-Puffinus yelkouan,Yelkouan Shearwater,levshe1,310771,TRUE,víchrovník hnedastý
+Puffinus yelkouan,Mediterranean Shearwater,levshe1,310771,TRUE,víchrovník hnedastý
 Puffinus mauretanicus,Balearic Shearwater,balshe1,513102161,FALSE,víchrovník baleársky
 Puffinus elegans,Subantarctic Shearwater,litshe4,647560772,FALSE,víchrovník pôvabný
 Puffinus assimilis,Little Shearwater,litshe8,364541351,FALSE,víchrovník krpatý
@@ -2165,7 +2161,7 @@ Hydrobates hornbyi,Ringed Storm-petrel,rispet1,622065252,FALSE,víchrovníček o
 DIOMEDEIDAE,Albatrosses,,,FALSE,
 Diomedea sanfordi,Northern Royal Albatross,royalb3,9232,FALSE,albatros sépiar
 Diomedea epomophora,Southern Royal Albatross,royalb2,204018211,FALSE,albatros sépiar/kráľovský
-Diomedea exulans,Wandering Albatross,wanalb1,42306,TRUE,albatros sťahovavý
+Diomedea exulans,Snowy Albatross,wanalb1,42306,TRUE,albatros sťahovavý
 Diomedea antipodensis,Antipodean Albatross,antalb1,203922111,FALSE,albatros hnedo-biely
 Diomedea amsterdamensis,Amsterdam Albatross,wanalb5,,FALSE,albatros hnedý
 Diomedea dabbenena,Tristan Albatross,wanalb3,,FALSE,albatros tristanský
@@ -2225,7 +2221,7 @@ Pseudibis davisoni,White-shouldered Ibis,whsibi1,202950961,FALSE,ibis obojkový
 Pseudibis gigantea,Giant Ibis,giaibi1,203912241,FALSE,ibis veľký
 Geronticus eremita,Northern Bald Ibis,waldra1,592841121,FALSE,ibis skalný
 Geronticus calvus,Southern Bald Ibis,balibi1,618896969,FALSE,ibis lysý
-Nipponia nippon,Japanese Crested Ibis,creibi1,204009261,TRUE,ibis chochlatý
+Nipponia nippon,Crested Ibis,creibi1,204009261,TRUE,ibis chochlatý
 Bostrychia olivacea,Olive Ibis,oliibi2,24699,FALSE,hadada olivová
 Bostrychia bocagei,Dwarf Ibis,oliibi3,642874134,FALSE,hadada Keulemansova
 Bostrychia rara,Spot-breasted Ibis,spbibi1,203909981,FALSE,hadada škvrnitá
@@ -2285,7 +2281,7 @@ Ardea sumatrana,Great-billed Heron,grbher2,203887551,FALSE,volavka veľkozobá
 Ardea goliath,Goliath Heron,golher1,2028,FALSE,volavka obrovská
 Ardea purpurea,Purple Heron,purher1,239512061,TRUE,volavka purpurová
 A. p. bournei,Cape Verde Heron,,,FALSE,
-Ardea alba,Great White Egret,greegr,23692051,TRUE,beluša veľká
+Ardea alba,Great Egret,greegr,23692051,TRUE,beluša veľká
 Ardea brachyrhyncha,Yellow-billed Egret,integr3,588972951,FALSE,volavka žltozobá
 Ardea intermedia,Intermediate Egret,integr1,451056611,FALSE,volavka prostredná
 Ardea plumifera,Plumed Egret,integr2,616099067,FALSE,volavka pôvabná
@@ -2432,7 +2428,6 @@ Phalacrocorax fuscescens,Black-faced Cormorant,blfcor1,349736791,FALSE,kormorán
 Phalacrocorax varius,Great Pied Cormorant,piecor1,203936851,FALSE,kormorán stračí
 Phalacrocorax punctatus,Spotted Shag,sposha1,487535711,TRUE,kormorán bodkovaný
 Phalacrocorax featherstoni,Pitt Shag,piisha1,,FALSE,kormorán zelenolíci
-IBIDORHYNCHIDAE,Ibisbill,ibisbi1,285398,TRUE,
 Ibidorhyncha struthersii,Ibisbill,ibisbi1,285398,TRUE,srpiar vrchovský
 RECURVIROSTRIDAE,Avocets Stilts,,,FALSE,
 Cladorhynchus leucocephalus,Banded Stilt,bansti1,99434191,FALSE,šišila bielohlavá
@@ -2448,7 +2443,7 @@ H. h. melanurus,White-backed Stilt,,,FALSE,
 Himantopus novaezelandiae,Black Stilt,blasti1,622956127,FALSE,šišila smútočná
 CHARADRIIDAE,Plovers,,,FALSE,
 Pluvialis squatarola,Grey Plover,bkbplo,167886311,FALSE,kulík bledý
-Pluvialis apricaria,Eurasian Golden Plover,eugplo,103332581,TRUE,kulík zlatý
+Pluvialis apricaria,European Golden Plover,eugplo,103332581,TRUE,kulík zlatý
 Pluvialis fulva,Pacific Golden Plover,pagplo,516983,FALSE,kulík krátkochvostý
 Pluvialis dominica,American Golden Plover,amgplo,31731481,TRUE,kulík hnedokrídly/krátkochvostý
 Oreopholus ruficollis,Tawny-throared Dotterel,tatdot1,470069241,FALSE,kulík hnedohrdlý
@@ -2601,7 +2596,6 @@ Gallinago hardwickii,Latham's Snipe,latsni1,593752771,FALSE,močiarnica japonsk�
 Gallinago nemoricola,Wood Snipe,woosni1,338905451,FALSE,močiarnica horská
 Gallinago stenura,Pintail Snipe,pitsni,412194641,FALSE,močiarnica širokochvostá
 Gallinago megala,Swinhoe's Snipe,swisni1,448249421,FALSE,močiarnica bledá
-PEDIONOMIDAE,Plains-wanderer,plawan1,496959781,TRUE,
 Pedionomus torquatus,Plains-wanderer,plawan1,496959781,TRUE,prepeľ púšťový
 THINOCORIDAE,Seedsnipes,,,FALSE,
 Attagis gayi,Rufous-bellied Seedsnipe,rubsee2,615679654,FALSE,výšinár hrdzavobruchý
@@ -2809,7 +2803,7 @@ Tyto nigrobrunnea,Taliabu Masked-owl,talowl1,609069999,FALSE,plamienka sulská
 Tyto inexspectata,Minahassa Masked-owl,minowl1,175978,FALSE,plamienka hrdzavolíca
 Tyto rosenbergii,Sulawesi Owl,sulowl1,203990191,FALSE,plamienka sivohlavá
 Tyto soumagnei,Madagascar Red Owl,marowl1,,FALSE,plamienka oranžová
-Tyto alba,Common Barn-owl,webowl1,435736051,TRUE,plamienka driemavá
+Tyto alba,Barn Owl,webowl1,435736051,TRUE,plamienka driemavá
 T. a. detorta,Cape Verde Barn-owl,,,FALSE,
 T. a. schmitzi,Madeira Barn-owl,,,FALSE,
 T. a. gracilirostris,Gran Canaria Barn-owl,,,FALSE,
@@ -2901,7 +2895,7 @@ Synthliboramphus hypoleucus,Guadalupe Murrelet,xanmur1,588795931,FALSE,starček 
 Synthliboramphus craveri,Craveri's Murrelet,cramur,297757331,FALSE,starček tmavokrídly
 Alca torda,Razorbill,razorb,621601678,FALSE,alka vrúbkozobá
 †Pinguinus impennis,Great Auk,greauk,,FALSE,
-Alle alle,Little Auk,doveki,629733713,TRUE,alkovec drobný
+Alle alle,Dovekie,doveki,629733713,TRUE,alkovec drobný
 Uria lomvia,Thick-billed Murre,thbmur,278950301,FALSE,norec hrubozobý
 Uria aalge,Common Murre,commur,245917551,TRUE,norec tenkozobý/hrubozobý
 STRIGIFORMES,owl sp.,owl1,45172511,FALSE,
@@ -3093,7 +3087,7 @@ Spilornis rufipectus,Sulawesi Serpent-eagle,suseag1,640793010,FALSE,hadiar celeb
 Spilornis elgini,Andaman Serpent-eagle,anseag1,290061431,FALSE,hadiar andamanský
 Dryotriorchis spectabilis,Congo Serpent-eagle,,,FALSE,hadiar dlhochvostý
 Terathopius ecaudatus,Bateleur,batele1,135449,FALSE,hadiar krátkochvostý
-Pithecophaga jefferyi,Great Philippine Eagle,grpeag1,183492,TRUE,opičiar veľkozobý
+Pithecophaga jefferyi,Philippine Eagle,grpeag1,183492,TRUE,opičiar veľkozobý
 Circaetus gallicus,Short-toed Snake-eagle,shteag1,203921371,FALSE,hadiar krátkoprstý
 Circaetus beaudouini,Beaudouin's Snake-eagle,beasne1,310001,FALSE,hadiar čiarkový
 Circaetus pectoralis,Black-breasted Snake-eagle,bkbsne1,,FALSE,hadiar bielobruchý
@@ -3167,14 +3161,13 @@ CATHARTIDAE,New World Vultures,,,FALSE,holohlavec skalný
 Cathartes aura,Turkey Vulture,turvul,317760061,TRUE,kondor morkovitý
 Cathartes burrovianus,Lesser Yellow-headed Vulture,lyhvul1,437900471,FALSE,kondor modrohlavý
 Cathartes melambrotus,Greater Yellow-headed Vulture,gyhvul1,482548071,FALSE,kondor modrotemenný
-Coragyps atratus,American Black Vulture,blkvul,458200071,TRUE,kondor krkavcovitý
+Coragyps atratus,Black Vulture,blkvul,458200071,TRUE,kondor krkavcovitý
 Sarcorhamphus papa,King Vulture,kinvul1,166695961,TRUE,kondor kráľovský
 Gymnogyps californianus,California Condor,calcon,163900,TRUE,kondor veľkozobý
 Vultur gryphus,Andean Condor,andcon1,220146481,TRUE,kondor veľký
 ACCIPITRIFORMES,Diurnal raptor sp.,diurap1,87390,FALSE,
 SAGITTARIIDAE,Secretarybird,secret2,348379561,FALSE,
 Sagittarius serpentarius,Secretarybird,secret2,348379561,FALSE,hadožrút nohatý
-PANDIONIDAE,Osprey,osprey,34075051,TRUE,
 Pandion haliaetus,Osprey,osprey,34075051,TRUE,kršiak rybár
 ACCIPITRIDAE,Hawks Eagles,,,FALSE,Accipitridae neurčený druh (starosvetský supovitý dravec neurčený druh)
 Elanus caeruleus,Black-winged Kite,bkskit1,465025481,FALSE,luniak sivý
@@ -3207,7 +3200,7 @@ Polyboroides radiatus,Madagascar Harrier-hawk,mahhaw1,93905,FALSE,kutraňa madag
 Gypohierax angolensis,Palm-nut Vulture,panvul1,310236,FALSE,orlosup strakatý
 Gypaetus barbatus,Bearded Vulture,lammer1,353604881,FALSE,bradáň žltohlavý
 Neophron percnopterus,Egyptian Vulture,egyvul1,354072661,FALSE,zdochlinár biely
-Circus aeruginosus,Western Marsh-harrier,wemhar1,613407946,TRUE,kaňa močiarna
+Circus aeruginosus,Eurasian Marsh-Harrier,wemhar1,613407946,TRUE,kaňa močiarna
 Circus spilonotus,Eastern Marsh-harrier,easmah1,549698611,FALSE,kaňa kapucňová
 Circus approximans,Swamp Harrier,swahar1,259809771,FALSE,kaňa barinná
 Circus ranivorus,African Marsh-harrier,afmhar1,4318,FALSE,kaňa žabožravá
@@ -3286,7 +3279,7 @@ Haliaeetus vociferoides,Madagascar Fish-eagle,mafeag1,609067051,FALSE,orliak bie
 Haliaeetus leucoryphus,Pallas's Fish-eagle,pafeag1,516134901,FALSE,orliak pásochvostý
 Haliaeetus albicilla,White-tailed Sea-eagle,whteag,59245071,FALSE,orliak morský
 Haliaeetus leucocephalus,Bald Eagle,baleag,200943,TRUE,orliak bielohlavý
-Haliaeetus pelagicus,Steller's Sea-eagle,stseag,21723301,TRUE,orliak hrubozobý
+Haliaeetus pelagicus,Pacific Sea-Eagle,stseag,21723301,TRUE,orliak hrubozobý
 Ichthyophaga humilis,Lesser Fishing-eagle,,,FALSE,orliak malý
 Ichthyophaga ichthyaetus,Grey-headed Fishing-eagle,,,FALSE,orliak rybár
 Haliastur sphenurus,Whistling Kite,whikit1,352796781,FALSE,haja hvízdavá
@@ -3351,7 +3344,7 @@ Buteo regalis,Ferruginous Hawk,ferhaw,505924511,TRUE,myšiak bielochvostý
 Buteo auguralis,Red-necked Buzzard,renbuz1,641551236,FALSE,myšiak sliedivý
 Buteo augur,Augur Buzzard,augbuz2,31365371,FALSE,myšiak veštecký
 Buteo rufofuscus,Jackal Buzzard,jacbuz1,275748,FALSE,myšiak šakalohlasý
-Buteo buteo,Eurasian Buzzard,combuz1,207612071,TRUE,myšiak hôrny
+Buteo buteo,Common Buzzard,combuz1,207612071,TRUE,myšiak hôrny
 B. b. vulpinus,Steppe Buzzard,,,FALSE,
 B. b. menetriesi,Eastern Steppe Buzzard,,,FALSE,
 Buteo japonicus,Japanese Buzzard,combuz6,626281008,FALSE,myšiak nosuri
@@ -3414,7 +3407,7 @@ Rhyticeros everetti,Sumba Hornbill,sumhor1,199793421,FALSE,zobákorožec sumbsk�
 Rhyticeros undulatus,Wreathed Hornbill,wrehor1,609065063,FALSE,zobákorožec bielochvostý
 Rhyticeros subruficollis,Plain-pouched Hornbill,plphor1,638940368,FALSE,zobákorožec bielohrdlý
 Rhyticeros narcondami,Narcondam Hornbill,narhor1,151625211,FALSE,zobákorožec hrdzavohlavý
-Rhyticeros plicatus,Papuan Hornbill,blyhor1,21222,TRUE,zobákorožec papuánsky
+Rhyticeros plicatus,Blyth's Hornbill,blyhor1,21222,TRUE,zobákorožec papuánsky
 COLIIFORMES,,,,FALSE,
 COLIIDAE,Mousebirds,,,FALSE,
 Colius striatus,Speckled Mousebird,spemou2,253840331,FALSE,myšovec pásavý
@@ -3471,8 +3464,7 @@ Trogon ambiguus,Coppery-tailed Trogon,eletro1,255097111,FALSE,trogón mexický
 Trogon mexicanus,Mountain Trogon,moutro1,612575312,FALSE,trogón horský
 Trogon collaris,Collared Trogon,coltro1,389248371,FALSE,trogón pásikavý
 Trogon personatus,Masked Trogon,mastro1,382920941,FALSE,trogón maskový
-UPUPIDAE,Hoopoe,,,FALSE,
-Upupa epops,Hoopoe,hoopoe,203693781,TRUE,dudok chochlatý
+Upupa epops,Eurasian Hoopoe,hoopoe,203693781,TRUE,dudok chochlatý
 Upupa marginata,Madagascar Hoopoe,madhoo1,501787911,FALSE,dudok madagaskarský
 †Upupa antaios,St Helena Hoopoe,,,FALSE,
 PHOENICULIDAE,Woodhoopoes,,,FALSE,
@@ -3510,7 +3502,7 @@ Merops nubicus,Northern Carmine Bee-eater,ncbeat1,21612541,FALSE,včelárik čer
 Merops nubicoides,Southern Carmine Bee-eater,scbeat1,609054295,FALSE,včelárik karmínový
 Merops viridissimus,African Green Bee-eater,grnbee1,628196764,FALSE,včelárik savanový
 Merops cyanophrys,Arabian Green Bee-eater,grnbee2,439853401,FALSE,včelárik arabský
-Merops orientalis,Asian Green Bee-eater,grnbee3,122658941,TRUE,včelárik východný
+Merops orientalis,Green Bee-eater,grnbee3,122658941,TRUE,včelárik východný
 Merops leschenaulti,Chestnut-headed Bee-eater,chbeat1,290862201,FALSE,včelárik hnedohlavý
 Merops viridis,Blue-throated Bee-eater,btbeat2,282877,FALSE,včelárik modrohrdlý
 Merops americanus,Rufous-crowned Bee-eater,rucbee1,203997741,FALSE,včelárik filipínsky
@@ -3584,8 +3576,8 @@ Pelargopsis capensis,Stork-billed Kingfisher,stbkin1,613592670,TRUE,rybárikovec
 Pelargopsis melanorhyncha,Black-billed Kingfisher,blbkin1,203909221,FALSE,rybárikovec čiernozobý
 Pelargopsis amauroptera,Brown-winged Kingfisher,bnwkin1,70212,FALSE,rybárikovec hnedokrídly
 Halcyon coromanda,Ruddy Kingfisher,rudkin1,203905261,FALSE,rybárikovec ohnivý
-Halcyon smyrnensis,White-breasted Kingfisher,whtkin2,242693721,TRUE,rybárikovec hnedohlavý
-Halcyon gularis,White-throated Kingfisher,bnbkin1,369087511,TRUE,rybárikovec bielohrdlý
+Halcyon smyrnensis,White-Throated Kingfisher,whtkin2,242693721,TRUE,rybárikovec hnedohlavý
+Halcyon gularis,Brown-breasted Kingfisher,bnbkin1,369087511,TRUE,rybárikovec bielohrdlý
 Halcyon cyanoventris,Javan Kingfisher,javkin1,524297621,FALSE,rybárikovec fialový
 Halcyon badia,Chocolate-backed Kingfisher,chbkin2,1067,FALSE,rybárikovec gaštanový
 Halcyon pileata,Black-capped Kingfisher,blckin1,383052321,FALSE,rybárikovec stromový
@@ -4048,7 +4040,7 @@ Colaptes fernandinae,Fernandina's Flicker,ferfli1,133239,FALSE,vlikáč palmový
 †Colaptes oceanicus,Bermuda Flicker,berfli1,,FALSE,
 Colaptes cafer,Red-shafted Flicker,,,FALSE,
 Colaptes mexicanoides,Guatemalan Flicker,norfli1,110805131,FALSE,vlikáč honduraský
-Colaptes auratus,Yellow-shafted Flicker,norfli,84808,TRUE,vlikáč zlatý/šafranový
+Colaptes auratus,Northern Flicker,norfli,84808,TRUE,vlikáč zlatý/šafranový
 Colaptes chrysoides,Gilded Flicker,gilfli,417072341,FALSE,vlikáč šafranový
 Colaptes melanochloros,Green-barred Woodpecker,grbwoo3,201634,FALSE,vlikáč čiernočelý
 Colaptes melanolaimus,Golden-breasted Woodpecker,,,FALSE,
@@ -4222,7 +4214,7 @@ Microhierax melanoleucus,Pied Falconet,piefal2,189842,FALSE,sokolík čiernolíc
 Polihierax semitorquatus,African Pygmy-falcon,pygfal1,214791391,FALSE,sokolík obojkový
 Polihierax insignis,White-rumped Pygmy-falcon,,,FALSE,sokolík krátkokrídly
 Falco naumanni,Lesser Kestrel,leskes1,446309971,FALSE,sokol bielopazúravý
-Falco tinnunculus,Common Kestrel,eurkes,203695721,TRUE,sokol myšiar (pustovka)/savanový
+Falco tinnunculus,Eurasian Kestrel,eurkes,203695721,TRUE,sokol myšiar (pustovka)/savanový
 Falco newtoni,Madagascar Kestrel,madkes1,502038461,FALSE,sokol hrdzavochrbtý
 Falco puncatus,Mauritius Kestrel,maukes1,72267,FALSE,
 Falco araeus,Seychelles Kestrel,seykes1,622734370,FALSE,sokol seychelský
@@ -4520,7 +4512,7 @@ Cyanoramphus unicolor,Antipodes Parakeet,antpar1,631093126,FALSE,kakariki jednof
 Cyanoramphus forbesi,Chatham Parakeet,chipar1,298236221,FALSE,kakariki smaragdový
 Cyanoramphus auriceps,Yellow-fronted Parakeet,yefpar3,364301331,FALSE,kakariki skákavý
 Cyanoramphus malherbi,Malherbe's Parakeet,malpar2,200487611,FALSE,kakariki horský
-Cyanoramphus novaezelandiae,Red-fronted Parakeet,refpar4,203926571,TRUE,kakariki červenočelý
+Cyanoramphus novaezelandiae,Red-Crowned Parakeet,refpar4,203926571,TRUE,kakariki červenočelý
 Pezoporus wallicus,Ground Parrot,gropar1,75186481,FALSE,zemnár vlnkovaný
 Pezoporus occidentalis,Night Parrot,nigpar2,63433741,FALSE,zemnár nočný
 Neopsephotus bourkii,Bourke's Parrot,boupar2,177712591,FALSE,tráviar ružovobruchý
@@ -6001,7 +5993,7 @@ Ochthoeca salvini,Tumbes Tyrant,tumtyr2,13262,FALSE,pamuchár žltočelý
 Sublegatus arenarum,Northern Scrub-flycatcher,nosfly1,51867481,FALSE,pamuchár sivohrdlý
 Sublegatus obscurior,Amazonian Scrub-flycatcher,amsfly1,203934221,FALSE,pamuchár Toddov
 Sublegatus modestus,Southern Scrub-flycatcher,sosfly1,174997,FALSE,pamuchár krovinový
-Pyrocephalus rubinus,Common Vermilion Flycatcher,verfly,188210,TRUE,pamuchár tmavochrbtý
+Pyrocephalus rubinus,Vermilion Flycatcher,verfly,188210,TRUE,pamuchár tmavochrbtý
 Pyrocephalus nanus,Little Vermilion Flycatcher,brufly1,352838631,FALSE,pamuchár motýľoletý
 †Pyrocephalus dubius,Least Vermilion Flycatcher,,,FALSE,
 Fluvicola pica,Pied Water-tyrant,piwtyr1,69691,FALSE,pamuchár močiarny
@@ -6220,7 +6212,7 @@ Acanthorhynchus superciliosus,Western Spinebill,wesspi1,14935,FALSE,peliar hrdza
 Acanthorhynchus tenuirostris,Eastern Spinebill,easspi1,97435051,FALSE,peliar tenkozobý
 Certhionyx variegatus,Pied Honeyeater,piehon1,176318211,FALSE,medárik stračí
 Prosthemadera novaeseelandiae,Tui,tui1,136121,TRUE,medárik kazateľ
-Anthornis melanura,New Zealand Bellbird,nezbel1,203921991,TRUE,medárik makomako
+Anthornis melanura,Korimako,nezbel1,203921991,TRUE,medárik makomako
 †Anthornis melanura,Chatham Bellbird,,,FALSE,
 Pycnopygius ixoides,Plain Honeyeater,plahon1,100491,FALSE,medárik okrový
 Pycnopygius cinereus,Marbled Honeyeater,marhon1,641974249,FALSE,medárik mramorovaný
@@ -6377,7 +6369,7 @@ Gerygone citrina,Rennell Gerygone,fatger3,203934761,FALSE,trúchlohlások citró
 Gerygone flavolateralis,Fan-tailed Gerygone,fatger1,628121705,FALSE,trúchlohlások vejárovitý
 Gerygone modesta,Norfolk Gerygone,noiger1,203968451,FALSE,trúchlohlások norfolský
 †Gerygone insularis,Lord Howe Gerygone,lohger1,,FALSE,
-Gerygone igata,Grey Gerygone,gryger1,613180644,TRUE,trúchlohlások maorský
+Gerygone igata,Grey Warbler,gryger1,613180644,TRUE,trúchlohlások maorský
 Gerygone albofrontata,Chatham Gerygone,chiger2,384306621,FALSE,trúchlohlások dlhozobý
 Gerygone ruficollis,Brown-breasted Gerygone,brbger1,203988131,FALSE,trúchlohlások hnedkavý
 Gerygone levigaster,Mangrove Gerygone,manger1,101313331,FALSE,trúchlohlások mangrovový
@@ -7172,7 +7164,7 @@ Cissa jefferyi,Bornean Green Magpie,borgrm1,36749,FALSE,kita bornejská
 Perisoreus canadensis,Grey Jay,gryjay,13510,TRUE,škriekavec bieločelý
 Perisoreus infaustus,Siberian Jay,sibjay1,463894631,FALSE,škriekavec zlovestný
 Perisoreus internigrans,Sichuan Jay,sicjay1,239274011,FALSE,škriekavec popolavý
-Cyanopica cooki,Iberian Azure-winged Magpie,azwmag3,360047611,TRUE,modraňa strakovitá
+Cyanopica cooki,Iberian Magpie,azwmag3,360047611,TRUE,modraňa strakovitá
 Cyanopica cyanus,Asian Azure-winged Magpie,azwmag2,172726111,FALSE,modraňa družná
 Garrulus glandarius,Eurasian Jay,eurjay1,365480321,TRUE,sojka obyčajná
 Garrulus bispecularis,Plain-crowned Jay,,,FALSE,
@@ -7185,13 +7177,13 @@ Podoces hendersoni,Mongolian Ground-jay,mogjay1,203942241,FALSE,džidžitka modr
 Podoces biddulphi,Xinjiang Ground-jay,xigjay1,285480,FALSE,džidžitka bielochvostá
 Podoces panderi,Turkestan Ground-jay,tugjay1,591877821,FALSE,džidžitka sivochrbtá
 Podoces pleskei,Iranian Ground-jay,irgjay1,637265769,FALSE,džidžitka iránska
-Pica pica,Common Magpie,eurmag1,261809051,TRUE,straka obyčajná
+Pica pica,Eurasian Magpie,eurmag1,261809051,TRUE,straka obyčajná
 Pica mauretanica,Maghreb Magpie,eurmag3,139521181,FALSE,straka saharská
 Pica asirensis,Asir Magpie,eurmag5,426792181,FALSE,straka arabská
 Pica hudsonia,Black-billed Magpie,bkbmag1,514902,TRUE,straka americká
 Pica nuttalli,Yellow-billed Magpie,yebmag,22945,TRUE,straka žltozobá
 Nucifraga columbiana,Clark's Nutcracker,clanut,344810091,TRUE,orešnica borovicová
-Nucifraga caryocatactes,Northern Nutcracker,eurnut3,457886481,TRUE,orešnica perlavá
+Nucifraga caryocatactes,Eurasian Nutcracker,eurnut3,457886481,TRUE,orešnica perlavá
 Nucifraga hemispila,Southern Nutcracker,eurnut4,577831951,FALSE,orešnica južná
 Nucifraga multipunctata,Large-spotted Nutcracker,sponut1,619935297,FALSE,orešnica kašmírska
 Corvus dauuricus,Daurian Jackdaw,daujac1,602255121,TRUE,kavka strakatá
@@ -7316,7 +7308,7 @@ Paradigalla brevicauda,Short-tailed Paradigalla,shtpar1,640054044,FALSE,rajka kr
 Astrapia nigra,Arfak Astrapia,arfast1,42751931,FALSE,rajka čierna
 Astrapia splendidissima,Splendid Astrapia,splast1,163654,FALSE,rajka varechárka
 Astrapia rothschildi,Huon Astrapia,huoast1,147993,FALSE,rajka vznešená
-Astrapia stephaniae,Stephanie's Astrapia,prsast1,203972681,TRUE,rajka lyžičiarka
+Astrapia stephaniae,Princess Stephanie's Astrapia,prsast1,203972681,TRUE,rajka lyžičiarka
 Astrapia mayeri,Ribbon-tailed Astrapia,ritast1,203972211,FALSE,rajka dlhochvostá
 Cicinnurus regius,King Bird-of-paradise,kbopar1,42747501,FALSE,rajka kráľovská
 Cicinnurus magnificus,Magnificent Bird-of-paradise,mbopar2,166618511,FALSE,rajka pestrá
@@ -7327,7 +7319,7 @@ Paradisaea rubra,Red Bird-of-paradise,rbopar2,203898461,FALSE,rajka červená
 Paradisaea decora,Goldie's Bird-of-paradise,gbopar1,163679,FALSE,rajka levanduľová
 Paradisaea minor,Lesser Bird-of-paradise,lbopar1,203489781,FALSE,rajka hodvábna
 Paradisaea apoda,Greater Bird-of-paradise,gbopar2,163707,FALSE,rajka svadobná
-Paradisaea raggiana,Raggiana Bird-of-paradise,rbopar1,168347,TRUE,rajka Raggiho
+Paradisaea raggiana,Count Raggi's Bird-of-Paradise,rbopar1,168347,TRUE,rajka Raggiho
 Melanocharis arfakiana,Obscure Berrypecker,obsber1,203994611,FALSE,bobuliarka tmavá
 Melanocharis nigra,Black Berrypecker,blaber1,650848852,FALSE,bobuliarka čierna
 Melanocharis longicauda,Mid-mountain Berrypecker,lebber1,114446261,FALSE,bobuliarka hôrna
@@ -7351,7 +7343,7 @@ Petroica boodang,Scarlet Robin,scarob2,99575701,FALSE,mucholovka šarlátová
 Petroica pusilla,Pacific Robin,pacrob1,203911001,FALSE,mucholovka pestrá
 Petroica multicolor,Norfolk Robin,pacrob2,640733447,FALSE,mucholovka norfolská
 Petroica goodenovii,Red-capped Robin,recrob1,643731345,TRUE,mucholovka červenočelá
-Petroica macrocephala,New Zealand Tomtit,tomtit1,203922011,TRUE,mucholovka maorská
+Petroica macrocephala,Tomtit,tomtit1,203922011,TRUE,mucholovka maorská
 Petroica dannefaerdi,Snares Tomtit,,,FALSE,mucholovka čierna (skup.)
 Petroica traversi,Black Robin,charob1,298239191,TRUE,mucholovka Traversova
 Petroica longipes,North Island Robin,nezrob2,622059469,FALSE,mucholovka dlhonohá
@@ -7411,7 +7403,6 @@ Callaeas cinereus,South Island Kokako,kokako4,,FALSE,laločník kokako
 Philesturnus rufusater,North Island Saddleback,saddle2,594748631,FALSE,laločník sedlový
 Philesturnus carunculatus,South Island Saddleback,saddle3,203919831,TRUE,laločník tieko
 †Heteralocha acutirostris,Huia,huia1,,FALSE,
-NOTIOMYSTIDAE,Stitchbird,stitch1,203926611,TRUE,
 Notiomystis cincta,Stitchbird,stitch1,203926611,TRUE,hihi bútľavinový
 MELANOCHARITIDAE,Berrypeckers and Longbills,,,FALSE,
 EUPETIDAE,Rail-babbler,,,FALSE,
@@ -7678,7 +7669,6 @@ Cisticola nigriloris,Black-lored Cisticola,bllcis1,203964781,FALSE,cistovník v�
 Cisticola aberrans,Lazy Cisticola,rolcis2,434968661,FALSE,cistovník kamenár
 Cisticola bailunduensis,Huambo Cisticola,rolcis4,509509751,FALSE,cistovník huambský
 Cisticola chiniana,Rattling Cisticola,ratcis1,58463,FALSE,cistovník hnedotemenný
-PANURIDAE,Bearded Reedling,bearee1,63563531,TRUE,
 Panurus biarmicus,Bearded Reedling,bearee1,63563531,TRUE,fúzatka trstinová
 NICATORIDAE,Nicators,,,FALSE,
 Nicator chloris,Western Nicator,yesnic1,140954,FALSE,vetvár veľkozobý
@@ -7836,7 +7826,7 @@ Acrocephalus arundinaceus,Great Reed-warbler,grrwar1,203891051,FALSE,trsteniarik
 Acrocephalus orientalis,Oriental Reed-warbler,orrwar1,48591671,FALSE,trsteniarik východný
 Acrocephalus stentoreus,Clamorous Reed-warbler,clrwar1,356800021,FALSE,trsteniarik dlhozobý
 A. s. brunnescens,Indian Reed-warbler,,,FALSE,
-Acrocephalus australis,Australian Reed-warbler,aurwar1,62823981,TRUE,trsteniarik hnedokrídly
+Acrocephalus australis,Australian Reed Warbler,aurwar1,62823981,TRUE,trsteniarik hnedokrídly
 †Acrocephalus luscinius,Guam Reed-warbler,,,FALSE,
 Acrocephalus hiwae,Saipan Reed-warbler,sairew1,5417,FALSE,trsteniarik saipanský
 †Acrocephalus nijoi,Aguijan Reed-warbler,,,FALSE,
@@ -7917,7 +7907,7 @@ Cincloramphus mathewsi,Rufous Songlark,rufson1,14347,FALSE,svrkavec ryšavý
 Cincloramphus timoriensis,Tawny Grassbird,tawgra3,233640,FALSE,svrkavec hnedkavý/papuánsky
 Cincloramphus macrurus,Papuan Grassbird,tawgra2,203692281,FALSE,svrkavec papuánsky
 Poodytes gramineus,Little Grassbird,litgra1,273100551,FALSE,svrkavec trávový
-Poodytes punctatus,New Zealand Fernbird,fernbi1,199786461,TRUE,svrkavec matata
+Poodytes punctatus,Fernbird,fernbi1,199786461,TRUE,svrkavec matata
 Poodytes caudatus,Snares Fernbird,,,FALSE,svrkavec snareský (skup.)
 †Poodytes rufescens,Chatham Fernbird,,,FALSE,
 Poodytes carteri,Spinifexbird,spibir1,428433941,FALSE,svrkavec spinifexový
@@ -7947,7 +7937,7 @@ Psalidoprocne fuliginosa,Mountain Saw-wing,mousaw1,24156861,FALSE,lastovička ho
 Psalidoprocne albiceps,White-headed Saw-wing,whhsaw1,,FALSE,lastovička bielohlavá
 Psalidoprocne pristoptera,Black Saw-wing,blksaw1,278675,FALSE,lastovička čierna
 Psalidoprocne obscura,Fanti Saw-wing,fansaw1,279262,FALSE,lastovička zelená
-Delichon urbicum,Northern House Martin,comhom1,600797311,TRUE,belorítka obyčajná/východná
+Delichon urbicum,Western House Martin,comhom1,600797311,TRUE,belorítka obyčajná/východná
 Delichon lagopodum,Eastern House Martin,comhom2,637402267,FALSE,belorítka sibírska
 Delichon dasypus,Asian House Martin,ashmar1,146378371,FALSE,belorítka východná
 Delichon nipalense,Nepal House Martin,nephom1,203925211,FALSE,belorítka čiernobradá
@@ -7959,7 +7949,7 @@ Petrochelidon fuliginosa,Forest Swallow,forswa2,24163421,FALSE,lastovička lesn�
 Petrochelidon fluvicola,Steak-throated Swallow,sttswa2,624895144,FALSE,lastovička riečna
 Petrochelidon ariel,Fairy Martin,faimar2,612087720,FALSE,lastovička čarovná
 Petrochelidon nigricans,Tree Martin,tremar2,291335281,FALSE,lastovička stromová
-Petrochelidon pyrrhonota,Cliff Swallow,cliswa,92053871,TRUE,lastovička bralová
+Petrochelidon pyrrhonota,American Cliff Swallow,cliswa,92053871,TRUE,lastovička bralová
 Petrochelidon fulva,Cave Swallow,cavswa,482238641,FALSE,lastovička karibská
 P. f. pallida,Northern Cave Swallow,,,FALSE,
 Petrochelidon rufocollaris,Chestnut-collared Swallow,chcswa2,617642019,FALSE,lastovička hrdzavoprsá
@@ -7999,7 +7989,7 @@ Riparia paludicola,African Plain Martin,plamar1,276848,FALSE,brehuľa bahenná
 Riparia cowani,Madagascar Plain Martin,plamar3,95388,FALSE,brehuľa madagaskarská
 Riparia chinensis,Asian Plain Martin,gytmar1,204027051,FALSE,brehuľa sivohrdlá
 Riparia congica,Congo Sand Martin,conmar1,,FALSE,brehuľa konžská
-Riparia riparia,Collared Sand Martin,banswa,333574871,TRUE,brehuľa hnedá/bledá
+Riparia riparia,Sand Martin,banswa,333574871,TRUE,brehuľa hnedá/bledá
 Riparia diluta,Pale Sand Martin,pasmar1,633252752,FALSE,brehuľa hnedá/bledá
 Tachycineta bicolor,Tree Swallow,treswa,159694261,TRUE,lastovička dvojfarebná
 DONACOBIDAE -Donacobius,,,,FALSE,
@@ -8340,7 +8330,7 @@ Sinosuthora przewalskii,Rusty-throated Parrotbill,rutpar2,204009051,FALSE,sutora
 AEGITHALIDAE,Long-tailed Tits,,,FALSE,
 Leptopoecile sophiae,White-browed Tit-warbler,wbtwar1,584325691,TRUE,hnedohlávok peničí
 Leptopoecile elegans,Crested Tit-warbler,crtwar1,356737231,FALSE,hnedohlávok chochlatý
-Psaltriparus minimus,American Bushtit,bushti,619034949,TRUE,mlynárka lesná
+Psaltriparus minimus,Bushtit,bushti,619034949,TRUE,mlynárka lesná
 Aegithalos iredalei,Red-headed Tit,,,FALSE,mlynárka hrdzavohlavá (skup.)
 Aegithalos concinnus,Black-throated Tit,blttit2,84878051,FALSE,mlynárka čiapočkatá
 Aegithalos annamensis,Grey-crowned Tit,,,FALSE,
@@ -8350,7 +8340,7 @@ Aegithalos bonvaloti,Black-browed Tit,bkbtit3,624782015,FALSE,
 A. b. sharpei,Burmanese Tit,,,FALSE,
 Aegithalos iouschistos,Rufous-fronted Tit,bkbtit3,624782015,FALSE,mlynárka himalájska
 Aegithalos fuliginosus,Sooty Tit,sootit1,204009171,FALSE,mlynárka sivolíca
-Aegithalos caudatus,Northern Long-tailed Tit,lottit1,82639391,TRUE,mlynárka dlhochvostá
+Aegithalos caudatus,Long-Tailed Tit,lottit1,82639391,TRUE,mlynárka dlhochvostá
 Aegithalos glaucogularis,Silver-throated Tit,lottit5,211849501,FALSE,mlynárka čínska
 Psaltria exilis,Pygmy Tit,pygtit1,524398701,FALSE,mlynárka trpasličia
 ZOSTEROPIDAE,White Eyes and Yuhinas,,,FALSE,
@@ -8406,7 +8396,7 @@ Zosterops japonicus,Japanese White-eye,warwhe1,6059,FALSE,okánik japonský
 Zosterops meyeni,Lowland White-eye,loweye2,204000061,FALSE,okánik nížinný
 Zosterops palpebrosus,Oriental White-eye,indwhe1,613039064,FALSE,okánik riasnatý
 Zosterops ceylonensis,Sri Lanka White-eye,ceywhe1,251418701,FALSE,okánik cejlónsky
-Sylvia atricapilla,Blackcap,blackc1,347686161,TRUE,penica čiernohlavá
+Sylvia atricapilla,Eurasian Blackcap,blackc1,347686161,TRUE,penica čiernohlavá
 Sylvia borin,Garden Warbler,garwar1,173200001,TRUE,penica slávikovitá
 Sylvia dohrni,Dohrn's Warbler,dohthb1,203963291,FALSE,penica tmavoprsá
 Sylvia atriceps,Ruwenzori Hill-babbler,afhbab3,1265,FALSE,penica tmavohlavá
@@ -8875,7 +8865,7 @@ Odontorchilus cinereus,Tooth-billed Wren,tobwre1,203699401,FALSE,oriešok zúbko
 Ferminia cercerai,Zapata Wren,zapwre1,631019667,FALSE,
 Troglodytes pacificus,Pacific Wren,pacwre1,637983669,FALSE,oriešok tichomorský
 Troglodytes hiemalis,Winter Wren,winwre3,43989871,FALSE,oriešok zimný
-Troglodytes troglodytes,Northern Wren,winwre4,473327281,TRUE,oriešok obyčajný
+Troglodytes troglodytes,Eurasian Wren,winwre4,473327281,TRUE,oriešok obyčajný
 Troglodytes tanneri,Clarion Wren,clawre1,214355,FALSE,oriešok pustovnícky
 Troglodytes aedon,House Wren,houwre,612093353,TRUE,oriešok domový
 T. a. aedon,Northern House Wren,houwre,612093353,FALSE,
@@ -8893,7 +8883,7 @@ Certhia discolor,Sikkin Treecreeper,bnttre1,315311921,FALSE,kôrovník himalájs
 Certhia manipurensis,Manipur Treecreeper,bnttre2,53421671,FALSE,kôrovník plavý
 Certhia himalayana,Bar-tailed Treecreeper,battre1,391046471,FALSE,kôrovník dlhozobý
 Certhia brachydactyla,Short-toed Treecreeper,shttre1,288094351,TRUE,kôrovník krátkoprstý
-Certhia americana,American Treecreeper,brncre,223492001,TRUE,kôrovník lesný
+Certhia americana,Brown Creeper,brncre,223492001,TRUE,kôrovník lesný
 Certhia hodgsoni,Hodgson's Treecreeper,eurtre3,614186368,FALSE,kôrovník horský
 Certhia familiaris,Eurasian Treecreeper,eurtre1,632557884,TRUE,kôrovník dlhoprstý
 SITTIDAE,Nuthatches,,,FALSE,
@@ -8989,7 +8979,7 @@ Gracupica contra,Asian Pied Starling,aspsta2,634158339,FALSE,škorec strakatý
 Gracupica jalla,Javan Pied Starling,aspsta3,640634224,FALSE,škorec sundský
 Gracupica nigricollis,Black-collared Starling,bkcsta1,396593261,FALSE,škorec čiernokrký
 Sturnornis albofrontatus,White-faced Starling,whfsta2,482,FALSE,škorec bielolíci
-Leucopsar rothschildi,Bali Myna,balmyn1,640634236,TRUE,škorec biely
+Leucopsar rothschildi,Bali Starling,balmyn1,640634236,TRUE,škorec biely
 †Fregilupus varius,Reunion Starling,reusta1,,FALSE,
 †Necropsar rodericanus,Rodrigues Starling,rodsta2,,FALSE,
 Sturnia sinensis,White-shouldered Starling,whssta2,610786616,FALSE,škorec mandarínsky
@@ -9190,7 +9180,7 @@ MIMIDAE,Mockingbirds and Thrashers,,,FALSE,
 Melanotis caerulescens,Blue Mockingbird,blumoc,292873171,FALSE,drozdec modrý
 Melanotis hypoleucos,Blue-and-white Mockingbird,bawmoc1,177596,FALSE,
 Melanoptila glabrirostris,Black Catbird,blacat1,208192991,FALSE,drozdec čierny
-Dumetella carolinensis,Grey Catbird,grycat,163135121,TRUE,drozdec mačací
+Dumetella carolinensis,Gray Catbird,grycat,163135121,TRUE,drozdec mačací
 Ramphocinclus brachyurus,White-breasted Thrasher,whbthr3,173419701,FALSE,drozdec bieloprsý
 Allenia fusca,Scaly-breasted Thrasher,scbthr,175533091,FALSE,drozdec šupinatý
 Margarops fuscatus,Pearly-eyed Thrasher,peethr1,188051,FALSE,drozdec perlooký
@@ -9247,7 +9237,7 @@ Turdus helleri,Taita Thrush,taithr1,625945069,FALSE,drozd bielobruchý
 Turdus roehli,Usambara Thrush,usathr1,280446,FALSE,drozd tanzánijský
 Turdus iliacus,Redwing,redwin,73458141,FALSE,drozd červenkavý
 Turdus plebejus,Mountain Thrush,mourob1,449448091,FALSE,drozd vrchovský
-Turdus merula,Eurasian Blackbird,eurbla,102741151,TRUE,drozd čierny
+Turdus merula,Common Blackbird,eurbla,102741151,TRUE,drozd čierny
 Turdus leucomelas,Pale-breasred Thrush,pabthr1,69487,FALSE,drozd svetloprsý
 Turdus fumigatus,Cocoa Thrush,cocthr1,203930981,FALSE,drozd mravčí
 Turdus hauxwelly,Hauxwell's Thrush,hauthr1,136650,FALSE,
@@ -10032,8 +10022,7 @@ Prunella ocularis,Radde's Accentor,radacc2,396100241,FALSE,vrchárka skalná
 P. o. fagani,Yemen Accentor,,,FALSE,
 PEUCEDRAMIDAE,Olive Warbler,oliwar,21120,FALSE,
 Peucedramus taeniatus,Olive Warbler,oliwar,21120,FALSE,ihličiar hôrny
-UROCYNCHRAMIDAE,Przevalski's Rosefinch,,,FALSE,
-Urocynchramus pylzowi,Przevalski's Rosefinch,przros1,30289001,TRUE,ružovec horský
+Urocynchramus pylzowi,Pinktail,przros1,30289001,TRUE,ružovec horský
 PLOCEIDAE,Weavers,,,FALSE,
 Bubalornis albirostris,White-billed Buffalo-weaver,wbbwea1,14419,FALSE,byvoliar bielozobý
 Bubalornis niger,Red-billed Buffalo-weaver,rbbwea1,21726541,FALSE,byvoliar červenozobý
@@ -10149,7 +10138,7 @@ Erythrura psittacea,Red-throated Parrotfinch,retpar3,173400741,FALSE,amada papag
 Erythrura cyaneovirens,Red-headed Parrotfinch,roypar1,139944,FALSE,amada červenohlavá
 Erythrura pealii,Fiji Parrotfinch,fijpar1,633943464,FALSE,amada záhradná
 Erythrura kleinschmidti,Pink-billed Parrotfinch,pibpar1,,FALSE,amada veľkozobá
-Erythrura gouldiae,Gouldian Finch,goufin3,614381559,TRUE,amada pestrá
+Erythrura gouldiae,Gould’s Finch,goufin3,614381559,TRUE,amada pestrá
 ESTRILDIDAE,Waxbills,,,FALSE,
 Lagonosticta rara,Black-bellied Firefinch,blbfir1,403768141,FALSE,amarant čiernobruchý
 Lagonosticta rufopicta,Bar-breasted Firefinch,babfir1,203943551,FALSE,amarant bodkovaný
@@ -10497,7 +10486,7 @@ Pyrrhula aurantiaca,Orange Bullfinch,orabul1,173165901,FALSE,hýľ pomarančový
 Pyrrhula erythrocephala,Red-headed Bullfinch,rehbul1,178301201,FALSE,hýľ červenohlavý
 Pyrrhula erythaca,Grey-headed Bullfinch,gyhbul2,568727551,FALSE,hýľ taiwanský/sivohlavý
 Pyrrhula murina,Azores Bullfinch,eurbul1,203974821,FALSE,hýľ azorský
-Pyrrhula pyrrhula,Eurasian Bullfinch,eurbul,310479711,TRUE,hýľ obyčajný
+Pyrrhula pyrrhula,Bullfinch,eurbul,310479711,TRUE,hýľ obyčajný
 P. p. cineracea,Grey Bullfinch,,,FALSE,
 P. p. griseiventris,Grey-bellied Bullfinch,,,FALSE,
 Rhodopechys alienus,African Crimson-winged Finch,,,FALSE,hýľovec atlaský
@@ -10587,7 +10576,7 @@ Carduelis corsicana,Corsican Finch,corfin1,624941503,FALSE,stehlík korzický
 Serinus serinus,European Serin,eurser1,203981951,TRUE,kanárik poľný
 Serinus canaria,Island Canary,comcan,95820321,FALSE,kanárik divý
 Serinus syriacus,Syrian Serin,syrser1,444880381,FALSE,kanárik cédrový
-Serinus pusillus,Red-fronted Serin,fifser1,463303591,TRUE,kanárik vrchovský
+Serinus pusillus,Fire-fronted Serin,fifser1,463303591,TRUE,kanárik vrchovský
 Serinus alario,Black-headed Canary,bkhcan2,278432,FALSE,kanárik alario
 Serinus canicollis,Cape Canary,capcan1,394293651,FALSE,kanárik sivokrký
 Serinus flavivertex,Yellow-crowned Canary,yeccan1,1587,FALSE,kanárik žltohlavý
@@ -10789,7 +10778,7 @@ Junco insularis,Guadalupe Junco,daejun2,203962791,FALSE,strnádlik guadalupský
 Junco phaeonotus,Yellow-eyed Junco,yeejun,109103,FALSE,strnádlik žltooký
 Junco bairdi,Baird's Junco,yeejun2,417293391,FALSE,strnádlik Bairdov
 Zonotrichia capensis,Rufous-collared Sparrow,rucspa1,410550641,TRUE,strnádlik golierikatý
-Zonotrichia querula,Harris's Sparrow,harspa,105763,TRUE,strnádlik bradatý
+Zonotrichia querula,Qupanuaq,harspa,105763,TRUE,strnádlik bradatý
 Zonotrichia albicollis,White-throated Sparrow,whtspa,227599,FALSE,strnádlik bielohrdlý
 Zonotrichia leucophrys,White-crowned Sparrow,whcspa,629468141,TRUE,strnádlik jazvečí
 Zonotrichia atricapilla,Golden-crowned Sparrow,gocspa,49976,FALSE,strnádlik zlatohlavý
@@ -10828,7 +10817,7 @@ Dolichonyx oryzivorus,Bobolink,boboli,527283,TRUE,bobolink ryžový
 Sturnella neglecta,Western Meadowlark,wesmea,516839,TRUE,lúčnik žltohrdlý
 Sturnella magna,Eastern Meadowlark,easmea,94367,TRUE,lúčnik žltohrdlý/obojkový
 S.m. liliane,Lilian's Meadowlark,,,FALSE,
-Leistes militaris,Red-breasted Blackbird,rebbla1,535716881,TRUE,lúčnik červenoprsý
+Leistes militaris,Red-Breasted Meadowlark,rebbla1,535716881,TRUE,lúčnik červenoprsý
 Leistes superciliaris,White-browed Blackbird,whbbla2,439569821,FALSE,lúčnik obočnatý
 Leistes bellicosus,Peruvian Meadowlark,permea1,391929721,FALSE,lúčnik pasienkový
 Leistes defilippii,Pampas Meadowlark,pammea1,174297091,FALSE,lúčnik pampový
@@ -10990,7 +10979,7 @@ Setophaga graysoni,Socorro Parula,,,FALSE,horárik socorrský (skup.)
 Setophaga magnolia,Magnolia Warbler,magwar,228996,FALSE,horárik magnóliový
 Setophaga castanea,Bay-breasted Warbler,babwar,249809,FALSE,horárik smrekový
 Setophaga fusca,Blackburnian Warbler,bkbwar,9576,FALSE,horárik jedľovcový
-Setophaga petechia,American Yellow Warbler,manwar1,203907381,TRUE,horárik žltý/zlatý
+Setophaga petechia,Yellow Warbler,manwar1,203907381,TRUE,horárik žltý/zlatý
 S. p. petechia,Golden Warbler,,,FALSE,
 S. p. erithachorides,Mangrove Warbler,,,FALSE,
 Setophaga pensylvanica,Chestnut-sided Warbler,chswar,98242481,FALSE,horárik hnedoboký
@@ -11000,7 +10989,7 @@ Setophaga palmarum,Palm Warbler,palwar,229598,FALSE,horárik palmový
 Setophaga pityophila,Olive-capped Warbler,olcwar1,33096880,FALSE,horárik kubánsky
 Setophaga pinus,Pine Warbler,pinwar,9871,FALSE,horárik borovicový
 Setophaga auduboni,Audubon's Warbler,,,FALSE,
-Setophaga coronata,Myrtle Warbler,yerwar,85245,TRUE,horárik zlatohlavý
+Setophaga coronata,Yellow-Rumped Warbler,yerwar,85245,TRUE,horárik zlatohlavý
 Setophaga dominica,Yellow-throated Warbler,yetwar,191290,FALSE,horárik sivochrbtý
 Setophaga flavescens,Bahama Warbler,yetwar3,32872521,FALSE,horárik žltkastý
 Setophaga vitellina,Vitelline Warbler,vitwar1,598294261,FALSE,horárik karibský
@@ -11275,7 +11264,7 @@ Saltator coerulescens,Amazonian Grey Saltator,grasal3,212907,FALSE,tanečník si
 Saltator striatipectus,Streaked Saltator,strsal1,63306,FALSE,tanečník plodožravý
 Sporophila torqueola,Cinnamon-rumped Seedeater,whcsee2,249734301,FALSE,kňažík bledobruchý/obojkový
 Sporophila morelleti,White-collared Seedeater,whcsee1,113267301,FALSE,kňažík bledobruchý/obojkový
-Sporophila corvina,Black Seedeater,varsee3,422673721,TRUE,kňažík vraní
+Sporophila corvina,Variable Seedeater,varsee3,422673721,TRUE,kňažík vraní
 Sporophila ophthalmica,Black-breasted Seedeater,,,FALSE,kňažík kolohrivý (skup.)
 Sporophila intermedia,Grey Seedeater,grysee1,201113,FALSE,kňažík sivý
 Sporophila americana,Wing-barred Seedeater,wibsee1,186390411,FALSE,kňažík golierikatý

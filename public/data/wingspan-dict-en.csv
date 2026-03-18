@@ -134,7 +134,7 @@ Dromaius novaehollandiae,Emu,emu1,623096519,TRUE,Emu
 APTERYGIDAE,Kiwis,,,FALSE,Kiwis
 Apteryx haastii,Great Spotted Kiwi,grskiw1,617700522,TRUE,Great Spotted Kiwi
 Apteryx owenii,Little Spotted Kiwi,liskiw1,596188651,FALSE,Little Spotted Kiwi
-Apteryx mantelli,Northern Brown Kiwi,nibkiw1,623165890,TRUE,North Island Brown Kiwi
+Apteryx mantelli,North Island Brown Kiwi,nibkiw1,623165890,TRUE,North Island Brown Kiwi
 Apteryx australis,Southern Brown Kiwi,sobkiw1,85614831,FALSE,Southern Brown Kiwi
 Ortalis superciliaris,Buff-browed Chachalaca,bubcha1,349286621,FALSE,Buff-browed Chachalaca
 Nothocrax urumutum,Nocturnal Curassow,noccur1,34378,FALSE,Nocturnal Curassow
@@ -336,7 +336,7 @@ Lophophorus lhuysii,Chinese Monal,chimon1,30554891,FALSE,Chinese Monal
 Tragopan melanocephalus,Western Tragopan,westra1,618952577,FALSE,Western Tragopan
 Tragopan satyra,Satyr Tragopan,sattra1,633595716,TRUE,Satyr Tragopan
 Tragopan blythii,Blyth's Tragopan,blytra1,650866542,FALSE,Blyth's Tragopan
-Tragopan temminckii,Temminck's Tragopan,temtra1,483733661,TRUE,Temminck's Tragopan
+Tragopan temminckii,Crimson-Bellied Tragopan,temtra1,483733661,TRUE,Temminck's Tragopan
 Tragopan caboti,Cabot's Tragopan,cabtra1,203899881,FALSE,Cabot's Tragopan
 Ithaginis cruentus,Blood Pheasant,blophe1,30554841,TRUE,Blood Pheasant
 Pucrasia macrolopha,Koklass Pheasant,kokphe1,252246071,FALSE,Koklass Pheasant
@@ -430,7 +430,7 @@ Cygnus cygnus,Whooper Swan,whoswa,203932741,TRUE,Whooper Swan
 Cygnus columbianus,Tundra Swan,tunswa,406700341,TRUE,Tundra Swan
 C. c. bewickii,Bewick's Swan,,,FALSE,Bewick's Swan
 C. c. columbianus,Tundra Swan,tunswa,406700341,TRUE,Tundra Swan
-Branta bernicla,Brent Goose,brant,65344051,TRUE,Brant
+Branta bernicla,Brant,brant,65344051,TRUE,Brant
 B. b. hrota,Pale-bellied Brent Goose,,,FALSE,Pale-bellied Brent Goose
 B. b. nigricans,Black bellied Brent Goose,,,FALSE,Black bellied Brent Goose
 Branta leucopsis,Barnacle Goose,bargoo,235525,FALSE,Barnacle Goose
@@ -467,7 +467,7 @@ Bucephala clangula,Common Goldeneye,comgol,304684,TRUE,Common Goldeneye
 Bucephala islandica,Barrow's Goldeneye,bargol,626998827,TRUE,Barrow's Goldeneye
 Mergellus albellus,Smew,smew,,TRUE,Smew
 Lophodytes cucullatus,Hooded Merganser,hoomer,582897021,TRUE,Hooded Merganser
-Mergus merganser,Goosander,commer,208071711,TRUE,Common Merganser
+Mergus merganser,Common Merganser,commer,208071711,TRUE,Common Merganser
 Mergus squamatus,Scaly-sided Merganser,scsmer1,,FALSE,Scaly-sided Merganser
 Mergus serrator,Red-breasted Merganser,rebmer,3786,TRUE,Red-breasted Merganser
 †Mergus australis,Auckland Merganser,,,FALSE,Auckland Merganser
@@ -592,7 +592,7 @@ Podilymbus podiceps,Pied-billed Grebe,pibgre,131025131,TRUE,Pied-billed Grebe
 Rollandia rolland,White-tufted Grebe,whtgre3,477283851,FALSE,White-tufted Grebe
 Rollandia microptera,Titicaca Grebe,titgre1,647134154,TRUE,Titicaca Grebe
 Poliocephalus poliocephalus,Hoary-headed Grebe,hohgre1,99561861,FALSE,Hoary-headed Grebe
-Poliocephalus rufopectus,New Zealand Grebe,nezgre1,286680201,TRUE,New Zealand Grebe
+Poliocephalus rufopectus,New Zealand Dabchick,nezgre1,286680201,TRUE,New Zealand Grebe
 Podiceps major,Great Grebe,gregre1,440914901,FALSE,Great Grebe
 Podiceps grisegena,Red-necked Grebe,rengre,345214271,FALSE,Red-necked Grebe
 Podiceps cristatus,Great Crested Grebe,grcgre1,304794,TRUE,Great Crested Grebe
@@ -697,7 +697,6 @@ Phaethon lepturus,White-tailed Tropicbird,whttro,167439,FALSE,White-tailed Tropi
 EURYPYGIFORMES,,,,FALSE,
 RHYNOCHETIDAE,Kagu,kagu1,203910461,FALSE,Kagu
 Rhynochetos jubatus,Kagu,kagu1,203910461,FALSE,Kagu
-EURYPYGIDAE,Sunbittern,sunbit1,389200681,TRUE,Sunbittern
 Eurypyga helias,Sunbittern,sunbit1,389200681,TRUE,Sunbittern
 MESITORNITHIFORMES,,,,FALSE,
 MESITORNITHIDAE,Mesites,,,FALSE,Mesites
@@ -833,7 +832,7 @@ Caloenas nicobarica,Nicobar Pigeon,nicpig1,609070986,TRUE,Nicobar Pigeon
 †Raphus cucullatus,Dodo,dodo1,,FALSE,Dodo
 †Pezophaps solitaria,Rodriguez Solitaire,,,FALSE,Rodriguez Solitaire
 Didunculus strigirostris,Tooth-billed Pigeon,tobpig1,139881,FALSE,Tooth-billed Pigeon
-Chalcophaps indica,Grey-capped Emerald Dove,emedov2,231248421,TRUE,Asian Emerald Dove
+Chalcophaps indica,Asian Emerald Dove,emedov2,231248421,TRUE,Asian Emerald Dove
 Chalcophaps longirostris,Brown-capped Emerald Dove,emedov3,203995331,FALSE,Pacific Emerald Dove
 Chalcophaps stephani,Stephan's Dove,stedov1,141715181,FALSE,Stephan's Dove
 Turtur chalcospilos,Emerald-spotted Wood-dove,eswdov1,203935301,FALSE,Emerald-spotted Wood-Dove
@@ -990,7 +989,7 @@ Ptilinopus coralensis,Atoll Fruit-dove,atfdov1,203895741,FALSE,Atoll Fruit-Dove
 Ptilinopus chrysogaster,Raiatea Fruit-dove,gygfrd2,203895731,FALSE,Raiatea Fruit-Dove
 Ptilinopus rarotongensis,Rarotonga Fruit-dove,cifdov1,64543,FALSE,Cook Islands Fruit-Dove
 Ptilinopus purpuratus,Grey-green Fruit-dove,gygfrd1,94994,FALSE,Gray-green Fruit-Dove
-Hemiphaga novaeseelandiae,New Zealand Pigeon,nezpig2,363058921,TRUE,New Zealand Pigeon
+Hemiphaga novaeseelandiae,Kererū,nezpig2,363058921,TRUE,New Zealand Pigeon
 Hemiphaga chathamensis,Chatham Pigeon,nezpig3,,FALSE,Chatham Islands Pigeon
 Cryptophaps poecilorrhoa,Sombre Pigeon,sompig2,642839894,FALSE,Sombre Pigeon
 Gymnophaps albertisii,Papuan Mountain-pigeon,pampig2,285735251,FALSE,Papuan Mountain-Pigeon
@@ -1017,7 +1016,6 @@ Pterocles quadricinctus,Four-banded Sandgrouse,fobsan1,204022371,FALSE,Four-band
 Pterocles lichtensteinii,Lichtenstein's Sandgrouse,licsan1,204005001,FALSE,Lichtenstein's Sandgrouse
 Pterocles indicus,Painted Sandgrouse,paisan1,623697473,FALSE,Painted Sandgrouse
 CAPRIMULGIFORMES,,,,FALSE,
-STEATORNITHIDAE,Oilbird,oilbir1,599958121,TRUE,Oilbird
 Steatornis caripensis,Oilbird,oilbir1,599958121,TRUE,Oilbird
 PODARGIDAE,Frogmouths,,,FALSE,Frogmouths
 Rigidipenna inexpectata,Solomons Frogmouth,soifro1,203932761,FALSE,Solomons Frogmouth
@@ -1482,7 +1480,7 @@ Klais guimeti,Violet-headed Hummingbird,vihhum1,136301011,FALSE,Violet-headed Hu
 Abeillia abeillei,Emerald-chinned Hummingbird,emchum1,86679,FALSE,Emerald-chinned Hummingbird
 Orthorhyncus cristatus,Antillean Crested Hummingbird,anchum1,204013441,FALSE,Antillean Crested Hummingbird
 Stephanoxis lalandi,Green-crowned Plovercrest,plover3,640929511,FALSE,Green-crowned Plovercrest
-Stephanoxis loddigesii,Violet-crowned Plovercrest,plover4,203700671,TRUE,Purple-crowned Plovercrest
+Stephanoxis loddigesii,Purple-Crowned Plovercrest,plover4,203700671,TRUE,Purple-crowned Plovercrest
 Aphantochroa cirrochloris,Sombre Hummingbird,somhum1,24648421,FALSE,Sombre Hummingbird
 Anthocephala floriceps,Blossomcrown,samblo1,632679875,FALSE,Santa Marta Blossomcrown
 Campylopterus cuvierii,Scaly-breasted Hummingbird,scbhum1,207693221,FALSE,Scaly-breasted Hummingbird
@@ -1620,7 +1618,6 @@ Selasphorus ardens,Glow-throated Hummingbird,glthum1,616224105,FALSE,Glow-throat
 Atthis heloisa,Bumblebee Hummingbird,bumhum,203996491,FALSE,Bumblebee Hummingbird
 Atthis ellioti,Wine-throated Hummingbird,withum1,20352,FALSE,Wine-throated Hummingbird
 OPISTHOCOMIFORMES,,,,FALSE,
-OPISTHOCOMIDAE,Hoatzin,hoatzi1,325134081,TRUE,Hoatzin
 Opisthocomus hoazin,Hoatzin,hoatzi1,325134081,TRUE,Hoatzin
 Clamator jacobinus,Jacobin Cuckoo,piecuc1,8204,FALSE,Pied Cuckoo
 Clamator levaillantii,Levaillant's Cuckoo,levcuc1,8206,FALSE,Levaillant's Cuckoo
@@ -1630,7 +1627,7 @@ Coccycua minuta,Little Cuckoo,litcuc2,303630481,FALSE,Little Cuckoo
 Coccycua pumila,Dwarf Cuckoo,dwacuc1,71989,FALSE,Dwarf Cuckoo
 Coccycua cinerea,Ash-colored Cuckoo,asccuc1,613645477,FALSE,Ash-colored Cuckoo
 Piaya mexicana,Mexican Squirrel-cuckoo,squcuc2,109209,FALSE,Mexican Squirrel-Cuckoo
-Piaya cayana,Common Squirrel-cuckoo,squcuc1,373492111,TRUE,Common Squirrel-Cuckoo
+Piaya cayana,Squirrel Cuckoo,squcuc1,373492111,TRUE,Common Squirrel-Cuckoo
 Piaya melanogaster,Black-bellied Cuckoo,blbcuc1,203919001,FALSE,Black-bellied Cuckoo
 Coccyzus americanus,Yellow-billed Cuckoo,yebcuc,634354421,TRUE,Yellow-billed Cuckoo
 Coccyzus euleri,Pearly-breasted Cuckoo,pebcuc1,318062371,FALSE,Pearly-breasted Cuckoo
@@ -1649,7 +1646,7 @@ Coccyzus vieilloti,Puerto Rican Lizard-cuckoo,purlic1,204011811,FALSE,Puerto Ric
 †Nannococcyx psix,St Helena Cuckoo,,,FALSE,St Helena Cuckoo
 Pachycoccyx audeberti,Thick-billed Cuckoo,thbcuc1,586937891,FALSE,Thick-billed Cuckoo
 Microdynamis parva,Dwarf Koel,dwakoe1,166190461,FALSE,Dwarf Koel
-Eudynamys scolopaceus,Western Koel,asikoe2,85461311,TRUE,Asian Koel
+Eudynamys scolopaceus,Asian Koel,asikoe2,85461311,TRUE,Asian Koel
 Eudynamys orientalis,Eastern Koel,asikoe3,44253641,FALSE,Pacific Koel
 Urodynamys taitensis,Long-tailed Koel,lotkoe1,203924211,FALSE,Long-tailed Koel
 Scythrops novaehollandiae,Channel-billed Cuckoo,chbcuc2,191800241,FALSE,Channel-billed Cuckoo
@@ -1954,7 +1951,7 @@ Tribonyx ventralis,Black-tailed Native-hen,btnhen1,499295501,FALSE,Black-tailed 
 Tribonyx mortierii,Tasmanian Native-hen,tanhen1,2902,FALSE,Tasmanian Nativehen
 Fulica cristata,Red-knobbed Coot,rekcoo1,386806321,FALSE,Red-knobbed Coot
 †Fulica newtonii,Mascarene Coot,mascoo1,,FALSE,Mascarene Coot
-Fulica atra,Common Coot,eurcoo,217023251,TRUE,Eurasian Coot
+Fulica atra,Eurasian Coot,eurcoo,217023251,TRUE,Eurasian Coot
 Fulica alai,Hawaiian Coot,hawcoo,39455421,FALSE,Hawaiian Coot
 Fulica americana,American Coot,y00475,41572901,TRUE,American Coot
 Fulica leucoptera,White-winged Coot,whwcoo1,615044193,FALSE,White-winged Coot
@@ -1996,7 +1993,6 @@ Psophia leucoptera,White-winged Trumpeter,pawtru2,110697,FALSE,Pale-winged Trump
 Psophia viridis,Green-winged Trumpeter,dawtru1,203983181,FALSE,Dark-winged Trumpeter
 Psophia dextralis,Olive-winged Trumpeter,,,FALSE,Olive-winged Trumpeter
 Psophia obscura,Black-winged Trumpeter,,,FALSE,Black-winged Trumpeter
-ARAMIDAE,Limpkin,limpki,73922,TRUE,Limpkin
 Aramus guarauna,Limpkin,limpki,73922,TRUE,Limpkin
 GAVIIFORMES,,,,FALSE,
 GAVIIDAE,Loons/Divers,,,FALSE,Loons/Divers
@@ -2031,7 +2027,7 @@ Pygoscelis antarcticus,Chinstrap Penguin,chipen2,51673,FALSE,Chinstrap Penguin
 Eudyptes schlegeli,Royal Penguin,roypen1,31642031,FALSE,Royal Penguin
 Eudyptes chrysolophus,Macaroni Penguin,macpen1,204017071,FALSE,Macaroni Penguin
 Eudyptes moseleyi,Northern Rockhopper Penguin,rocpen4,,FALSE,Moseley's Rockhopper Penguin
-Eudyptes chrysocome,Southern Rockhopper Penguin,rocpen2,203972091,TRUE,Western Rockhopper Penguin
+Eudyptes chrysocome,Western Rockhopper Penguin,rocpen2,203972091,TRUE,Western Rockhopper Penguin
 Eudyptes sclateri,Erect-crested Penguin,bicpen1,364966691,FALSE,Erect-crested Penguin
 Eudyptes pachyrhynchus,Fiordland Penguin,fiopen1,373472291,FALSE,Fiordland Penguin
 Eudyptes robustus,Snares Penguin,snapen1,141401,FALSE,Snares Penguin
@@ -2126,7 +2122,7 @@ Puffinus bailloni,Tropical Shearwater,troshe5,566340151,FALSE,Tropical Shearwate
 Puffinus persicus,Persian Shearwater,pershe1,,FALSE,Persian Shearwater
 Puffinus bannermani,Bannerman's Shearwater,troshe4,,FALSE,Bannerman's Shearwater
 Puffinus puffinus,Manx Shearwater,manshe,540155541,TRUE,Manx Shearwater
-Puffinus yelkouan,Yelkouan Shearwater,levshe1,310771,TRUE,Yelkouan Shearwater
+Puffinus yelkouan,Mediterranean Shearwater,levshe1,310771,TRUE,Yelkouan Shearwater
 Puffinus mauretanicus,Balearic Shearwater,balshe1,513102161,FALSE,Balearic Shearwater
 Puffinus elegans,Subantarctic Shearwater,litshe4,647560772,FALSE,Subantarctic Shearwater
 Puffinus assimilis,Little Shearwater,litshe8,364541351,FALSE,Little Shearwater
@@ -2165,7 +2161,7 @@ Hydrobates hornbyi,Ringed Storm-petrel,rispet1,622065252,FALSE,Ringed Storm-Petr
 DIOMEDEIDAE,Albatrosses,,,FALSE,Albatrosses
 Diomedea sanfordi,Northern Royal Albatross,royalb3,9232,FALSE,Northern Royal Albatross
 Diomedea epomophora,Southern Royal Albatross,royalb2,204018211,FALSE,Southern Royal Albatross
-Diomedea exulans,Wandering Albatross,wanalb1,42306,TRUE,Snowy Albatross
+Diomedea exulans,Snowy Albatross,wanalb1,42306,TRUE,Snowy Albatross
 Diomedea antipodensis,Antipodean Albatross,antalb1,203922111,FALSE,Antipodean Albatross
 Diomedea amsterdamensis,Amsterdam Albatross,wanalb5,,FALSE,Amsterdam Albatross
 Diomedea dabbenena,Tristan Albatross,wanalb3,,FALSE,Tristan Albatross
@@ -2225,7 +2221,7 @@ Pseudibis davisoni,White-shouldered Ibis,whsibi1,202950961,FALSE,White-shouldere
 Pseudibis gigantea,Giant Ibis,giaibi1,203912241,FALSE,Giant Ibis
 Geronticus eremita,Northern Bald Ibis,waldra1,592841121,FALSE,Northern Bald Ibis
 Geronticus calvus,Southern Bald Ibis,balibi1,618896969,FALSE,Southern Bald Ibis
-Nipponia nippon,Japanese Crested Ibis,creibi1,204009261,TRUE,Crested Ibis
+Nipponia nippon,Crested Ibis,creibi1,204009261,TRUE,Crested Ibis
 Bostrychia olivacea,Olive Ibis,oliibi2,24699,FALSE,Olive Ibis
 Bostrychia bocagei,Dwarf Ibis,oliibi3,642874134,FALSE,Sao Tome Ibis
 Bostrychia rara,Spot-breasted Ibis,spbibi1,203909981,FALSE,Spot-breasted Ibis
@@ -2285,7 +2281,7 @@ Ardea sumatrana,Great-billed Heron,grbher2,203887551,FALSE,Great-billed Heron
 Ardea goliath,Goliath Heron,golher1,2028,FALSE,Goliath Heron
 Ardea purpurea,Purple Heron,purher1,239512061,TRUE,Purple Heron
 A. p. bournei,Cape Verde Heron,,,FALSE,Cape Verde Heron
-Ardea alba,Great White Egret,greegr,23692051,TRUE,Great Egret
+Ardea alba,Great Egret,greegr,23692051,TRUE,Great Egret
 Ardea brachyrhyncha,Yellow-billed Egret,integr3,588972951,FALSE,Yellow-billed Egret
 Ardea intermedia,Intermediate Egret,integr1,451056611,FALSE,Medium Egret
 Ardea plumifera,Plumed Egret,integr2,616099067,FALSE,Plumed Egret
@@ -2432,7 +2428,6 @@ Phalacrocorax fuscescens,Black-faced Cormorant,blfcor1,349736791,FALSE,Black-fac
 Phalacrocorax varius,Great Pied Cormorant,piecor1,203936851,FALSE,Pied Cormorant
 Phalacrocorax punctatus,Spotted Shag,sposha1,487535711,TRUE,Spotted Shag
 Phalacrocorax featherstoni,Pitt Shag,piisha1,,FALSE,Pitt Island Shag
-IBIDORHYNCHIDAE,Ibisbill,ibisbi1,285398,TRUE,Ibisbill
 Ibidorhyncha struthersii,Ibisbill,ibisbi1,285398,TRUE,Ibisbill
 RECURVIROSTRIDAE,Avocets Stilts,,,FALSE,Avocets Stilts
 Cladorhynchus leucocephalus,Banded Stilt,bansti1,99434191,FALSE,Banded Stilt
@@ -2448,7 +2443,7 @@ H. h. melanurus,White-backed Stilt,,,FALSE,White-backed Stilt
 Himantopus novaezelandiae,Black Stilt,blasti1,622956127,FALSE,Black Stilt
 CHARADRIIDAE,Plovers,,,FALSE,Plovers
 Pluvialis squatarola,Grey Plover,bkbplo,167886311,FALSE,Black-bellied Plover
-Pluvialis apricaria,Eurasian Golden Plover,eugplo,103332581,TRUE,European Golden-Plover
+Pluvialis apricaria,European Golden Plover,eugplo,103332581,TRUE,European Golden-Plover
 Pluvialis fulva,Pacific Golden Plover,pagplo,516983,FALSE,Pacific Golden-Plover
 Pluvialis dominica,American Golden Plover,amgplo,31731481,TRUE,American Golden-Plover
 Oreopholus ruficollis,Tawny-throared Dotterel,tatdot1,470069241,FALSE,Tawny-throated Dotterel
@@ -2601,7 +2596,6 @@ Gallinago hardwickii,Latham's Snipe,latsni1,593752771,FALSE,Latham's Snipe
 Gallinago nemoricola,Wood Snipe,woosni1,338905451,FALSE,Wood Snipe
 Gallinago stenura,Pintail Snipe,pitsni,412194641,FALSE,Pin-tailed Snipe
 Gallinago megala,Swinhoe's Snipe,swisni1,448249421,FALSE,Swinhoe's Snipe
-PEDIONOMIDAE,Plains-wanderer,plawan1,496959781,TRUE,Plains-wanderer
 Pedionomus torquatus,Plains-wanderer,plawan1,496959781,TRUE,Plains-wanderer
 THINOCORIDAE,Seedsnipes,,,FALSE,Seedsnipes
 Attagis gayi,Rufous-bellied Seedsnipe,rubsee2,615679654,FALSE,Rufous-bellied Seedsnipe
@@ -2809,7 +2803,7 @@ Tyto nigrobrunnea,Taliabu Masked-owl,talowl1,609069999,FALSE,Taliabu Masked-Owl
 Tyto inexspectata,Minahassa Masked-owl,minowl1,175978,FALSE,Minahasa Masked-Owl
 Tyto rosenbergii,Sulawesi Owl,sulowl1,203990191,FALSE,Sulawesi Masked-Owl
 Tyto soumagnei,Madagascar Red Owl,marowl1,,FALSE,Red Owl
-Tyto alba,Common Barn-owl,webowl1,435736051,TRUE,Western Barn Owl
+Tyto alba,Barn Owl,webowl1,435736051,TRUE,Western Barn Owl
 T. a. detorta,Cape Verde Barn-owl,,,FALSE,Cape Verde Barn-owl
 T. a. schmitzi,Madeira Barn-owl,,,FALSE,Madeira Barn-owl
 T. a. gracilirostris,Gran Canaria Barn-owl,,,FALSE,Gran Canaria Barn-owl
@@ -2901,7 +2895,7 @@ Synthliboramphus hypoleucus,Guadalupe Murrelet,xanmur1,588795931,FALSE,Guadalupe
 Synthliboramphus craveri,Craveri's Murrelet,cramur,297757331,FALSE,Craveri's Murrelet
 Alca torda,Razorbill,razorb,621601678,FALSE,Razorbill
 †Pinguinus impennis,Great Auk,greauk,,FALSE,Great Auk
-Alle alle,Little Auk,doveki,629733713,TRUE,Dovekie
+Alle alle,Dovekie,doveki,629733713,TRUE,Dovekie
 Uria lomvia,Thick-billed Murre,thbmur,278950301,FALSE,Thick-billed Murre
 Uria aalge,Common Murre,commur,245917551,TRUE,Common Murre
 STRIGIFORMES,owl sp.,owl1,45172511,FALSE,owl sp.
@@ -3093,7 +3087,7 @@ Spilornis rufipectus,Sulawesi Serpent-eagle,suseag1,640793010,FALSE,Sulawesi Ser
 Spilornis elgini,Andaman Serpent-eagle,anseag1,290061431,FALSE,Andaman Serpent-Eagle
 Dryotriorchis spectabilis,Congo Serpent-eagle,,,FALSE,Congo Serpent-eagle
 Terathopius ecaudatus,Bateleur,batele1,135449,FALSE,Bateleur
-Pithecophaga jefferyi,Great Philippine Eagle,grpeag1,183492,TRUE,Philippine Eagle
+Pithecophaga jefferyi,Philippine Eagle,grpeag1,183492,TRUE,Philippine Eagle
 Circaetus gallicus,Short-toed Snake-eagle,shteag1,203921371,FALSE,Short-toed Snake-Eagle
 Circaetus beaudouini,Beaudouin's Snake-eagle,beasne1,310001,FALSE,Beaudouin's Snake-Eagle
 Circaetus pectoralis,Black-breasted Snake-eagle,bkbsne1,,FALSE,Black-chested Snake-Eagle
@@ -3167,14 +3161,13 @@ CATHARTIDAE,New World Vultures,,,FALSE,New World Vultures
 Cathartes aura,Turkey Vulture,turvul,317760061,TRUE,Turkey Vulture
 Cathartes burrovianus,Lesser Yellow-headed Vulture,lyhvul1,437900471,FALSE,Lesser Yellow-headed Vulture
 Cathartes melambrotus,Greater Yellow-headed Vulture,gyhvul1,482548071,FALSE,Greater Yellow-headed Vulture
-Coragyps atratus,American Black Vulture,blkvul,458200071,TRUE,Black Vulture
+Coragyps atratus,Black Vulture,blkvul,458200071,TRUE,Black Vulture
 Sarcorhamphus papa,King Vulture,kinvul1,166695961,TRUE,King Vulture
 Gymnogyps californianus,California Condor,calcon,163900,TRUE,California Condor
 Vultur gryphus,Andean Condor,andcon1,220146481,TRUE,Andean Condor
 ACCIPITRIFORMES,Diurnal raptor sp.,diurap1,87390,FALSE,Diurnal raptor sp.
 SAGITTARIIDAE,Secretarybird,secret2,348379561,FALSE,Secretarybird
 Sagittarius serpentarius,Secretarybird,secret2,348379561,FALSE,Secretarybird
-PANDIONIDAE,Osprey,osprey,34075051,TRUE,Osprey
 Pandion haliaetus,Osprey,osprey,34075051,TRUE,Osprey
 ACCIPITRIDAE,Hawks Eagles,,,FALSE,Hawks Eagles
 Elanus caeruleus,Black-winged Kite,bkskit1,465025481,FALSE,Black-winged Kite
@@ -3207,7 +3200,7 @@ Polyboroides radiatus,Madagascar Harrier-hawk,mahhaw1,93905,FALSE,Madagascar Har
 Gypohierax angolensis,Palm-nut Vulture,panvul1,310236,FALSE,Palm-nut Vulture
 Gypaetus barbatus,Bearded Vulture,lammer1,353604881,FALSE,Bearded Vulture
 Neophron percnopterus,Egyptian Vulture,egyvul1,354072661,FALSE,Egyptian Vulture
-Circus aeruginosus,Western Marsh-harrier,wemhar1,613407946,TRUE,Western Marsh Harrier
+Circus aeruginosus,Eurasian Marsh-Harrier,wemhar1,613407946,TRUE,Western Marsh Harrier
 Circus spilonotus,Eastern Marsh-harrier,easmah1,549698611,FALSE,Eastern Marsh Harrier
 Circus approximans,Swamp Harrier,swahar1,259809771,FALSE,Swamp Harrier
 Circus ranivorus,African Marsh-harrier,afmhar1,4318,FALSE,African Marsh Harrier
@@ -3286,7 +3279,7 @@ Haliaeetus vociferoides,Madagascar Fish-eagle,mafeag1,609067051,FALSE,Madagascar
 Haliaeetus leucoryphus,Pallas's Fish-eagle,pafeag1,516134901,FALSE,Pallas's Fish-Eagle
 Haliaeetus albicilla,White-tailed Sea-eagle,whteag,59245071,FALSE,White-tailed Eagle
 Haliaeetus leucocephalus,Bald Eagle,baleag,200943,TRUE,Bald Eagle
-Haliaeetus pelagicus,Steller's Sea-eagle,stseag,21723301,TRUE,Steller's Sea-Eagle
+Haliaeetus pelagicus,Pacific Sea-Eagle,stseag,21723301,TRUE,Steller's Sea-Eagle
 Ichthyophaga humilis,Lesser Fishing-eagle,,,FALSE,Lesser Fishing-eagle
 Ichthyophaga ichthyaetus,Grey-headed Fishing-eagle,,,FALSE,Grey-headed Fishing-eagle
 Haliastur sphenurus,Whistling Kite,whikit1,352796781,FALSE,Whistling Kite
@@ -3351,7 +3344,7 @@ Buteo regalis,Ferruginous Hawk,ferhaw,505924511,TRUE,Ferruginous Hawk
 Buteo auguralis,Red-necked Buzzard,renbuz1,641551236,FALSE,Red-necked Buzzard
 Buteo augur,Augur Buzzard,augbuz2,31365371,FALSE,Augur Buzzard
 Buteo rufofuscus,Jackal Buzzard,jacbuz1,275748,FALSE,Jackal Buzzard
-Buteo buteo,Eurasian Buzzard,combuz1,207612071,TRUE,Common Buzzard
+Buteo buteo,Common Buzzard,combuz1,207612071,TRUE,Common Buzzard
 B. b. vulpinus,Steppe Buzzard,,,FALSE,Steppe Buzzard
 B. b. menetriesi,Eastern Steppe Buzzard,,,FALSE,Eastern Steppe Buzzard
 Buteo japonicus,Japanese Buzzard,combuz6,626281008,FALSE,Eastern Buzzard
@@ -3414,7 +3407,7 @@ Rhyticeros everetti,Sumba Hornbill,sumhor1,199793421,FALSE,Sumba Hornbill
 Rhyticeros undulatus,Wreathed Hornbill,wrehor1,609065063,FALSE,Wreathed Hornbill
 Rhyticeros subruficollis,Plain-pouched Hornbill,plphor1,638940368,FALSE,Plain-pouched Hornbill
 Rhyticeros narcondami,Narcondam Hornbill,narhor1,151625211,FALSE,Narcondam Hornbill
-Rhyticeros plicatus,Papuan Hornbill,blyhor1,21222,TRUE,Blyth's Hornbill
+Rhyticeros plicatus,Blyth's Hornbill,blyhor1,21222,TRUE,Blyth's Hornbill
 COLIIFORMES,,,,FALSE,
 COLIIDAE,Mousebirds,,,FALSE,Mousebirds
 Colius striatus,Speckled Mousebird,spemou2,253840331,FALSE,Speckled Mousebird
@@ -3471,8 +3464,7 @@ Trogon ambiguus,Coppery-tailed Trogon,eletro1,255097111,FALSE,Coppery-tailed Tro
 Trogon mexicanus,Mountain Trogon,moutro1,612575312,FALSE,Mountain Trogon
 Trogon collaris,Collared Trogon,coltro1,389248371,FALSE,Collared Trogon
 Trogon personatus,Masked Trogon,mastro1,382920941,FALSE,Masked Trogon
-UPUPIDAE,Hoopoe,,,FALSE,Hoopoe
-Upupa epops,Hoopoe,hoopoe,203693781,TRUE,Common Hoopoe
+Upupa epops,Eurasian Hoopoe,hoopoe,203693781,TRUE,Common Hoopoe
 Upupa marginata,Madagascar Hoopoe,madhoo1,501787911,FALSE,Madagascar Hoopoe
 †Upupa antaios,St Helena Hoopoe,,,FALSE,St Helena Hoopoe
 PHOENICULIDAE,Woodhoopoes,,,FALSE,Woodhoopoes
@@ -3510,7 +3502,7 @@ Merops nubicus,Northern Carmine Bee-eater,ncbeat1,21612541,FALSE,Northern Carmin
 Merops nubicoides,Southern Carmine Bee-eater,scbeat1,609054295,FALSE,Southern Carmine Bee-eater
 Merops viridissimus,African Green Bee-eater,grnbee1,628196764,FALSE,African Green Bee-eater
 Merops cyanophrys,Arabian Green Bee-eater,grnbee2,439853401,FALSE,Arabian Green Bee-eater
-Merops orientalis,Asian Green Bee-eater,grnbee3,122658941,TRUE,Asian Green Bee-eater
+Merops orientalis,Green Bee-eater,grnbee3,122658941,TRUE,Asian Green Bee-eater
 Merops leschenaulti,Chestnut-headed Bee-eater,chbeat1,290862201,FALSE,Chestnut-headed Bee-eater
 Merops viridis,Blue-throated Bee-eater,btbeat2,282877,FALSE,Blue-throated Bee-eater
 Merops americanus,Rufous-crowned Bee-eater,rucbee1,203997741,FALSE,Rufous-crowned Bee-eater
@@ -3584,8 +3576,8 @@ Pelargopsis capensis,Stork-billed Kingfisher,stbkin1,613592670,TRUE,Stork-billed
 Pelargopsis melanorhyncha,Black-billed Kingfisher,blbkin1,203909221,FALSE,Great-billed Kingfisher
 Pelargopsis amauroptera,Brown-winged Kingfisher,bnwkin1,70212,FALSE,Brown-winged Kingfisher
 Halcyon coromanda,Ruddy Kingfisher,rudkin1,203905261,FALSE,Ruddy Kingfisher
-Halcyon smyrnensis,White-breasted Kingfisher,whtkin2,242693721,TRUE,White-throated Kingfisher
-Halcyon gularis,White-throated Kingfisher,bnbkin1,369087511,TRUE,Brown-breasted Kingfisher
+Halcyon smyrnensis,White-Throated Kingfisher,whtkin2,242693721,TRUE,White-throated Kingfisher
+Halcyon gularis,Brown-breasted Kingfisher,bnbkin1,369087511,TRUE,Brown-breasted Kingfisher
 Halcyon cyanoventris,Javan Kingfisher,javkin1,524297621,FALSE,Javan Kingfisher
 Halcyon badia,Chocolate-backed Kingfisher,chbkin2,1067,FALSE,Chocolate-backed Kingfisher
 Halcyon pileata,Black-capped Kingfisher,blckin1,383052321,FALSE,Black-capped Kingfisher
@@ -4048,7 +4040,7 @@ Colaptes fernandinae,Fernandina's Flicker,ferfli1,133239,FALSE,Fernandina's Flic
 †Colaptes oceanicus,Bermuda Flicker,berfli1,,FALSE,Bermuda Flicker
 Colaptes cafer,Red-shafted Flicker,,,FALSE,Red-shafted Flicker
 Colaptes mexicanoides,Guatemalan Flicker,norfli1,110805131,FALSE,Guatemalan Flicker
-Colaptes auratus,Yellow-shafted Flicker,norfli,84808,TRUE,Northern Flicker
+Colaptes auratus,Northern Flicker,norfli,84808,TRUE,Northern Flicker
 Colaptes chrysoides,Gilded Flicker,gilfli,417072341,FALSE,Gilded Flicker
 Colaptes melanochloros,Green-barred Woodpecker,grbwoo3,201634,FALSE,Green-barred Woodpecker
 Colaptes melanolaimus,Golden-breasted Woodpecker,,,FALSE,Golden-breasted Woodpecker
@@ -4222,7 +4214,7 @@ Microhierax melanoleucus,Pied Falconet,piefal2,189842,FALSE,Pied Falconet
 Polihierax semitorquatus,African Pygmy-falcon,pygfal1,214791391,FALSE,Pygmy Falcon
 Polihierax insignis,White-rumped Pygmy-falcon,,,FALSE,White-rumped Pygmy-falcon
 Falco naumanni,Lesser Kestrel,leskes1,446309971,FALSE,Lesser Kestrel
-Falco tinnunculus,Common Kestrel,eurkes,203695721,TRUE,Eurasian Kestrel
+Falco tinnunculus,Eurasian Kestrel,eurkes,203695721,TRUE,Eurasian Kestrel
 Falco newtoni,Madagascar Kestrel,madkes1,502038461,FALSE,Malagasy Kestrel
 Falco puncatus,Mauritius Kestrel,maukes1,72267,FALSE,Mauritius Kestrel
 Falco araeus,Seychelles Kestrel,seykes1,622734370,FALSE,Seychelles Kestrel
@@ -4520,7 +4512,7 @@ Cyanoramphus unicolor,Antipodes Parakeet,antpar1,631093126,FALSE,Antipodes Parak
 Cyanoramphus forbesi,Chatham Parakeet,chipar1,298236221,FALSE,Chatham Islands Parakeet
 Cyanoramphus auriceps,Yellow-fronted Parakeet,yefpar3,364301331,FALSE,Yellow-crowned Parakeet
 Cyanoramphus malherbi,Malherbe's Parakeet,malpar2,200487611,FALSE,Malherbe's Parakeet
-Cyanoramphus novaezelandiae,Red-fronted Parakeet,refpar4,203926571,TRUE,Red-crowned Parakeet
+Cyanoramphus novaezelandiae,Red-Crowned Parakeet,refpar4,203926571,TRUE,Red-crowned Parakeet
 Pezoporus wallicus,Ground Parrot,gropar1,75186481,FALSE,Ground Parrot
 Pezoporus occidentalis,Night Parrot,nigpar2,63433741,FALSE,Night Parrot
 Neopsephotus bourkii,Bourke's Parrot,boupar2,177712591,FALSE,Bourke's Parrot
@@ -6001,7 +5993,7 @@ Ochthoeca salvini,Tumbes Tyrant,tumtyr2,13262,FALSE,Tumbes Chat-Tyrant
 Sublegatus arenarum,Northern Scrub-flycatcher,nosfly1,51867481,FALSE,Northern Scrub-Flycatcher
 Sublegatus obscurior,Amazonian Scrub-flycatcher,amsfly1,203934221,FALSE,Amazonian Scrub-Flycatcher
 Sublegatus modestus,Southern Scrub-flycatcher,sosfly1,174997,FALSE,Southern Scrub-Flycatcher
-Pyrocephalus rubinus,Common Vermilion Flycatcher,verfly,188210,TRUE,Vermilion Flycatcher
+Pyrocephalus rubinus,Vermilion Flycatcher,verfly,188210,TRUE,Vermilion Flycatcher
 Pyrocephalus nanus,Little Vermilion Flycatcher,brufly1,352838631,FALSE,Brujo Flycatcher
 †Pyrocephalus dubius,Least Vermilion Flycatcher,,,FALSE,Least Vermilion Flycatcher
 Fluvicola pica,Pied Water-tyrant,piwtyr1,69691,FALSE,Pied Water-Tyrant
@@ -6220,7 +6212,7 @@ Acanthorhynchus superciliosus,Western Spinebill,wesspi1,14935,FALSE,Western Spin
 Acanthorhynchus tenuirostris,Eastern Spinebill,easspi1,97435051,FALSE,Eastern Spinebill
 Certhionyx variegatus,Pied Honeyeater,piehon1,176318211,FALSE,Pied Honeyeater
 Prosthemadera novaeseelandiae,Tui,tui1,136121,TRUE,Tui
-Anthornis melanura,New Zealand Bellbird,nezbel1,203921991,TRUE,New Zealand Bellbird
+Anthornis melanura,Korimako,nezbel1,203921991,TRUE,New Zealand Bellbird
 †Anthornis melanura,Chatham Bellbird,,,FALSE,Chatham Bellbird
 Pycnopygius ixoides,Plain Honeyeater,plahon1,100491,FALSE,Plain Honeyeater
 Pycnopygius cinereus,Marbled Honeyeater,marhon1,641974249,FALSE,Marbled Honeyeater
@@ -6377,7 +6369,7 @@ Gerygone citrina,Rennell Gerygone,fatger3,203934761,FALSE,Rennell Gerygone
 Gerygone flavolateralis,Fan-tailed Gerygone,fatger1,628121705,FALSE,Fan-tailed Gerygone
 Gerygone modesta,Norfolk Gerygone,noiger1,203968451,FALSE,Norfolk Island Gerygone
 †Gerygone insularis,Lord Howe Gerygone,lohger1,,FALSE,Lord Howe Gerygone
-Gerygone igata,Grey Gerygone,gryger1,613180644,TRUE,Gray Gerygone
+Gerygone igata,Grey Warbler,gryger1,613180644,TRUE,Gray Gerygone
 Gerygone albofrontata,Chatham Gerygone,chiger2,384306621,FALSE,Chatham Islands Gerygone
 Gerygone ruficollis,Brown-breasted Gerygone,brbger1,203988131,FALSE,Brown-breasted Gerygone
 Gerygone levigaster,Mangrove Gerygone,manger1,101313331,FALSE,Mangrove Gerygone
@@ -7172,7 +7164,7 @@ Cissa jefferyi,Bornean Green Magpie,borgrm1,36749,FALSE,Bornean Green-Magpie
 Perisoreus canadensis,Grey Jay,gryjay,13510,TRUE,Canada Jay
 Perisoreus infaustus,Siberian Jay,sibjay1,463894631,FALSE,Siberian Jay
 Perisoreus internigrans,Sichuan Jay,sicjay1,239274011,FALSE,Sichuan Jay
-Cyanopica cooki,Iberian Azure-winged Magpie,azwmag3,360047611,TRUE,Iberian Magpie
+Cyanopica cooki,Iberian Magpie,azwmag3,360047611,TRUE,Iberian Magpie
 Cyanopica cyanus,Asian Azure-winged Magpie,azwmag2,172726111,FALSE,Azure-winged Magpie
 Garrulus glandarius,Eurasian Jay,eurjay1,365480321,TRUE,Eurasian Jay
 Garrulus bispecularis,Plain-crowned Jay,,,FALSE,Plain-crowned Jay
@@ -7185,13 +7177,13 @@ Podoces hendersoni,Mongolian Ground-jay,mogjay1,203942241,FALSE,Mongolian Ground
 Podoces biddulphi,Xinjiang Ground-jay,xigjay1,285480,FALSE,Xinjiang Ground-Jay
 Podoces panderi,Turkestan Ground-jay,tugjay1,591877821,FALSE,Turkestan Ground-Jay
 Podoces pleskei,Iranian Ground-jay,irgjay1,637265769,FALSE,Iranian Ground-Jay
-Pica pica,Common Magpie,eurmag1,261809051,TRUE,Eurasian Magpie
+Pica pica,Eurasian Magpie,eurmag1,261809051,TRUE,Eurasian Magpie
 Pica mauretanica,Maghreb Magpie,eurmag3,139521181,FALSE,Maghreb Magpie
 Pica asirensis,Asir Magpie,eurmag5,426792181,FALSE,Asir Magpie
 Pica hudsonia,Black-billed Magpie,bkbmag1,514902,TRUE,Black-billed Magpie
 Pica nuttalli,Yellow-billed Magpie,yebmag,22945,TRUE,Yellow-billed Magpie
 Nucifraga columbiana,Clark's Nutcracker,clanut,344810091,TRUE,Clark's Nutcracker
-Nucifraga caryocatactes,Northern Nutcracker,eurnut3,457886481,TRUE,Northern Nutcracker
+Nucifraga caryocatactes,Eurasian Nutcracker,eurnut3,457886481,TRUE,Northern Nutcracker
 Nucifraga hemispila,Southern Nutcracker,eurnut4,577831951,FALSE,Southern Nutcracker
 Nucifraga multipunctata,Large-spotted Nutcracker,sponut1,619935297,FALSE,Kashmir Nutcracker
 Corvus dauuricus,Daurian Jackdaw,daujac1,602255121,TRUE,Daurian Jackdaw
@@ -7316,7 +7308,7 @@ Paradigalla brevicauda,Short-tailed Paradigalla,shtpar1,640054044,FALSE,Short-ta
 Astrapia nigra,Arfak Astrapia,arfast1,42751931,FALSE,Arfak Astrapia
 Astrapia splendidissima,Splendid Astrapia,splast1,163654,FALSE,Splendid Astrapia
 Astrapia rothschildi,Huon Astrapia,huoast1,147993,FALSE,Huon Astrapia
-Astrapia stephaniae,Stephanie's Astrapia,prsast1,203972681,TRUE,Stephanie's Astrapia
+Astrapia stephaniae,Princess Stephanie's Astrapia,prsast1,203972681,TRUE,Stephanie's Astrapia
 Astrapia mayeri,Ribbon-tailed Astrapia,ritast1,203972211,FALSE,Ribbon-tailed Astrapia
 Cicinnurus regius,King Bird-of-paradise,kbopar1,42747501,FALSE,King Bird-of-Paradise
 Cicinnurus magnificus,Magnificent Bird-of-paradise,mbopar2,166618511,FALSE,Magnificent Bird-of-paradise
@@ -7327,7 +7319,7 @@ Paradisaea rubra,Red Bird-of-paradise,rbopar2,203898461,FALSE,Red Bird-of-Paradi
 Paradisaea decora,Goldie's Bird-of-paradise,gbopar1,163679,FALSE,Goldie's Bird-of-Paradise
 Paradisaea minor,Lesser Bird-of-paradise,lbopar1,203489781,FALSE,Lesser Bird-of-Paradise
 Paradisaea apoda,Greater Bird-of-paradise,gbopar2,163707,FALSE,Greater Bird-of-Paradise
-Paradisaea raggiana,Raggiana Bird-of-paradise,rbopar1,168347,TRUE,Raggiana Bird-of-Paradise
+Paradisaea raggiana,Count Raggi's Bird-of-Paradise,rbopar1,168347,TRUE,Raggiana Bird-of-Paradise
 Melanocharis arfakiana,Obscure Berrypecker,obsber1,203994611,FALSE,Obscure Berrypecker
 Melanocharis nigra,Black Berrypecker,blaber1,650848852,FALSE,Black Berrypecker
 Melanocharis longicauda,Mid-mountain Berrypecker,lebber1,114446261,FALSE,Mid-mountain Berrypecker
@@ -7351,7 +7343,7 @@ Petroica boodang,Scarlet Robin,scarob2,99575701,FALSE,Scarlet Robin
 Petroica pusilla,Pacific Robin,pacrob1,203911001,FALSE,Pacific Robin
 Petroica multicolor,Norfolk Robin,pacrob2,640733447,FALSE,Norfolk Robin
 Petroica goodenovii,Red-capped Robin,recrob1,643731345,TRUE,Red-capped Robin
-Petroica macrocephala,New Zealand Tomtit,tomtit1,203922011,TRUE,Tomtit
+Petroica macrocephala,Tomtit,tomtit1,203922011,TRUE,Tomtit
 Petroica dannefaerdi,Snares Tomtit,,,FALSE,Snares Tomtit
 Petroica traversi,Black Robin,charob1,298239191,TRUE,Black Robin
 Petroica longipes,North Island Robin,nezrob2,622059469,FALSE,North Island Robin
@@ -7411,7 +7403,6 @@ Callaeas cinereus,South Island Kokako,kokako4,,FALSE,South Island Kokako
 Philesturnus rufusater,North Island Saddleback,saddle2,594748631,FALSE,North Island Saddleback
 Philesturnus carunculatus,South Island Saddleback,saddle3,203919831,TRUE,South Island Saddleback
 †Heteralocha acutirostris,Huia,huia1,,FALSE,Huia
-NOTIOMYSTIDAE,Stitchbird,stitch1,203926611,TRUE,Stitchbird
 Notiomystis cincta,Stitchbird,stitch1,203926611,TRUE,Stitchbird
 MELANOCHARITIDAE,Berrypeckers and Longbills,,,FALSE,Berrypeckers and Longbills
 EUPETIDAE,Rail-babbler,,,FALSE,Rail-babbler
@@ -7678,7 +7669,6 @@ Cisticola nigriloris,Black-lored Cisticola,bllcis1,203964781,FALSE,Black-lored C
 Cisticola aberrans,Lazy Cisticola,rolcis2,434968661,FALSE,Rock-loving Cisticola
 Cisticola bailunduensis,Huambo Cisticola,rolcis4,509509751,FALSE,Huambo Cisticola
 Cisticola chiniana,Rattling Cisticola,ratcis1,58463,FALSE,Rattling Cisticola
-PANURIDAE,Bearded Reedling,bearee1,63563531,TRUE,Bearded Reedling
 Panurus biarmicus,Bearded Reedling,bearee1,63563531,TRUE,Bearded Reedling
 NICATORIDAE,Nicators,,,FALSE,Nicators
 Nicator chloris,Western Nicator,yesnic1,140954,FALSE,Western Nicator
@@ -7836,7 +7826,7 @@ Acrocephalus arundinaceus,Great Reed-warbler,grrwar1,203891051,FALSE,Great Reed 
 Acrocephalus orientalis,Oriental Reed-warbler,orrwar1,48591671,FALSE,Oriental Reed Warbler
 Acrocephalus stentoreus,Clamorous Reed-warbler,clrwar1,356800021,FALSE,Clamorous Reed Warbler
 A. s. brunnescens,Indian Reed-warbler,,,FALSE,Indian Reed-warbler
-Acrocephalus australis,Australian Reed-warbler,aurwar1,62823981,TRUE,Australian Reed Warbler
+Acrocephalus australis,Australian Reed Warbler,aurwar1,62823981,TRUE,Australian Reed Warbler
 †Acrocephalus luscinius,Guam Reed-warbler,,,FALSE,Guam Reed-warbler
 Acrocephalus hiwae,Saipan Reed-warbler,sairew1,5417,FALSE,Saipan Reed Warbler
 †Acrocephalus nijoi,Aguijan Reed-warbler,,,FALSE,Aguijan Reed-warbler
@@ -7917,7 +7907,7 @@ Cincloramphus mathewsi,Rufous Songlark,rufson1,14347,FALSE,Rufous Songlark
 Cincloramphus timoriensis,Tawny Grassbird,tawgra3,233640,FALSE,Tawny Grassbird
 Cincloramphus macrurus,Papuan Grassbird,tawgra2,203692281,FALSE,Papuan Grassbird
 Poodytes gramineus,Little Grassbird,litgra1,273100551,FALSE,Little Grassbird
-Poodytes punctatus,New Zealand Fernbird,fernbi1,199786461,TRUE,New Zealand Fernbird
+Poodytes punctatus,Fernbird,fernbi1,199786461,TRUE,New Zealand Fernbird
 Poodytes caudatus,Snares Fernbird,,,FALSE,Snares Fernbird
 †Poodytes rufescens,Chatham Fernbird,,,FALSE,Chatham Fernbird
 Poodytes carteri,Spinifexbird,spibir1,428433941,FALSE,Spinifexbird
@@ -7947,7 +7937,7 @@ Psalidoprocne fuliginosa,Mountain Saw-wing,mousaw1,24156861,FALSE,Mountain Sawwi
 Psalidoprocne albiceps,White-headed Saw-wing,whhsaw1,,FALSE,White-headed Sawwing
 Psalidoprocne pristoptera,Black Saw-wing,blksaw1,278675,FALSE,Black Sawwing
 Psalidoprocne obscura,Fanti Saw-wing,fansaw1,279262,FALSE,Fanti Sawwing
-Delichon urbicum,Northern House Martin,comhom1,600797311,TRUE,Western House-Martin
+Delichon urbicum,Western House Martin,comhom1,600797311,TRUE,Western House-Martin
 Delichon lagopodum,Eastern House Martin,comhom2,637402267,FALSE,Siberian House-Martin
 Delichon dasypus,Asian House Martin,ashmar1,146378371,FALSE,Asian House-Martin
 Delichon nipalense,Nepal House Martin,nephom1,203925211,FALSE,Nepal House-Martin
@@ -7959,7 +7949,7 @@ Petrochelidon fuliginosa,Forest Swallow,forswa2,24163421,FALSE,Forest Swallow
 Petrochelidon fluvicola,Steak-throated Swallow,sttswa2,624895144,FALSE,Streak-throated Swallow
 Petrochelidon ariel,Fairy Martin,faimar2,612087720,FALSE,Fairy Martin
 Petrochelidon nigricans,Tree Martin,tremar2,291335281,FALSE,Tree Martin
-Petrochelidon pyrrhonota,Cliff Swallow,cliswa,92053871,TRUE,Cliff Swallow
+Petrochelidon pyrrhonota,American Cliff Swallow,cliswa,92053871,TRUE,Cliff Swallow
 Petrochelidon fulva,Cave Swallow,cavswa,482238641,FALSE,Cave Swallow
 P. f. pallida,Northern Cave Swallow,,,FALSE,Northern Cave Swallow
 Petrochelidon rufocollaris,Chestnut-collared Swallow,chcswa2,617642019,FALSE,Chestnut-collared Swallow
@@ -7999,7 +7989,7 @@ Riparia paludicola,African Plain Martin,plamar1,276848,FALSE,Plain Martin
 Riparia cowani,Madagascar Plain Martin,plamar3,95388,FALSE,Madagascar Martin
 Riparia chinensis,Asian Plain Martin,gytmar1,204027051,FALSE,Gray-throated Martin
 Riparia congica,Congo Sand Martin,conmar1,,FALSE,Congo Martin
-Riparia riparia,Collared Sand Martin,banswa,333574871,TRUE,Bank Swallow
+Riparia riparia,Sand Martin,banswa,333574871,TRUE,Bank Swallow
 Riparia diluta,Pale Sand Martin,pasmar1,633252752,FALSE,Pale Martin
 Tachycineta bicolor,Tree Swallow,treswa,159694261,TRUE,Tree Swallow
 DONACOBIDAE -Donacobius,,,,FALSE,
@@ -8340,7 +8330,7 @@ Sinosuthora przewalskii,Rusty-throated Parrotbill,rutpar2,204009051,FALSE,Rusty-
 AEGITHALIDAE,Long-tailed Tits,,,FALSE,Long-tailed Tits
 Leptopoecile sophiae,White-browed Tit-warbler,wbtwar1,584325691,TRUE,White-browed Tit-Warbler
 Leptopoecile elegans,Crested Tit-warbler,crtwar1,356737231,FALSE,Crested Tit-Warbler
-Psaltriparus minimus,American Bushtit,bushti,619034949,TRUE,Bushtit
+Psaltriparus minimus,Bushtit,bushti,619034949,TRUE,Bushtit
 Aegithalos iredalei,Red-headed Tit,,,FALSE,Red-headed Tit
 Aegithalos concinnus,Black-throated Tit,blttit2,84878051,FALSE,Black-throated Tit
 Aegithalos annamensis,Grey-crowned Tit,,,FALSE,Grey-crowned Tit
@@ -8350,7 +8340,7 @@ Aegithalos bonvaloti,Black-browed Tit,bkbtit3,624782015,FALSE,Black-browed Tit
 A. b. sharpei,Burmanese Tit,,,FALSE,Burmanese Tit
 Aegithalos iouschistos,Rufous-fronted Tit,bkbtit3,624782015,FALSE,Black-browed Tit
 Aegithalos fuliginosus,Sooty Tit,sootit1,204009171,FALSE,Sooty Tit
-Aegithalos caudatus,Northern Long-tailed Tit,lottit1,82639391,TRUE,Long-tailed Tit
+Aegithalos caudatus,Long-Tailed Tit,lottit1,82639391,TRUE,Long-tailed Tit
 Aegithalos glaucogularis,Silver-throated Tit,lottit5,211849501,FALSE,Silver-throated Tit
 Psaltria exilis,Pygmy Tit,pygtit1,524398701,FALSE,Pygmy Tit
 ZOSTEROPIDAE,White Eyes and Yuhinas,,,FALSE,White Eyes and Yuhinas
@@ -8406,7 +8396,7 @@ Zosterops japonicus,Japanese White-eye,warwhe1,6059,FALSE,Warbling White-eye
 Zosterops meyeni,Lowland White-eye,loweye2,204000061,FALSE,Lowland White-eye
 Zosterops palpebrosus,Oriental White-eye,indwhe1,613039064,FALSE,Indian White-eye
 Zosterops ceylonensis,Sri Lanka White-eye,ceywhe1,251418701,FALSE,Sri Lanka White-eye
-Sylvia atricapilla,Blackcap,blackc1,347686161,TRUE,Eurasian Blackcap
+Sylvia atricapilla,Eurasian Blackcap,blackc1,347686161,TRUE,Eurasian Blackcap
 Sylvia borin,Garden Warbler,garwar1,173200001,TRUE,Garden Warbler
 Sylvia dohrni,Dohrn's Warbler,dohthb1,203963291,FALSE,Dohrn's Thrush-Babbler
 Sylvia atriceps,Ruwenzori Hill-babbler,afhbab3,1265,FALSE,Rwenzori Hill Babbler
@@ -8875,7 +8865,7 @@ Odontorchilus cinereus,Tooth-billed Wren,tobwre1,203699401,FALSE,Tooth-billed Wr
 Ferminia cercerai,Zapata Wren,zapwre1,631019667,FALSE,Zapata Wren
 Troglodytes pacificus,Pacific Wren,pacwre1,637983669,FALSE,Pacific Wren
 Troglodytes hiemalis,Winter Wren,winwre3,43989871,FALSE,Winter Wren
-Troglodytes troglodytes,Northern Wren,winwre4,473327281,TRUE,Eurasian Wren
+Troglodytes troglodytes,Eurasian Wren,winwre4,473327281,TRUE,Eurasian Wren
 Troglodytes tanneri,Clarion Wren,clawre1,214355,FALSE,Clarion Wren
 Troglodytes aedon,House Wren,houwre,612093353,TRUE,Northern House Wren
 T. a. aedon,Northern House Wren,houwre,612093353,FALSE,Northern House Wren
@@ -8893,7 +8883,7 @@ Certhia discolor,Sikkin Treecreeper,bnttre1,315311921,FALSE,Sikkim Treecreeper
 Certhia manipurensis,Manipur Treecreeper,bnttre2,53421671,FALSE,Hume's Treecreeper
 Certhia himalayana,Bar-tailed Treecreeper,battre1,391046471,FALSE,Bar-tailed Treecreeper
 Certhia brachydactyla,Short-toed Treecreeper,shttre1,288094351,TRUE,Short-toed Treecreeper
-Certhia americana,American Treecreeper,brncre,223492001,TRUE,Brown Creeper
+Certhia americana,Brown Creeper,brncre,223492001,TRUE,Brown Creeper
 Certhia hodgsoni,Hodgson's Treecreeper,eurtre3,614186368,FALSE,Hodgson's Treecreeper
 Certhia familiaris,Eurasian Treecreeper,eurtre1,632557884,TRUE,Eurasian Treecreeper
 SITTIDAE,Nuthatches,,,FALSE,Nuthatches
@@ -8989,7 +8979,7 @@ Gracupica contra,Asian Pied Starling,aspsta2,634158339,FALSE,Indian Pied Starlin
 Gracupica jalla,Javan Pied Starling,aspsta3,640634224,FALSE,Javan Pied Starling
 Gracupica nigricollis,Black-collared Starling,bkcsta1,396593261,FALSE,Black-collared Starling
 Sturnornis albofrontatus,White-faced Starling,whfsta2,482,FALSE,White-faced Starling
-Leucopsar rothschildi,Bali Myna,balmyn1,640634236,TRUE,Bali Myna
+Leucopsar rothschildi,Bali Starling,balmyn1,640634236,TRUE,Bali Myna
 †Fregilupus varius,Reunion Starling,reusta1,,FALSE,Reunion Starling
 †Necropsar rodericanus,Rodrigues Starling,rodsta2,,FALSE,Rodrigues Starling
 Sturnia sinensis,White-shouldered Starling,whssta2,610786616,FALSE,White-shouldered Starling
@@ -9190,7 +9180,7 @@ MIMIDAE,Mockingbirds and Thrashers,,,FALSE,Mockingbirds and Thrashers
 Melanotis caerulescens,Blue Mockingbird,blumoc,292873171,FALSE,Blue Mockingbird
 Melanotis hypoleucos,Blue-and-white Mockingbird,bawmoc1,177596,FALSE,Blue-and-white Mockingbird
 Melanoptila glabrirostris,Black Catbird,blacat1,208192991,FALSE,Black Catbird
-Dumetella carolinensis,Grey Catbird,grycat,163135121,TRUE,Gray Catbird
+Dumetella carolinensis,Gray Catbird,grycat,163135121,TRUE,Gray Catbird
 Ramphocinclus brachyurus,White-breasted Thrasher,whbthr3,173419701,FALSE,Martinique Thrasher
 Allenia fusca,Scaly-breasted Thrasher,scbthr,175533091,FALSE,Scaly-breasted Thrasher
 Margarops fuscatus,Pearly-eyed Thrasher,peethr1,188051,FALSE,Pearly-eyed Thrasher
@@ -9247,7 +9237,7 @@ Turdus helleri,Taita Thrush,taithr1,625945069,FALSE,Taita Thrush
 Turdus roehli,Usambara Thrush,usathr1,280446,FALSE,Usambara Thrush
 Turdus iliacus,Redwing,redwin,73458141,FALSE,Redwing
 Turdus plebejus,Mountain Thrush,mourob1,449448091,FALSE,Mountain Thrush
-Turdus merula,Eurasian Blackbird,eurbla,102741151,TRUE,Eurasian Blackbird
+Turdus merula,Common Blackbird,eurbla,102741151,TRUE,Eurasian Blackbird
 Turdus leucomelas,Pale-breasred Thrush,pabthr1,69487,FALSE,Pale-breasted Thrush
 Turdus fumigatus,Cocoa Thrush,cocthr1,203930981,FALSE,Cocoa Thrush
 Turdus hauxwelly,Hauxwell's Thrush,hauthr1,136650,FALSE,Hauxwell's Thrush
@@ -10032,8 +10022,7 @@ Prunella ocularis,Radde's Accentor,radacc2,396100241,FALSE,Radde's Accentor
 P. o. fagani,Yemen Accentor,,,FALSE,Yemen Accentor
 PEUCEDRAMIDAE,Olive Warbler,oliwar,21120,FALSE,Olive Warbler
 Peucedramus taeniatus,Olive Warbler,oliwar,21120,FALSE,Olive Warbler
-UROCYNCHRAMIDAE,Przevalski's Rosefinch,,,FALSE,Przevalski's Rosefinch
-Urocynchramus pylzowi,Przevalski's Rosefinch,przros1,30289001,TRUE,Przevalski's Pinktail
+Urocynchramus pylzowi,Pinktail,przros1,30289001,TRUE,Przevalski's Pinktail
 PLOCEIDAE,Weavers,,,FALSE,Weavers
 Bubalornis albirostris,White-billed Buffalo-weaver,wbbwea1,14419,FALSE,White-billed Buffalo-Weaver
 Bubalornis niger,Red-billed Buffalo-weaver,rbbwea1,21726541,FALSE,Red-billed Buffalo-Weaver
@@ -10149,7 +10138,7 @@ Erythrura psittacea,Red-throated Parrotfinch,retpar3,173400741,FALSE,Red-throate
 Erythrura cyaneovirens,Red-headed Parrotfinch,roypar1,139944,FALSE,Royal Parrotfinch
 Erythrura pealii,Fiji Parrotfinch,fijpar1,633943464,FALSE,Fiji Parrotfinch
 Erythrura kleinschmidti,Pink-billed Parrotfinch,pibpar1,,FALSE,Pink-billed Parrotfinch
-Erythrura gouldiae,Gouldian Finch,goufin3,614381559,TRUE,Gouldian Finch
+Erythrura gouldiae,Gould’s Finch,goufin3,614381559,TRUE,Gouldian Finch
 ESTRILDIDAE,Waxbills,,,FALSE,Waxbills
 Lagonosticta rara,Black-bellied Firefinch,blbfir1,403768141,FALSE,Black-bellied Firefinch
 Lagonosticta rufopicta,Bar-breasted Firefinch,babfir1,203943551,FALSE,Bar-breasted Firefinch
@@ -10497,7 +10486,7 @@ Pyrrhula aurantiaca,Orange Bullfinch,orabul1,173165901,FALSE,Orange Bullfinch
 Pyrrhula erythrocephala,Red-headed Bullfinch,rehbul1,178301201,FALSE,Red-headed Bullfinch
 Pyrrhula erythaca,Grey-headed Bullfinch,gyhbul2,568727551,FALSE,Gray-headed Bullfinch
 Pyrrhula murina,Azores Bullfinch,eurbul1,203974821,FALSE,Azores Bullfinch
-Pyrrhula pyrrhula,Eurasian Bullfinch,eurbul,310479711,TRUE,Eurasian Bullfinch
+Pyrrhula pyrrhula,Bullfinch,eurbul,310479711,TRUE,Eurasian Bullfinch
 P. p. cineracea,Grey Bullfinch,,,FALSE,Grey Bullfinch
 P. p. griseiventris,Grey-bellied Bullfinch,,,FALSE,Grey-bellied Bullfinch
 Rhodopechys alienus,African Crimson-winged Finch,,,FALSE,African Crimson-winged Finch
@@ -10587,7 +10576,7 @@ Carduelis corsicana,Corsican Finch,corfin1,624941503,FALSE,Corsican Finch
 Serinus serinus,European Serin,eurser1,203981951,TRUE,European Serin
 Serinus canaria,Island Canary,comcan,95820321,FALSE,Island Canary
 Serinus syriacus,Syrian Serin,syrser1,444880381,FALSE,Syrian Serin
-Serinus pusillus,Red-fronted Serin,fifser1,463303591,TRUE,Fire-fronted Serin
+Serinus pusillus,Fire-fronted Serin,fifser1,463303591,TRUE,Fire-fronted Serin
 Serinus alario,Black-headed Canary,bkhcan2,278432,FALSE,Black-headed Canary
 Serinus canicollis,Cape Canary,capcan1,394293651,FALSE,Cape Canary
 Serinus flavivertex,Yellow-crowned Canary,yeccan1,1587,FALSE,Yellow-crowned Canary
@@ -10789,7 +10778,7 @@ Junco insularis,Guadalupe Junco,daejun2,203962791,FALSE,Guadalupe Junco
 Junco phaeonotus,Yellow-eyed Junco,yeejun,109103,FALSE,Yellow-eyed Junco
 Junco bairdi,Baird's Junco,yeejun2,417293391,FALSE,Baird's Junco
 Zonotrichia capensis,Rufous-collared Sparrow,rucspa1,410550641,TRUE,Rufous-collared Sparrow
-Zonotrichia querula,Harris's Sparrow,harspa,105763,TRUE,Harris's Sparrow
+Zonotrichia querula,Qupanuaq,harspa,105763,TRUE,Harris's Sparrow
 Zonotrichia albicollis,White-throated Sparrow,whtspa,227599,FALSE,White-throated Sparrow
 Zonotrichia leucophrys,White-crowned Sparrow,whcspa,629468141,TRUE,White-crowned Sparrow
 Zonotrichia atricapilla,Golden-crowned Sparrow,gocspa,49976,FALSE,Golden-crowned Sparrow
@@ -10828,7 +10817,7 @@ Dolichonyx oryzivorus,Bobolink,boboli,527283,TRUE,Bobolink
 Sturnella neglecta,Western Meadowlark,wesmea,516839,TRUE,Western Meadowlark
 Sturnella magna,Eastern Meadowlark,easmea,94367,TRUE,Eastern Meadowlark
 S.m. liliane,Lilian's Meadowlark,,,FALSE,Lilian's Meadowlark
-Leistes militaris,Red-breasted Blackbird,rebbla1,535716881,TRUE,Red-breasted Meadowlark
+Leistes militaris,Red-Breasted Meadowlark,rebbla1,535716881,TRUE,Red-breasted Meadowlark
 Leistes superciliaris,White-browed Blackbird,whbbla2,439569821,FALSE,White-browed Meadowlark
 Leistes bellicosus,Peruvian Meadowlark,permea1,391929721,FALSE,Peruvian Meadowlark
 Leistes defilippii,Pampas Meadowlark,pammea1,174297091,FALSE,Pampas Meadowlark
@@ -10990,7 +10979,7 @@ Setophaga graysoni,Socorro Parula,,,FALSE,Socorro Parula
 Setophaga magnolia,Magnolia Warbler,magwar,228996,FALSE,Magnolia Warbler
 Setophaga castanea,Bay-breasted Warbler,babwar,249809,FALSE,Bay-breasted Warbler
 Setophaga fusca,Blackburnian Warbler,bkbwar,9576,FALSE,Blackburnian Warbler
-Setophaga petechia,American Yellow Warbler,manwar1,203907381,TRUE,Mangrove Yellow Warbler
+Setophaga petechia,Yellow Warbler,manwar1,203907381,TRUE,Mangrove Yellow Warbler
 S. p. petechia,Golden Warbler,,,FALSE,Golden Warbler
 S. p. erithachorides,Mangrove Warbler,,,FALSE,Mangrove Warbler
 Setophaga pensylvanica,Chestnut-sided Warbler,chswar,98242481,FALSE,Chestnut-sided Warbler
@@ -11000,7 +10989,7 @@ Setophaga palmarum,Palm Warbler,palwar,229598,FALSE,Palm Warbler
 Setophaga pityophila,Olive-capped Warbler,olcwar1,33096880,FALSE,Olive-capped Warbler
 Setophaga pinus,Pine Warbler,pinwar,9871,FALSE,Pine Warbler
 Setophaga auduboni,Audubon's Warbler,,,FALSE,Audubon's Warbler
-Setophaga coronata,Myrtle Warbler,yerwar,85245,TRUE,Yellow-rumped Warbler
+Setophaga coronata,Yellow-Rumped Warbler,yerwar,85245,TRUE,Yellow-rumped Warbler
 Setophaga dominica,Yellow-throated Warbler,yetwar,191290,FALSE,Yellow-throated Warbler
 Setophaga flavescens,Bahama Warbler,yetwar3,32872521,FALSE,Bahama Warbler
 Setophaga vitellina,Vitelline Warbler,vitwar1,598294261,FALSE,Vitelline Warbler
@@ -11275,7 +11264,7 @@ Saltator coerulescens,Amazonian Grey Saltator,grasal3,212907,FALSE,Bluish-gray S
 Saltator striatipectus,Streaked Saltator,strsal1,63306,FALSE,Streaked Saltator
 Sporophila torqueola,Cinnamon-rumped Seedeater,whcsee2,249734301,FALSE,Cinnamon-rumped Seedeater
 Sporophila morelleti,White-collared Seedeater,whcsee1,113267301,FALSE,Morelet's Seedeater
-Sporophila corvina,Black Seedeater,varsee3,422673721,TRUE,Variable Seedeater
+Sporophila corvina,Variable Seedeater,varsee3,422673721,TRUE,Variable Seedeater
 Sporophila ophthalmica,Black-breasted Seedeater,,,FALSE,Black-breasted Seedeater
 Sporophila intermedia,Grey Seedeater,grysee1,201113,FALSE,Gray Seedeater
 Sporophila americana,Wing-barred Seedeater,wibsee1,186390411,FALSE,Wing-barred Seedeater
